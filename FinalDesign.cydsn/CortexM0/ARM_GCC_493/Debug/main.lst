@@ -1,0 +1,1308 @@
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 1
+
+
+   1              		.cpu cortex-m0
+   2              		.fpu softvfp
+   3              		.eabi_attribute 20, 1
+   4              		.eabi_attribute 21, 1
+   5              		.eabi_attribute 23, 3
+   6              		.eabi_attribute 24, 1
+   7              		.eabi_attribute 25, 1
+   8              		.eabi_attribute 26, 1
+   9              		.eabi_attribute 30, 1
+  10              		.eabi_attribute 34, 0
+  11              		.eabi_attribute 18, 4
+  12              		.code	16
+  13              		.file	"main.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.global	__aeabi_i2d
+  18              		.section	.text.create_servo,"ax",%progbits
+  19              		.align	2
+  20              		.global	create_servo
+  21              		.code	16
+  22              		.thumb_func
+  23              		.type	create_servo, %function
+  24              	create_servo:
+  25              	.LFB34:
+  26              		.file 1 ".\\main.c"
+   1:.\main.c      **** #include <project.h>
+   2:.\main.c      **** 
+   3:.\main.c      **** typedef struct Servo { // Servo object
+   4:.\main.c      ****     void (*pwmPtr)(uint16_t);
+   5:.\main.c      ****     uint16_t max;
+   6:.\main.c      ****     uint16_t min;
+   7:.\main.c      ****     double range;
+   8:.\main.c      **** };
+   9:.\main.c      **** 
+  10:.\main.c      **** struct Servo create_servo(void (pwm_ptr)(uint16_t), uint16_t min, uint16_t max){ // Initializes the
+  27              		.loc 1 10 0
+  28              		.cfi_startproc
+  29              	.LVL0:
+  30 0000 38B5     		push	{r3, r4, r5, lr}
+  31              		.cfi_def_cfa_offset 16
+  32              		.cfi_offset 3, -16
+  33              		.cfi_offset 4, -12
+  34              		.cfi_offset 5, -8
+  35              		.cfi_offset 14, -4
+  36 0002 041C     		mov	r4, r0
+  37 0004 0D1C     		mov	r5, r1
+  11:.\main.c      ****     struct Servo createdServo;
+  12:.\main.c      ****     createdServo.max = max;
+  38              		.loc 1 12 0
+  39 0006 8380     		strh	r3, [r0, #4]
+  13:.\main.c      ****     createdServo.min = min;
+  40              		.loc 1 13 0
+  41 0008 C280     		strh	r2, [r0, #6]
+  14:.\main.c      ****     createdServo.range = max - min;
+  42              		.loc 1 14 0
+  43 000a 981A     		sub	r0, r3, r2
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 2
+
+
+  44              	.LVL1:
+  45 000c FFF7FEFF 		bl	__aeabi_i2d
+  46              	.LVL2:
+  47 0010 A060     		str	r0, [r4, #8]
+  48 0012 E160     		str	r1, [r4, #12]
+  15:.\main.c      ****     createdServo.pwmPtr = pwm_ptr;
+  49              		.loc 1 15 0
+  50 0014 2560     		str	r5, [r4]
+  16:.\main.c      ****     return createdServo;
+  17:.\main.c      **** }
+  51              		.loc 1 17 0
+  52 0016 201C     		mov	r0, r4
+  53              		@ sp needed
+  54              	.LVL3:
+  55              	.LVL4:
+  56 0018 38BD     		pop	{r3, r4, r5, pc}
+  57              		.cfi_endproc
+  58              	.LFE34:
+  59              		.size	create_servo, .-create_servo
+  60              		.global	__aeabi_dmul
+  61              		.global	__aeabi_ddiv
+  62              		.global	__aeabi_dadd
+  63              		.global	__aeabi_d2uiz
+  64 001a C046     		.section	.text.set_servo,"ax",%progbits
+  65              		.align	2
+  66              		.global	set_servo
+  67              		.code	16
+  68              		.thumb_func
+  69              		.type	set_servo, %function
+  70              	set_servo:
+  71              	.LFB35:
+  18:.\main.c      **** 
+  19:.\main.c      **** void set_servo(struct Servo servo, uint8_t angle){ // Set servo to the angle specified
+  72              		.loc 1 19 0
+  73              		.cfi_startproc
+  74              	.LVL5:
+  75 0000 F0B5     		push	{r4, r5, r6, r7, lr}
+  76              		.cfi_def_cfa_offset 20
+  77              		.cfi_offset 4, -20
+  78              		.cfi_offset 5, -16
+  79              		.cfi_offset 6, -12
+  80              		.cfi_offset 7, -8
+  81              		.cfi_offset 14, -4
+  82 0002 85B0     		sub	sp, sp, #20
+  83              		.cfi_def_cfa_offset 40
+  84 0004 041C     		mov	r4, r0
+  85 0006 0D0C     		lsr	r5, r1, #16
+  86 0008 0292     		str	r2, [sp, #8]
+  87 000a 0393     		str	r3, [sp, #12]
+  88 000c 0AAB     		add	r3, sp, #40
+  89              	.LVL6:
+  90 000e 1878     		ldrb	r0, [r3]
+  20:.\main.c      ****     double setpoint = angle * servo.range / 180 + servo.min;
+  91              		.loc 1 20 0
+  92 0010 029E     		ldr	r6, [sp, #8]
+  93 0012 039F     		ldr	r7, [sp, #12]
+  94 0014 FFF7FEFF 		bl	__aeabi_i2d
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 3
+
+
+  95              	.LVL7:
+  96 0018 321C     		mov	r2, r6
+  97 001a 3B1C     		mov	r3, r7
+  98 001c FFF7FEFF 		bl	__aeabi_dmul
+  99              	.LVL8:
+ 100 0020 0022     		mov	r2, #0
+ 101 0022 0A4B     		ldr	r3, .L3
+ 102 0024 FFF7FEFF 		bl	__aeabi_ddiv
+ 103              	.LVL9:
+ 104 0028 061C     		mov	r6, r0
+ 105 002a 0F1C     		mov	r7, r1
+ 106 002c A8B2     		uxth	r0, r5
+ 107 002e FFF7FEFF 		bl	__aeabi_i2d
+ 108              	.LVL10:
+ 109 0032 021C     		mov	r2, r0
+ 110 0034 0B1C     		mov	r3, r1
+ 111 0036 301C     		mov	r0, r6
+ 112 0038 391C     		mov	r1, r7
+ 113 003a FFF7FEFF 		bl	__aeabi_dadd
+ 114              	.LVL11:
+  21:.\main.c      ****     servo.pwmPtr(setpoint);
+ 115              		.loc 1 21 0
+ 116 003e FFF7FEFF 		bl	__aeabi_d2uiz
+ 117              	.LVL12:
+ 118 0042 80B2     		uxth	r0, r0
+ 119 0044 A047     		blx	r4
+ 120              	.LVL13:
+  22:.\main.c      **** }
+ 121              		.loc 1 22 0
+ 122 0046 05B0     		add	sp, sp, #20
+ 123              		@ sp needed
+ 124 0048 F0BD     		pop	{r4, r5, r6, r7, pc}
+ 125              	.L4:
+ 126 004a C046     		.align	2
+ 127              	.L3:
+ 128 004c 00806640 		.word	1080459264
+ 129              		.cfi_endproc
+ 130              	.LFE35:
+ 131              		.size	set_servo, .-set_servo
+ 132              		.section	.text.main,"ax",%progbits
+ 133              		.align	2
+ 134              		.global	main
+ 135              		.code	16
+ 136              		.thumb_func
+ 137              		.type	main, %function
+ 138              	main:
+ 139              	.LFB36:
+  23:.\main.c      **** 
+  24:.\main.c      **** int main()
+  25:.\main.c      **** {
+ 140              		.loc 1 25 0
+ 141              		.cfi_startproc
+ 142 0000 10B5     		push	{r4, lr}
+ 143              		.cfi_def_cfa_offset 8
+ 144              		.cfi_offset 4, -8
+ 145              		.cfi_offset 14, -4
+ 146 0002 8AB0     		sub	sp, sp, #40
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 4
+
+
+ 147              		.cfi_def_cfa_offset 48
+  26:.\main.c      ****     CyGlobalIntEnable; /* Enable global interrupts. */
+ 148              		.loc 1 26 0
+ 149              	@ 26 ".\main.c" 1
+ 150 0004 62B6     		CPSIE   i
+ 151              	@ 0 "" 2
+  27:.\main.c      ****     PWM_1_Enable();
+ 152              		.loc 1 27 0
+ 153              		.code	16
+ 154 0006 FFF7FEFF 		bl	PWM_1_Enable
+ 155              	.LVL14:
+  28:.\main.c      ****     struct Servo servoBottom =  create_servo(PWM_1_WriteCompare1,1400,6750);
+ 156              		.loc 1 28 0
+ 157 000a 06A8     		add	r0, sp, #24
+ 158 000c 0F49     		ldr	r1, .L7
+ 159 000e AF22     		mov	r2, #175
+ 160 0010 D200     		lsl	r2, r2, #3
+ 161 0012 0F4B     		ldr	r3, .L7+4
+ 162 0014 FFF7FEFF 		bl	create_servo
+ 163              	.LVL15:
+  29:.\main.c      ****     struct Servo servoTop =  create_servo(PWM_1_WriteCompare2,6900,1650);
+ 164              		.loc 1 29 0
+ 165 0018 02A8     		add	r0, sp, #8
+ 166 001a 0E49     		ldr	r1, .L7+8
+ 167 001c 0E4A     		ldr	r2, .L7+12
+ 168 001e 0F4B     		ldr	r3, .L7+16
+ 169 0020 FFF7FEFF 		bl	create_servo
+ 170              	.LVL16:
+ 171              	.L6:
+  30:.\main.c      ****     for(;;)
+  31:.\main.c      ****     {
+  32:.\main.c      ****         CyDelay(5000);
+ 172              		.loc 1 32 0 discriminator 1
+ 173 0024 0E48     		ldr	r0, .L7+20
+ 174 0026 FFF7FEFF 		bl	CyDelay
+ 175              	.LVL17:
+  33:.\main.c      ****         set_servo(servoBottom, 45);
+ 176              		.loc 1 33 0 discriminator 1
+ 177 002a 2D24     		mov	r4, #45
+ 178 002c 0094     		str	r4, [sp]
+ 179 002e 0698     		ldr	r0, [sp, #24]
+ 180 0030 0799     		ldr	r1, [sp, #28]
+ 181 0032 089A     		ldr	r2, [sp, #32]
+ 182 0034 099B     		ldr	r3, [sp, #36]
+ 183 0036 FFF7FEFF 		bl	set_servo
+ 184              	.LVL18:
+  34:.\main.c      ****         set_servo(servoTop, 45);
+ 185              		.loc 1 34 0 discriminator 1
+ 186 003a 0094     		str	r4, [sp]
+ 187 003c 0298     		ldr	r0, [sp, #8]
+ 188 003e 0399     		ldr	r1, [sp, #12]
+ 189 0040 049A     		ldr	r2, [sp, #16]
+ 190 0042 059B     		ldr	r3, [sp, #20]
+ 191 0044 FFF7FEFF 		bl	set_servo
+ 192              	.LVL19:
+  35:.\main.c      ****     }
+ 193              		.loc 1 35 0 discriminator 1
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 5
+
+
+ 194 0048 ECE7     		b	.L6
+ 195              	.L8:
+ 196 004a C046     		.align	2
+ 197              	.L7:
+ 198 004c 00000000 		.word	PWM_1_WriteCompare1
+ 199 0050 5E1A0000 		.word	6750
+ 200 0054 00000000 		.word	PWM_1_WriteCompare2
+ 201 0058 F41A0000 		.word	6900
+ 202 005c 72060000 		.word	1650
+ 203 0060 88130000 		.word	5000
+ 204              		.cfi_endproc
+ 205              	.LFE36:
+ 206              		.size	main, .-main
+ 207              		.text
+ 208              	.Letext0:
+ 209              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\3.3\\psoc creator\\import\\gnu\\arm\\4.9.
+ 210              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\3.3\\psoc creator\\import\\gnu\\arm\\4.9.
+ 211              		.file 4 "Generated_Source\\PSoC4/cytypes.h"
+ 212              		.file 5 "Generated_Source\\PSoC4/PWM_1.h"
+ 213              		.file 6 "Generated_Source\\PSoC4/CyLib.h"
+ 214              		.section	.debug_info,"",%progbits
+ 215              	.Ldebug_info0:
+ 216 0000 7C020000 		.4byte	0x27c
+ 217 0004 0400     		.2byte	0x4
+ 218 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 219 000a 04       		.byte	0x4
+ 220 000b 01       		.uleb128 0x1
+ 221 000c 55010000 		.4byte	.LASF29
+ 222 0010 01       		.byte	0x1
+ 223 0011 77000000 		.4byte	.LASF30
+ 224 0015 80000000 		.4byte	.LASF31
+ 225 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 226 001d 00000000 		.4byte	0
+ 227 0021 00000000 		.4byte	.Ldebug_line0
+ 228 0025 02       		.uleb128 0x2
+ 229 0026 01       		.byte	0x1
+ 230 0027 06       		.byte	0x6
+ 231 0028 05020000 		.4byte	.LASF0
+ 232 002c 03       		.uleb128 0x3
+ 233 002d 0D000000 		.4byte	.LASF3
+ 234 0031 02       		.byte	0x2
+ 235 0032 1D       		.byte	0x1d
+ 236 0033 37000000 		.4byte	0x37
+ 237 0037 02       		.uleb128 0x2
+ 238 0038 01       		.byte	0x1
+ 239 0039 08       		.byte	0x8
+ 240 003a 23000000 		.4byte	.LASF1
+ 241 003e 02       		.uleb128 0x2
+ 242 003f 02       		.byte	0x2
+ 243 0040 05       		.byte	0x5
+ 244 0041 E3010000 		.4byte	.LASF2
+ 245 0045 03       		.uleb128 0x3
+ 246 0046 58000000 		.4byte	.LASF4
+ 247 004a 02       		.byte	0x2
+ 248 004b 2B       		.byte	0x2b
+ 249 004c 50000000 		.4byte	0x50
+ 250 0050 02       		.uleb128 0x2
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 6
+
+
+ 251 0051 02       		.byte	0x2
+ 252 0052 07       		.byte	0x7
+ 253 0053 39000000 		.4byte	.LASF5
+ 254 0057 02       		.uleb128 0x2
+ 255 0058 04       		.byte	0x4
+ 256 0059 05       		.byte	0x5
+ 257 005a F6010000 		.4byte	.LASF6
+ 258 005e 02       		.uleb128 0x2
+ 259 005f 04       		.byte	0x4
+ 260 0060 07       		.byte	0x7
+ 261 0061 CB000000 		.4byte	.LASF7
+ 262 0065 02       		.uleb128 0x2
+ 263 0066 08       		.byte	0x8
+ 264 0067 05       		.byte	0x5
+ 265 0068 42010000 		.4byte	.LASF8
+ 266 006c 02       		.uleb128 0x2
+ 267 006d 08       		.byte	0x8
+ 268 006e 07       		.byte	0x7
+ 269 006f F3000000 		.4byte	.LASF9
+ 270 0073 04       		.uleb128 0x4
+ 271 0074 04       		.byte	0x4
+ 272 0075 05       		.byte	0x5
+ 273 0076 696E7400 		.ascii	"int\000"
+ 274 007a 02       		.uleb128 0x2
+ 275 007b 04       		.byte	0x4
+ 276 007c 07       		.byte	0x7
+ 277 007d DD000000 		.4byte	.LASF10
+ 278 0081 03       		.uleb128 0x3
+ 279 0082 0A010000 		.4byte	.LASF11
+ 280 0086 03       		.byte	0x3
+ 281 0087 15       		.byte	0x15
+ 282 0088 2C000000 		.4byte	0x2c
+ 283 008c 03       		.uleb128 0x3
+ 284 008d ED010000 		.4byte	.LASF12
+ 285 0091 03       		.byte	0x3
+ 286 0092 21       		.byte	0x21
+ 287 0093 45000000 		.4byte	0x45
+ 288 0097 05       		.uleb128 0x5
+ 289 0098 BD000000 		.4byte	.LASF13
+ 290 009c 04       		.byte	0x4
+ 291 009d 9A01     		.2byte	0x19a
+ 292 009f 5E000000 		.4byte	0x5e
+ 293 00a3 02       		.uleb128 0x2
+ 294 00a4 04       		.byte	0x4
+ 295 00a5 04       		.byte	0x4
+ 296 00a6 1D000000 		.4byte	.LASF14
+ 297 00aa 02       		.uleb128 0x2
+ 298 00ab 08       		.byte	0x8
+ 299 00ac 04       		.byte	0x4
+ 300 00ad 63000000 		.4byte	.LASF15
+ 301 00b1 02       		.uleb128 0x2
+ 302 00b2 01       		.byte	0x1
+ 303 00b3 08       		.byte	0x8
+ 304 00b4 50010000 		.4byte	.LASF16
+ 305 00b8 02       		.uleb128 0x2
+ 306 00b9 04       		.byte	0x4
+ 307 00ba 07       		.byte	0x7
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 7
+
+
+ 308 00bb 39010000 		.4byte	.LASF17
+ 309 00bf 06       		.uleb128 0x6
+ 310 00c0 17000000 		.4byte	.LASF32
+ 311 00c4 10       		.byte	0x10
+ 312 00c5 01       		.byte	0x1
+ 313 00c6 03       		.byte	0x3
+ 314 00c7 FC000000 		.4byte	0xfc
+ 315 00cb 07       		.uleb128 0x7
+ 316 00cc C4000000 		.4byte	.LASF18
+ 317 00d0 01       		.byte	0x1
+ 318 00d1 04       		.byte	0x4
+ 319 00d2 07010000 		.4byte	0x107
+ 320 00d6 00       		.byte	0
+ 321 00d7 08       		.uleb128 0x8
+ 322 00d8 6D617800 		.ascii	"max\000"
+ 323 00dc 01       		.byte	0x1
+ 324 00dd 05       		.byte	0x5
+ 325 00de 8C000000 		.4byte	0x8c
+ 326 00e2 04       		.byte	0x4
+ 327 00e3 08       		.uleb128 0x8
+ 328 00e4 6D696E00 		.ascii	"min\000"
+ 329 00e8 01       		.byte	0x1
+ 330 00e9 06       		.byte	0x6
+ 331 00ea 8C000000 		.4byte	0x8c
+ 332 00ee 06       		.byte	0x6
+ 333 00ef 07       		.uleb128 0x7
+ 334 00f0 52000000 		.4byte	.LASF19
+ 335 00f4 01       		.byte	0x1
+ 336 00f5 07       		.byte	0x7
+ 337 00f6 AA000000 		.4byte	0xaa
+ 338 00fa 08       		.byte	0x8
+ 339 00fb 00       		.byte	0
+ 340 00fc 09       		.uleb128 0x9
+ 341 00fd 07010000 		.4byte	0x107
+ 342 0101 0A       		.uleb128 0xa
+ 343 0102 8C000000 		.4byte	0x8c
+ 344 0106 00       		.byte	0
+ 345 0107 0B       		.uleb128 0xb
+ 346 0108 04       		.byte	0x4
+ 347 0109 FC000000 		.4byte	0xfc
+ 348 010d 0C       		.uleb128 0xc
+ 349 010e 12010000 		.4byte	.LASF33
+ 350 0112 01       		.byte	0x1
+ 351 0113 0A       		.byte	0xa
+ 352 0114 BF000000 		.4byte	0xbf
+ 353 0118 00000000 		.4byte	.LFB34
+ 354 011c 1A000000 		.4byte	.LFE34-.LFB34
+ 355 0120 01       		.uleb128 0x1
+ 356 0121 9C       		.byte	0x9c
+ 357 0122 63010000 		.4byte	0x163
+ 358 0126 0D       		.uleb128 0xd
+ 359 0127 31000000 		.4byte	.LASF20
+ 360 012b 01       		.byte	0x1
+ 361 012c 0A       		.byte	0xa
+ 362 012d 07010000 		.4byte	0x107
+ 363 0131 00000000 		.4byte	.LLST0
+ 364 0135 0E       		.uleb128 0xe
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 8
+
+
+ 365 0136 6D696E00 		.ascii	"min\000"
+ 366 013a 01       		.byte	0x1
+ 367 013b 0A       		.byte	0xa
+ 368 013c 8C000000 		.4byte	0x8c
+ 369 0140 2A000000 		.4byte	.LLST1
+ 370 0144 0E       		.uleb128 0xe
+ 371 0145 6D617800 		.ascii	"max\000"
+ 372 0149 01       		.byte	0x1
+ 373 014a 0A       		.byte	0xa
+ 374 014b 8C000000 		.4byte	0x8c
+ 375 014f 55000000 		.4byte	.LLST2
+ 376 0153 0F       		.uleb128 0xf
+ 377 0154 6A000000 		.4byte	.LASF23
+ 378 0158 01       		.byte	0x1
+ 379 0159 0B       		.byte	0xb
+ 380 015a BF000000 		.4byte	0xbf
+ 381 015e 80000000 		.4byte	.LLST3
+ 382 0162 00       		.byte	0
+ 383 0163 10       		.uleb128 0x10
+ 384 0164 11020000 		.4byte	.LASF25
+ 385 0168 01       		.byte	0x1
+ 386 0169 13       		.byte	0x13
+ 387 016a 00000000 		.4byte	.LFB35
+ 388 016e 50000000 		.4byte	.LFE35-.LFB35
+ 389 0172 01       		.uleb128 0x1
+ 390 0173 9C       		.byte	0x9c
+ 391 0174 AD010000 		.4byte	0x1ad
+ 392 0178 11       		.uleb128 0x11
+ 393 0179 FF010000 		.4byte	.LASF21
+ 394 017d 01       		.byte	0x1
+ 395 017e 13       		.byte	0x13
+ 396 017f BF000000 		.4byte	0xbf
+ 397 0183 02       		.uleb128 0x2
+ 398 0184 91       		.byte	0x91
+ 399 0185 58       		.sleb128 -40
+ 400 0186 0D       		.uleb128 0xd
+ 401 0187 4C000000 		.4byte	.LASF22
+ 402 018b 01       		.byte	0x1
+ 403 018c 13       		.byte	0x13
+ 404 018d 81000000 		.4byte	0x81
+ 405 0191 AC000000 		.4byte	.LLST4
+ 406 0195 0F       		.uleb128 0xf
+ 407 0196 EA000000 		.4byte	.LASF24
+ 408 019a 01       		.byte	0x1
+ 409 019b 14       		.byte	0x14
+ 410 019c AA000000 		.4byte	0xaa
+ 411 01a0 D8000000 		.4byte	.LLST5
+ 412 01a4 12       		.uleb128 0x12
+ 413 01a5 46000000 		.4byte	.LVL13
+ 414 01a9 02       		.uleb128 0x2
+ 415 01aa 74       		.byte	0x74
+ 416 01ab 00       		.sleb128 0
+ 417 01ac 00       		.byte	0
+ 418 01ad 13       		.uleb128 0x13
+ 419 01ae 1F010000 		.4byte	.LASF26
+ 420 01b2 01       		.byte	0x1
+ 421 01b3 18       		.byte	0x18
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 9
+
+
+ 422 01b4 73000000 		.4byte	0x73
+ 423 01b8 00000000 		.4byte	.LFB36
+ 424 01bc 64000000 		.4byte	.LFE36-.LFB36
+ 425 01c0 01       		.uleb128 0x1
+ 426 01c1 9C       		.byte	0x9c
+ 427 01c2 6B020000 		.4byte	0x26b
+ 428 01c6 14       		.uleb128 0x14
+ 429 01c7 24010000 		.4byte	.LASF27
+ 430 01cb 01       		.byte	0x1
+ 431 01cc 1C       		.byte	0x1c
+ 432 01cd BF000000 		.4byte	0xbf
+ 433 01d1 02       		.uleb128 0x2
+ 434 01d2 91       		.byte	0x91
+ 435 01d3 68       		.sleb128 -24
+ 436 01d4 14       		.uleb128 0x14
+ 437 01d5 30010000 		.4byte	.LASF28
+ 438 01d9 01       		.byte	0x1
+ 439 01da 1D       		.byte	0x1d
+ 440 01db BF000000 		.4byte	0xbf
+ 441 01df 02       		.uleb128 0x2
+ 442 01e0 91       		.byte	0x91
+ 443 01e1 58       		.sleb128 -40
+ 444 01e2 15       		.uleb128 0x15
+ 445 01e3 0A000000 		.4byte	.LVL14
+ 446 01e7 6B020000 		.4byte	0x26b
+ 447 01eb 16       		.uleb128 0x16
+ 448 01ec 18000000 		.4byte	.LVL15
+ 449 01f0 0D010000 		.4byte	0x10d
+ 450 01f4 0D020000 		.4byte	0x20d
+ 451 01f8 17       		.uleb128 0x17
+ 452 01f9 01       		.uleb128 0x1
+ 453 01fa 53       		.byte	0x53
+ 454 01fb 03       		.uleb128 0x3
+ 455 01fc 0A       		.byte	0xa
+ 456 01fd 5E1A     		.2byte	0x1a5e
+ 457 01ff 17       		.uleb128 0x17
+ 458 0200 01       		.uleb128 0x1
+ 459 0201 52       		.byte	0x52
+ 460 0202 03       		.uleb128 0x3
+ 461 0203 0A       		.byte	0xa
+ 462 0204 7805     		.2byte	0x578
+ 463 0206 17       		.uleb128 0x17
+ 464 0207 01       		.uleb128 0x1
+ 465 0208 50       		.byte	0x50
+ 466 0209 02       		.uleb128 0x2
+ 467 020a 91       		.byte	0x91
+ 468 020b 68       		.sleb128 -24
+ 469 020c 00       		.byte	0
+ 470 020d 16       		.uleb128 0x16
+ 471 020e 24000000 		.4byte	.LVL16
+ 472 0212 0D010000 		.4byte	0x10d
+ 473 0216 2F020000 		.4byte	0x22f
+ 474 021a 17       		.uleb128 0x17
+ 475 021b 01       		.uleb128 0x1
+ 476 021c 53       		.byte	0x53
+ 477 021d 03       		.uleb128 0x3
+ 478 021e 0A       		.byte	0xa
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 10
+
+
+ 479 021f 7206     		.2byte	0x672
+ 480 0221 17       		.uleb128 0x17
+ 481 0222 01       		.uleb128 0x1
+ 482 0223 52       		.byte	0x52
+ 483 0224 03       		.uleb128 0x3
+ 484 0225 0A       		.byte	0xa
+ 485 0226 F41A     		.2byte	0x1af4
+ 486 0228 17       		.uleb128 0x17
+ 487 0229 01       		.uleb128 0x1
+ 488 022a 50       		.byte	0x50
+ 489 022b 02       		.uleb128 0x2
+ 490 022c 91       		.byte	0x91
+ 491 022d 58       		.sleb128 -40
+ 492 022e 00       		.byte	0
+ 493 022f 16       		.uleb128 0x16
+ 494 0230 2A000000 		.4byte	.LVL17
+ 495 0234 72020000 		.4byte	0x272
+ 496 0238 44020000 		.4byte	0x244
+ 497 023c 17       		.uleb128 0x17
+ 498 023d 01       		.uleb128 0x1
+ 499 023e 50       		.byte	0x50
+ 500 023f 03       		.uleb128 0x3
+ 501 0240 0A       		.byte	0xa
+ 502 0241 8813     		.2byte	0x1388
+ 503 0243 00       		.byte	0
+ 504 0244 16       		.uleb128 0x16
+ 505 0245 3A000000 		.4byte	.LVL18
+ 506 0249 63010000 		.4byte	0x163
+ 507 024d 59020000 		.4byte	0x259
+ 508 0251 17       		.uleb128 0x17
+ 509 0252 02       		.uleb128 0x2
+ 510 0253 7D       		.byte	0x7d
+ 511 0254 00       		.sleb128 0
+ 512 0255 02       		.uleb128 0x2
+ 513 0256 74       		.byte	0x74
+ 514 0257 00       		.sleb128 0
+ 515 0258 00       		.byte	0
+ 516 0259 18       		.uleb128 0x18
+ 517 025a 48000000 		.4byte	.LVL19
+ 518 025e 63010000 		.4byte	0x163
+ 519 0262 17       		.uleb128 0x17
+ 520 0263 02       		.uleb128 0x2
+ 521 0264 7D       		.byte	0x7d
+ 522 0265 00       		.sleb128 0
+ 523 0266 02       		.uleb128 0x2
+ 524 0267 74       		.byte	0x74
+ 525 0268 00       		.sleb128 0
+ 526 0269 00       		.byte	0
+ 527 026a 00       		.byte	0
+ 528 026b 19       		.uleb128 0x19
+ 529 026c 00000000 		.4byte	.LASF34
+ 530 0270 05       		.byte	0x5
+ 531 0271 DB       		.byte	0xdb
+ 532 0272 1A       		.uleb128 0x1a
+ 533 0273 1B020000 		.4byte	.LASF35
+ 534 0277 06       		.byte	0x6
+ 535 0278 D7       		.byte	0xd7
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 11
+
+
+ 536 0279 0A       		.uleb128 0xa
+ 537 027a 97000000 		.4byte	0x97
+ 538 027e 00       		.byte	0
+ 539 027f 00       		.byte	0
+ 540              		.section	.debug_abbrev,"",%progbits
+ 541              	.Ldebug_abbrev0:
+ 542 0000 01       		.uleb128 0x1
+ 543 0001 11       		.uleb128 0x11
+ 544 0002 01       		.byte	0x1
+ 545 0003 25       		.uleb128 0x25
+ 546 0004 0E       		.uleb128 0xe
+ 547 0005 13       		.uleb128 0x13
+ 548 0006 0B       		.uleb128 0xb
+ 549 0007 03       		.uleb128 0x3
+ 550 0008 0E       		.uleb128 0xe
+ 551 0009 1B       		.uleb128 0x1b
+ 552 000a 0E       		.uleb128 0xe
+ 553 000b 55       		.uleb128 0x55
+ 554 000c 17       		.uleb128 0x17
+ 555 000d 11       		.uleb128 0x11
+ 556 000e 01       		.uleb128 0x1
+ 557 000f 10       		.uleb128 0x10
+ 558 0010 17       		.uleb128 0x17
+ 559 0011 00       		.byte	0
+ 560 0012 00       		.byte	0
+ 561 0013 02       		.uleb128 0x2
+ 562 0014 24       		.uleb128 0x24
+ 563 0015 00       		.byte	0
+ 564 0016 0B       		.uleb128 0xb
+ 565 0017 0B       		.uleb128 0xb
+ 566 0018 3E       		.uleb128 0x3e
+ 567 0019 0B       		.uleb128 0xb
+ 568 001a 03       		.uleb128 0x3
+ 569 001b 0E       		.uleb128 0xe
+ 570 001c 00       		.byte	0
+ 571 001d 00       		.byte	0
+ 572 001e 03       		.uleb128 0x3
+ 573 001f 16       		.uleb128 0x16
+ 574 0020 00       		.byte	0
+ 575 0021 03       		.uleb128 0x3
+ 576 0022 0E       		.uleb128 0xe
+ 577 0023 3A       		.uleb128 0x3a
+ 578 0024 0B       		.uleb128 0xb
+ 579 0025 3B       		.uleb128 0x3b
+ 580 0026 0B       		.uleb128 0xb
+ 581 0027 49       		.uleb128 0x49
+ 582 0028 13       		.uleb128 0x13
+ 583 0029 00       		.byte	0
+ 584 002a 00       		.byte	0
+ 585 002b 04       		.uleb128 0x4
+ 586 002c 24       		.uleb128 0x24
+ 587 002d 00       		.byte	0
+ 588 002e 0B       		.uleb128 0xb
+ 589 002f 0B       		.uleb128 0xb
+ 590 0030 3E       		.uleb128 0x3e
+ 591 0031 0B       		.uleb128 0xb
+ 592 0032 03       		.uleb128 0x3
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 12
+
+
+ 593 0033 08       		.uleb128 0x8
+ 594 0034 00       		.byte	0
+ 595 0035 00       		.byte	0
+ 596 0036 05       		.uleb128 0x5
+ 597 0037 16       		.uleb128 0x16
+ 598 0038 00       		.byte	0
+ 599 0039 03       		.uleb128 0x3
+ 600 003a 0E       		.uleb128 0xe
+ 601 003b 3A       		.uleb128 0x3a
+ 602 003c 0B       		.uleb128 0xb
+ 603 003d 3B       		.uleb128 0x3b
+ 604 003e 05       		.uleb128 0x5
+ 605 003f 49       		.uleb128 0x49
+ 606 0040 13       		.uleb128 0x13
+ 607 0041 00       		.byte	0
+ 608 0042 00       		.byte	0
+ 609 0043 06       		.uleb128 0x6
+ 610 0044 13       		.uleb128 0x13
+ 611 0045 01       		.byte	0x1
+ 612 0046 03       		.uleb128 0x3
+ 613 0047 0E       		.uleb128 0xe
+ 614 0048 0B       		.uleb128 0xb
+ 615 0049 0B       		.uleb128 0xb
+ 616 004a 3A       		.uleb128 0x3a
+ 617 004b 0B       		.uleb128 0xb
+ 618 004c 3B       		.uleb128 0x3b
+ 619 004d 0B       		.uleb128 0xb
+ 620 004e 01       		.uleb128 0x1
+ 621 004f 13       		.uleb128 0x13
+ 622 0050 00       		.byte	0
+ 623 0051 00       		.byte	0
+ 624 0052 07       		.uleb128 0x7
+ 625 0053 0D       		.uleb128 0xd
+ 626 0054 00       		.byte	0
+ 627 0055 03       		.uleb128 0x3
+ 628 0056 0E       		.uleb128 0xe
+ 629 0057 3A       		.uleb128 0x3a
+ 630 0058 0B       		.uleb128 0xb
+ 631 0059 3B       		.uleb128 0x3b
+ 632 005a 0B       		.uleb128 0xb
+ 633 005b 49       		.uleb128 0x49
+ 634 005c 13       		.uleb128 0x13
+ 635 005d 38       		.uleb128 0x38
+ 636 005e 0B       		.uleb128 0xb
+ 637 005f 00       		.byte	0
+ 638 0060 00       		.byte	0
+ 639 0061 08       		.uleb128 0x8
+ 640 0062 0D       		.uleb128 0xd
+ 641 0063 00       		.byte	0
+ 642 0064 03       		.uleb128 0x3
+ 643 0065 08       		.uleb128 0x8
+ 644 0066 3A       		.uleb128 0x3a
+ 645 0067 0B       		.uleb128 0xb
+ 646 0068 3B       		.uleb128 0x3b
+ 647 0069 0B       		.uleb128 0xb
+ 648 006a 49       		.uleb128 0x49
+ 649 006b 13       		.uleb128 0x13
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 13
+
+
+ 650 006c 38       		.uleb128 0x38
+ 651 006d 0B       		.uleb128 0xb
+ 652 006e 00       		.byte	0
+ 653 006f 00       		.byte	0
+ 654 0070 09       		.uleb128 0x9
+ 655 0071 15       		.uleb128 0x15
+ 656 0072 01       		.byte	0x1
+ 657 0073 27       		.uleb128 0x27
+ 658 0074 19       		.uleb128 0x19
+ 659 0075 01       		.uleb128 0x1
+ 660 0076 13       		.uleb128 0x13
+ 661 0077 00       		.byte	0
+ 662 0078 00       		.byte	0
+ 663 0079 0A       		.uleb128 0xa
+ 664 007a 05       		.uleb128 0x5
+ 665 007b 00       		.byte	0
+ 666 007c 49       		.uleb128 0x49
+ 667 007d 13       		.uleb128 0x13
+ 668 007e 00       		.byte	0
+ 669 007f 00       		.byte	0
+ 670 0080 0B       		.uleb128 0xb
+ 671 0081 0F       		.uleb128 0xf
+ 672 0082 00       		.byte	0
+ 673 0083 0B       		.uleb128 0xb
+ 674 0084 0B       		.uleb128 0xb
+ 675 0085 49       		.uleb128 0x49
+ 676 0086 13       		.uleb128 0x13
+ 677 0087 00       		.byte	0
+ 678 0088 00       		.byte	0
+ 679 0089 0C       		.uleb128 0xc
+ 680 008a 2E       		.uleb128 0x2e
+ 681 008b 01       		.byte	0x1
+ 682 008c 3F       		.uleb128 0x3f
+ 683 008d 19       		.uleb128 0x19
+ 684 008e 03       		.uleb128 0x3
+ 685 008f 0E       		.uleb128 0xe
+ 686 0090 3A       		.uleb128 0x3a
+ 687 0091 0B       		.uleb128 0xb
+ 688 0092 3B       		.uleb128 0x3b
+ 689 0093 0B       		.uleb128 0xb
+ 690 0094 27       		.uleb128 0x27
+ 691 0095 19       		.uleb128 0x19
+ 692 0096 49       		.uleb128 0x49
+ 693 0097 13       		.uleb128 0x13
+ 694 0098 11       		.uleb128 0x11
+ 695 0099 01       		.uleb128 0x1
+ 696 009a 12       		.uleb128 0x12
+ 697 009b 06       		.uleb128 0x6
+ 698 009c 40       		.uleb128 0x40
+ 699 009d 18       		.uleb128 0x18
+ 700 009e 9642     		.uleb128 0x2116
+ 701 00a0 19       		.uleb128 0x19
+ 702 00a1 01       		.uleb128 0x1
+ 703 00a2 13       		.uleb128 0x13
+ 704 00a3 00       		.byte	0
+ 705 00a4 00       		.byte	0
+ 706 00a5 0D       		.uleb128 0xd
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 14
+
+
+ 707 00a6 05       		.uleb128 0x5
+ 708 00a7 00       		.byte	0
+ 709 00a8 03       		.uleb128 0x3
+ 710 00a9 0E       		.uleb128 0xe
+ 711 00aa 3A       		.uleb128 0x3a
+ 712 00ab 0B       		.uleb128 0xb
+ 713 00ac 3B       		.uleb128 0x3b
+ 714 00ad 0B       		.uleb128 0xb
+ 715 00ae 49       		.uleb128 0x49
+ 716 00af 13       		.uleb128 0x13
+ 717 00b0 02       		.uleb128 0x2
+ 718 00b1 17       		.uleb128 0x17
+ 719 00b2 00       		.byte	0
+ 720 00b3 00       		.byte	0
+ 721 00b4 0E       		.uleb128 0xe
+ 722 00b5 05       		.uleb128 0x5
+ 723 00b6 00       		.byte	0
+ 724 00b7 03       		.uleb128 0x3
+ 725 00b8 08       		.uleb128 0x8
+ 726 00b9 3A       		.uleb128 0x3a
+ 727 00ba 0B       		.uleb128 0xb
+ 728 00bb 3B       		.uleb128 0x3b
+ 729 00bc 0B       		.uleb128 0xb
+ 730 00bd 49       		.uleb128 0x49
+ 731 00be 13       		.uleb128 0x13
+ 732 00bf 02       		.uleb128 0x2
+ 733 00c0 17       		.uleb128 0x17
+ 734 00c1 00       		.byte	0
+ 735 00c2 00       		.byte	0
+ 736 00c3 0F       		.uleb128 0xf
+ 737 00c4 34       		.uleb128 0x34
+ 738 00c5 00       		.byte	0
+ 739 00c6 03       		.uleb128 0x3
+ 740 00c7 0E       		.uleb128 0xe
+ 741 00c8 3A       		.uleb128 0x3a
+ 742 00c9 0B       		.uleb128 0xb
+ 743 00ca 3B       		.uleb128 0x3b
+ 744 00cb 0B       		.uleb128 0xb
+ 745 00cc 49       		.uleb128 0x49
+ 746 00cd 13       		.uleb128 0x13
+ 747 00ce 02       		.uleb128 0x2
+ 748 00cf 17       		.uleb128 0x17
+ 749 00d0 00       		.byte	0
+ 750 00d1 00       		.byte	0
+ 751 00d2 10       		.uleb128 0x10
+ 752 00d3 2E       		.uleb128 0x2e
+ 753 00d4 01       		.byte	0x1
+ 754 00d5 3F       		.uleb128 0x3f
+ 755 00d6 19       		.uleb128 0x19
+ 756 00d7 03       		.uleb128 0x3
+ 757 00d8 0E       		.uleb128 0xe
+ 758 00d9 3A       		.uleb128 0x3a
+ 759 00da 0B       		.uleb128 0xb
+ 760 00db 3B       		.uleb128 0x3b
+ 761 00dc 0B       		.uleb128 0xb
+ 762 00dd 27       		.uleb128 0x27
+ 763 00de 19       		.uleb128 0x19
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 15
+
+
+ 764 00df 11       		.uleb128 0x11
+ 765 00e0 01       		.uleb128 0x1
+ 766 00e1 12       		.uleb128 0x12
+ 767 00e2 06       		.uleb128 0x6
+ 768 00e3 40       		.uleb128 0x40
+ 769 00e4 18       		.uleb128 0x18
+ 770 00e5 9642     		.uleb128 0x2116
+ 771 00e7 19       		.uleb128 0x19
+ 772 00e8 01       		.uleb128 0x1
+ 773 00e9 13       		.uleb128 0x13
+ 774 00ea 00       		.byte	0
+ 775 00eb 00       		.byte	0
+ 776 00ec 11       		.uleb128 0x11
+ 777 00ed 05       		.uleb128 0x5
+ 778 00ee 00       		.byte	0
+ 779 00ef 03       		.uleb128 0x3
+ 780 00f0 0E       		.uleb128 0xe
+ 781 00f1 3A       		.uleb128 0x3a
+ 782 00f2 0B       		.uleb128 0xb
+ 783 00f3 3B       		.uleb128 0x3b
+ 784 00f4 0B       		.uleb128 0xb
+ 785 00f5 49       		.uleb128 0x49
+ 786 00f6 13       		.uleb128 0x13
+ 787 00f7 02       		.uleb128 0x2
+ 788 00f8 18       		.uleb128 0x18
+ 789 00f9 00       		.byte	0
+ 790 00fa 00       		.byte	0
+ 791 00fb 12       		.uleb128 0x12
+ 792 00fc 898201   		.uleb128 0x4109
+ 793 00ff 00       		.byte	0
+ 794 0100 11       		.uleb128 0x11
+ 795 0101 01       		.uleb128 0x1
+ 796 0102 9342     		.uleb128 0x2113
+ 797 0104 18       		.uleb128 0x18
+ 798 0105 00       		.byte	0
+ 799 0106 00       		.byte	0
+ 800 0107 13       		.uleb128 0x13
+ 801 0108 2E       		.uleb128 0x2e
+ 802 0109 01       		.byte	0x1
+ 803 010a 3F       		.uleb128 0x3f
+ 804 010b 19       		.uleb128 0x19
+ 805 010c 03       		.uleb128 0x3
+ 806 010d 0E       		.uleb128 0xe
+ 807 010e 3A       		.uleb128 0x3a
+ 808 010f 0B       		.uleb128 0xb
+ 809 0110 3B       		.uleb128 0x3b
+ 810 0111 0B       		.uleb128 0xb
+ 811 0112 49       		.uleb128 0x49
+ 812 0113 13       		.uleb128 0x13
+ 813 0114 11       		.uleb128 0x11
+ 814 0115 01       		.uleb128 0x1
+ 815 0116 12       		.uleb128 0x12
+ 816 0117 06       		.uleb128 0x6
+ 817 0118 40       		.uleb128 0x40
+ 818 0119 18       		.uleb128 0x18
+ 819 011a 9742     		.uleb128 0x2117
+ 820 011c 19       		.uleb128 0x19
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 16
+
+
+ 821 011d 01       		.uleb128 0x1
+ 822 011e 13       		.uleb128 0x13
+ 823 011f 00       		.byte	0
+ 824 0120 00       		.byte	0
+ 825 0121 14       		.uleb128 0x14
+ 826 0122 34       		.uleb128 0x34
+ 827 0123 00       		.byte	0
+ 828 0124 03       		.uleb128 0x3
+ 829 0125 0E       		.uleb128 0xe
+ 830 0126 3A       		.uleb128 0x3a
+ 831 0127 0B       		.uleb128 0xb
+ 832 0128 3B       		.uleb128 0x3b
+ 833 0129 0B       		.uleb128 0xb
+ 834 012a 49       		.uleb128 0x49
+ 835 012b 13       		.uleb128 0x13
+ 836 012c 02       		.uleb128 0x2
+ 837 012d 18       		.uleb128 0x18
+ 838 012e 00       		.byte	0
+ 839 012f 00       		.byte	0
+ 840 0130 15       		.uleb128 0x15
+ 841 0131 898201   		.uleb128 0x4109
+ 842 0134 00       		.byte	0
+ 843 0135 11       		.uleb128 0x11
+ 844 0136 01       		.uleb128 0x1
+ 845 0137 31       		.uleb128 0x31
+ 846 0138 13       		.uleb128 0x13
+ 847 0139 00       		.byte	0
+ 848 013a 00       		.byte	0
+ 849 013b 16       		.uleb128 0x16
+ 850 013c 898201   		.uleb128 0x4109
+ 851 013f 01       		.byte	0x1
+ 852 0140 11       		.uleb128 0x11
+ 853 0141 01       		.uleb128 0x1
+ 854 0142 31       		.uleb128 0x31
+ 855 0143 13       		.uleb128 0x13
+ 856 0144 01       		.uleb128 0x1
+ 857 0145 13       		.uleb128 0x13
+ 858 0146 00       		.byte	0
+ 859 0147 00       		.byte	0
+ 860 0148 17       		.uleb128 0x17
+ 861 0149 8A8201   		.uleb128 0x410a
+ 862 014c 00       		.byte	0
+ 863 014d 02       		.uleb128 0x2
+ 864 014e 18       		.uleb128 0x18
+ 865 014f 9142     		.uleb128 0x2111
+ 866 0151 18       		.uleb128 0x18
+ 867 0152 00       		.byte	0
+ 868 0153 00       		.byte	0
+ 869 0154 18       		.uleb128 0x18
+ 870 0155 898201   		.uleb128 0x4109
+ 871 0158 01       		.byte	0x1
+ 872 0159 11       		.uleb128 0x11
+ 873 015a 01       		.uleb128 0x1
+ 874 015b 31       		.uleb128 0x31
+ 875 015c 13       		.uleb128 0x13
+ 876 015d 00       		.byte	0
+ 877 015e 00       		.byte	0
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 17
+
+
+ 878 015f 19       		.uleb128 0x19
+ 879 0160 2E       		.uleb128 0x2e
+ 880 0161 00       		.byte	0
+ 881 0162 3F       		.uleb128 0x3f
+ 882 0163 19       		.uleb128 0x19
+ 883 0164 03       		.uleb128 0x3
+ 884 0165 0E       		.uleb128 0xe
+ 885 0166 3A       		.uleb128 0x3a
+ 886 0167 0B       		.uleb128 0xb
+ 887 0168 3B       		.uleb128 0x3b
+ 888 0169 0B       		.uleb128 0xb
+ 889 016a 27       		.uleb128 0x27
+ 890 016b 19       		.uleb128 0x19
+ 891 016c 3C       		.uleb128 0x3c
+ 892 016d 19       		.uleb128 0x19
+ 893 016e 00       		.byte	0
+ 894 016f 00       		.byte	0
+ 895 0170 1A       		.uleb128 0x1a
+ 896 0171 2E       		.uleb128 0x2e
+ 897 0172 01       		.byte	0x1
+ 898 0173 3F       		.uleb128 0x3f
+ 899 0174 19       		.uleb128 0x19
+ 900 0175 03       		.uleb128 0x3
+ 901 0176 0E       		.uleb128 0xe
+ 902 0177 3A       		.uleb128 0x3a
+ 903 0178 0B       		.uleb128 0xb
+ 904 0179 3B       		.uleb128 0x3b
+ 905 017a 0B       		.uleb128 0xb
+ 906 017b 27       		.uleb128 0x27
+ 907 017c 19       		.uleb128 0x19
+ 908 017d 3C       		.uleb128 0x3c
+ 909 017e 19       		.uleb128 0x19
+ 910 017f 00       		.byte	0
+ 911 0180 00       		.byte	0
+ 912 0181 00       		.byte	0
+ 913              		.section	.debug_loc,"",%progbits
+ 914              	.Ldebug_loc0:
+ 915              	.LLST0:
+ 916 0000 00000000 		.4byte	.LVL0
+ 917 0004 0F000000 		.4byte	.LVL2-1
+ 918 0008 0100     		.2byte	0x1
+ 919 000a 51       		.byte	0x51
+ 920 000b 0F000000 		.4byte	.LVL2-1
+ 921 000f 18000000 		.4byte	.LVL4
+ 922 0013 0100     		.2byte	0x1
+ 923 0015 55       		.byte	0x55
+ 924 0016 18000000 		.4byte	.LVL4
+ 925 001a 1A000000 		.4byte	.LFE34
+ 926 001e 0200     		.2byte	0x2
+ 927 0020 70       		.byte	0x70
+ 928 0021 00       		.sleb128 0
+ 929 0022 00000000 		.4byte	0
+ 930 0026 00000000 		.4byte	0
+ 931              	.LLST1:
+ 932 002a 00000000 		.4byte	.LVL0
+ 933 002e 0F000000 		.4byte	.LVL2-1
+ 934 0032 0100     		.2byte	0x1
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 18
+
+
+ 935 0034 52       		.byte	0x52
+ 936 0035 0F000000 		.4byte	.LVL2-1
+ 937 0039 18000000 		.4byte	.LVL3
+ 938 003d 0200     		.2byte	0x2
+ 939 003f 74       		.byte	0x74
+ 940 0040 06       		.sleb128 6
+ 941 0041 18000000 		.4byte	.LVL3
+ 942 0045 1A000000 		.4byte	.LFE34
+ 943 0049 0200     		.2byte	0x2
+ 944 004b 70       		.byte	0x70
+ 945 004c 06       		.sleb128 6
+ 946 004d 00000000 		.4byte	0
+ 947 0051 00000000 		.4byte	0
+ 948              	.LLST2:
+ 949 0055 00000000 		.4byte	.LVL0
+ 950 0059 0F000000 		.4byte	.LVL2-1
+ 951 005d 0100     		.2byte	0x1
+ 952 005f 53       		.byte	0x53
+ 953 0060 0F000000 		.4byte	.LVL2-1
+ 954 0064 18000000 		.4byte	.LVL3
+ 955 0068 0200     		.2byte	0x2
+ 956 006a 74       		.byte	0x74
+ 957 006b 04       		.sleb128 4
+ 958 006c 18000000 		.4byte	.LVL3
+ 959 0070 1A000000 		.4byte	.LFE34
+ 960 0074 0200     		.2byte	0x2
+ 961 0076 70       		.byte	0x70
+ 962 0077 04       		.sleb128 4
+ 963 0078 00000000 		.4byte	0
+ 964 007c 00000000 		.4byte	0
+ 965              	.LLST3:
+ 966 0080 00000000 		.4byte	.LVL0
+ 967 0084 0C000000 		.4byte	.LVL1
+ 968 0088 0200     		.2byte	0x2
+ 969 008a 70       		.byte	0x70
+ 970 008b 00       		.sleb128 0
+ 971 008c 0C000000 		.4byte	.LVL1
+ 972 0090 18000000 		.4byte	.LVL3
+ 973 0094 0200     		.2byte	0x2
+ 974 0096 74       		.byte	0x74
+ 975 0097 00       		.sleb128 0
+ 976 0098 18000000 		.4byte	.LVL3
+ 977 009c 1A000000 		.4byte	.LFE34
+ 978 00a0 0200     		.2byte	0x2
+ 979 00a2 70       		.byte	0x70
+ 980 00a3 00       		.sleb128 0
+ 981 00a4 00000000 		.4byte	0
+ 982 00a8 00000000 		.4byte	0
+ 983              	.LLST4:
+ 984 00ac 00000000 		.4byte	.LVL5
+ 985 00b0 0E000000 		.4byte	.LVL6
+ 986 00b4 0200     		.2byte	0x2
+ 987 00b6 91       		.byte	0x91
+ 988 00b7 00       		.sleb128 0
+ 989 00b8 0E000000 		.4byte	.LVL6
+ 990 00bc 17000000 		.4byte	.LVL7-1
+ 991 00c0 0200     		.2byte	0x2
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 19
+
+
+ 992 00c2 73       		.byte	0x73
+ 993 00c3 00       		.sleb128 0
+ 994 00c4 17000000 		.4byte	.LVL7-1
+ 995 00c8 50000000 		.4byte	.LFE35
+ 996 00cc 0200     		.2byte	0x2
+ 997 00ce 91       		.byte	0x91
+ 998 00cf 00       		.sleb128 0
+ 999 00d0 00000000 		.4byte	0
+ 1000 00d4 00000000 		.4byte	0
+ 1001              	.LLST5:
+ 1002 00d8 3E000000 		.4byte	.LVL11
+ 1003 00dc 41000000 		.4byte	.LVL12-1
+ 1004 00e0 0600     		.2byte	0x6
+ 1005 00e2 50       		.byte	0x50
+ 1006 00e3 93       		.byte	0x93
+ 1007 00e4 04       		.uleb128 0x4
+ 1008 00e5 51       		.byte	0x51
+ 1009 00e6 93       		.byte	0x93
+ 1010 00e7 04       		.uleb128 0x4
+ 1011 00e8 00000000 		.4byte	0
+ 1012 00ec 00000000 		.4byte	0
+ 1013              		.section	.debug_aranges,"",%progbits
+ 1014 0000 2C000000 		.4byte	0x2c
+ 1015 0004 0200     		.2byte	0x2
+ 1016 0006 00000000 		.4byte	.Ldebug_info0
+ 1017 000a 04       		.byte	0x4
+ 1018 000b 00       		.byte	0
+ 1019 000c 0000     		.2byte	0
+ 1020 000e 0000     		.2byte	0
+ 1021 0010 00000000 		.4byte	.LFB34
+ 1022 0014 1A000000 		.4byte	.LFE34-.LFB34
+ 1023 0018 00000000 		.4byte	.LFB35
+ 1024 001c 50000000 		.4byte	.LFE35-.LFB35
+ 1025 0020 00000000 		.4byte	.LFB36
+ 1026 0024 64000000 		.4byte	.LFE36-.LFB36
+ 1027 0028 00000000 		.4byte	0
+ 1028 002c 00000000 		.4byte	0
+ 1029              		.section	.debug_ranges,"",%progbits
+ 1030              	.Ldebug_ranges0:
+ 1031 0000 00000000 		.4byte	.LFB34
+ 1032 0004 1A000000 		.4byte	.LFE34
+ 1033 0008 00000000 		.4byte	.LFB35
+ 1034 000c 50000000 		.4byte	.LFE35
+ 1035 0010 00000000 		.4byte	.LFB36
+ 1036 0014 64000000 		.4byte	.LFE36
+ 1037 0018 00000000 		.4byte	0
+ 1038 001c 00000000 		.4byte	0
+ 1039              		.section	.debug_line,"",%progbits
+ 1040              	.Ldebug_line0:
+ 1041 0000 A5010000 		.section	.debug_str,"MS",%progbits,1
+ 1041      02005101 
+ 1041      00000201 
+ 1041      FB0E0D00 
+ 1041      01010101 
+ 1042              	.LASF34:
+ 1043 0000 50574D5F 		.ascii	"PWM_1_Enable\000"
+ 1043      315F456E 
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 20
+
+
+ 1043      61626C65 
+ 1043      00
+ 1044              	.LASF3:
+ 1045 000d 5F5F7569 		.ascii	"__uint8_t\000"
+ 1045      6E74385F 
+ 1045      7400
+ 1046              	.LASF32:
+ 1047 0017 53657276 		.ascii	"Servo\000"
+ 1047      6F00
+ 1048              	.LASF14:
+ 1049 001d 666C6F61 		.ascii	"float\000"
+ 1049      7400
+ 1050              	.LASF1:
+ 1051 0023 756E7369 		.ascii	"unsigned char\000"
+ 1051      676E6564 
+ 1051      20636861 
+ 1051      7200
+ 1052              	.LASF20:
+ 1053 0031 70776D5F 		.ascii	"pwm_ptr\000"
+ 1053      70747200 
+ 1054              	.LASF5:
+ 1055 0039 73686F72 		.ascii	"short unsigned int\000"
+ 1055      7420756E 
+ 1055      7369676E 
+ 1055      65642069 
+ 1055      6E7400
+ 1056              	.LASF22:
+ 1057 004c 616E676C 		.ascii	"angle\000"
+ 1057      6500
+ 1058              	.LASF19:
+ 1059 0052 72616E67 		.ascii	"range\000"
+ 1059      6500
+ 1060              	.LASF4:
+ 1061 0058 5F5F7569 		.ascii	"__uint16_t\000"
+ 1061      6E743136 
+ 1061      5F7400
+ 1062              	.LASF15:
+ 1063 0063 646F7562 		.ascii	"double\000"
+ 1063      6C6500
+ 1064              	.LASF23:
+ 1065 006a 63726561 		.ascii	"createdServo\000"
+ 1065      74656453 
+ 1065      6572766F 
+ 1065      00
+ 1066              	.LASF30:
+ 1067 0077 2E5C6D61 		.ascii	".\\main.c\000"
+ 1067      696E2E63 
+ 1067      00
+ 1068              	.LASF31:
+ 1069 0080 433A5C55 		.ascii	"C:\\Users\\Alec\\Documents\\PSoC Creator\\Final\\Fi"
+ 1069      73657273 
+ 1069      5C416C65 
+ 1069      635C446F 
+ 1069      63756D65 
+ 1070 00ad 6E616C44 		.ascii	"nalDesign.cydsn\000"
+ 1070      65736967 
+ 1070      6E2E6379 
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 21
+
+
+ 1070      64736E00 
+ 1071              	.LASF13:
+ 1072 00bd 75696E74 		.ascii	"uint32\000"
+ 1072      333200
+ 1073              	.LASF18:
+ 1074 00c4 70776D50 		.ascii	"pwmPtr\000"
+ 1074      747200
+ 1075              	.LASF7:
+ 1076 00cb 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1076      20756E73 
+ 1076      69676E65 
+ 1076      6420696E 
+ 1076      7400
+ 1077              	.LASF10:
+ 1078 00dd 756E7369 		.ascii	"unsigned int\000"
+ 1078      676E6564 
+ 1078      20696E74 
+ 1078      00
+ 1079              	.LASF24:
+ 1080 00ea 73657470 		.ascii	"setpoint\000"
+ 1080      6F696E74 
+ 1080      00
+ 1081              	.LASF9:
+ 1082 00f3 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1082      206C6F6E 
+ 1082      6720756E 
+ 1082      7369676E 
+ 1082      65642069 
+ 1083              	.LASF11:
+ 1084 010a 75696E74 		.ascii	"uint8_t\000"
+ 1084      385F7400 
+ 1085              	.LASF33:
+ 1086 0112 63726561 		.ascii	"create_servo\000"
+ 1086      74655F73 
+ 1086      6572766F 
+ 1086      00
+ 1087              	.LASF26:
+ 1088 011f 6D61696E 		.ascii	"main\000"
+ 1088      00
+ 1089              	.LASF27:
+ 1090 0124 73657276 		.ascii	"servoBottom\000"
+ 1090      6F426F74 
+ 1090      746F6D00 
+ 1091              	.LASF28:
+ 1092 0130 73657276 		.ascii	"servoTop\000"
+ 1092      6F546F70 
+ 1092      00
+ 1093              	.LASF17:
+ 1094 0139 73697A65 		.ascii	"sizetype\000"
+ 1094      74797065 
+ 1094      00
+ 1095              	.LASF8:
+ 1096 0142 6C6F6E67 		.ascii	"long long int\000"
+ 1096      206C6F6E 
+ 1096      6720696E 
+ 1096      7400
+ 1097              	.LASF16:
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc10Bhqe.s 			page 22
+
+
+ 1098 0150 63686172 		.ascii	"char\000"
+ 1098      00
+ 1099              	.LASF29:
+ 1100 0155 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 1100      4320342E 
+ 1100      392E3320 
+ 1100      32303135 
+ 1100      30333033 
+ 1101 0188 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 1101      20726576 
+ 1101      6973696F 
+ 1101      6E203232 
+ 1101      31323230 
+ 1102 01bb 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1102      66756E63 
+ 1102      74696F6E 
+ 1102      2D736563 
+ 1102      74696F6E 
+ 1103              	.LASF2:
+ 1104 01e3 73686F72 		.ascii	"short int\000"
+ 1104      7420696E 
+ 1104      7400
+ 1105              	.LASF12:
+ 1106 01ed 75696E74 		.ascii	"uint16_t\000"
+ 1106      31365F74 
+ 1106      00
+ 1107              	.LASF6:
+ 1108 01f6 6C6F6E67 		.ascii	"long int\000"
+ 1108      20696E74 
+ 1108      00
+ 1109              	.LASF21:
+ 1110 01ff 73657276 		.ascii	"servo\000"
+ 1110      6F00
+ 1111              	.LASF0:
+ 1112 0205 7369676E 		.ascii	"signed char\000"
+ 1112      65642063 
+ 1112      68617200 
+ 1113              	.LASF25:
+ 1114 0211 7365745F 		.ascii	"set_servo\000"
+ 1114      73657276 
+ 1114      6F00
+ 1115              	.LASF35:
+ 1116 021b 43794465 		.ascii	"CyDelay\000"
+ 1116      6C617900 
+ 1117              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br
