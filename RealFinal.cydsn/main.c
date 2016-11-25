@@ -10,10 +10,10 @@ enum states{
 
 int count = CHALLENGE_TIME;
 int battery_state = 3;
-int system_state = ACTIVE;
+uint8_t system_state = ACTIVE;
 int dumb_placeholder;
 
-void batteryLight(uint8_t setValue){
+void set_battery_light(uint8_t setValue){
     if(setValue & 0b100)
         LED_1_Write(1);
     else
@@ -30,30 +30,46 @@ void batteryLight(uint8_t setValue){
         LED_3_Write(0);
 }
 
-CY_ISR(TIMER_ISR){
-    count--;
-    if(count == 0){
-     count = CHALLENGE_TIME;
-     battery_state--;
-     switch(battery_state){
-        case 2:
-            batteryLight(0b011);
-            break;
-            
-        case 1:
-            batteryLight(0b001);
-            break;
-            
-        case 0:
-            batteryLight(0b000);
-            system_state = OFF;
-            break;
-            
-        case -1:
-            batteryLight(0b111);
+void go_to_state(uint8_t state){
+    system_state = state;
+    
+    switch(state) {
+        case ACTIVE:
+            set_battery_light(0b111);
             battery_state = 3;
             system_state = ACTIVE;
-       }
+            break;
+    
+        case OFF:
+            break;
+        
+        case VICTORY:
+            break;
+    }
+}
+
+CY_ISR(TIMER_ISR){
+    if (system_state == ACTIVE){
+        count--;
+        if(count == 0){
+         count = CHALLENGE_TIME;
+         battery_state--;
+         switch(battery_state){
+            case 2:
+                set_battery_light(0b011);
+                break;
+                
+            case 1:
+                set_battery_light(0b001);
+                break;
+                
+            case 0:
+                set_battery_light(0b000);
+                system_state = OFF;
+                break;
+                
+           }
+        }
     }
 }
 
@@ -86,7 +102,7 @@ int main()
     PWM_1_Enable();
     struct Servo servoBottom =  create_servo(PWM_1_WriteCompare1,1400,6750);
     struct Servo servoTop =  create_servo(PWM_1_WriteCompare2,6900,1650);
-    batteryLight(0b111);
+    set_battery_light(0b111);
     for(;;)
     {
         switch(system_state){
