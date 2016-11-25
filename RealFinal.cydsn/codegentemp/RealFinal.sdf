@@ -1,6 +1,6 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2016-11-22T22:49:42Z")
+ (DATE "2016-11-25T22:43:00Z")
  (DESIGN "RealFinal")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")
@@ -117,6 +117,8 @@
     (INTERCONNECT LED_3\(0\)_PAD LED_3\(0\).pad_in (0.000:0.000:0.000))
     (INTERCONNECT LED_2\(0\)_PAD LED_2\(0\).pad_in (0.000:0.000:0.000))
     (INTERCONNECT LED_1\(0\)_PAD LED_1\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Key_Switch\(0\)_PAD Key_Switch\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Servo_En_3\(0\)_PAD Servo_En_3\(0\).pad_in (0.000:0.000:0.000))
    )
   )
  )

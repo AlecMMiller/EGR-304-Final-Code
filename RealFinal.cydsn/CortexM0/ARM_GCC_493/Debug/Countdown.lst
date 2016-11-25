@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
   30:.\Generated_Source\PSoC4/Countdown.c **** * Function Name: Countdown_Init
   31:.\Generated_Source\PSoC4/Countdown.c **** ********************************************************************************
   32:.\Generated_Source\PSoC4/Countdown.c **** *
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 2
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 2
 
 
   33:.\Generated_Source\PSoC4/Countdown.c **** * Summary:
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
   87:.\Generated_Source\PSoC4/Countdown.c ****                 Countdown_CONTROL2 |= Countdown_CTRL_MODE_PULSEWIDTH;
   88:.\Generated_Source\PSoC4/Countdown.c ****             #endif /* Set Continuous Run Mode in CONTROL2 for PSoC5A */
   89:.\Generated_Source\PSoC4/Countdown.c **** 
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 3
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 3
 
 
   90:.\Generated_Source\PSoC4/Countdown.c ****             #if (CY_PSOC3 || CY_PSOC5LP)
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  144:.\Generated_Source\PSoC4/Countdown.c ****         /* Use the interrupt output of the status register for IRQ output */
  145:.\Generated_Source\PSoC4/Countdown.c ****         Countdown_STATUS_AUX_CTRL |= Countdown_STATUS_ACTL_INT_EN_MASK;
  146:.\Generated_Source\PSoC4/Countdown.c **** 
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 4
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 4
 
 
  147:.\Generated_Source\PSoC4/Countdown.c ****         /* Exit Critical Region*/
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
   34              		.loc 1 192 0
   35              		@ sp needed
   36 000a 7047     		bx	lr
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 5
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 5
 
 
   37              	.L3:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  232:.\Generated_Source\PSoC4/Countdown.c **** *
  233:.\Generated_Source\PSoC4/Countdown.c **** * Summary:
  234:.\Generated_Source\PSoC4/Countdown.c **** *  The stop function halts the timer, but does not change any modes or disable
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 6
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 6
 
 
  235:.\Generated_Source\PSoC4/Countdown.c **** *  interrupts.
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  263:.\Generated_Source\PSoC4/Countdown.c **** * Function Name: Countdown_SetInterruptMode
  264:.\Generated_Source\PSoC4/Countdown.c **** ********************************************************************************
  265:.\Generated_Source\PSoC4/Countdown.c **** *
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 7
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 7
 
 
  266:.\Generated_Source\PSoC4/Countdown.c **** * Summary:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  296:.\Generated_Source\PSoC4/Countdown.c **** *  void
  297:.\Generated_Source\PSoC4/Countdown.c **** *
  298:.\Generated_Source\PSoC4/Countdown.c **** * Side Effects:
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 8
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 8
 
 
  299:.\Generated_Source\PSoC4/Countdown.c **** *  An existing hardware capture could be overwritten.
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  330:.\Generated_Source\PSoC4/Countdown.c **** *  Status register bits may be clear on read.
  331:.\Generated_Source\PSoC4/Countdown.c **** *
  332:.\Generated_Source\PSoC4/Countdown.c **** *******************************************************************************/
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 9
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 9
 
 
  333:.\Generated_Source\PSoC4/Countdown.c **** uint8   Countdown_ReadStatusRegister(void) 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  152 0000 014B     		ldr	r3, .L17
  153 0002 1878     		ldrb	r0, [r3]
  154 0004 C0B2     		uxtb	r0, r0
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 10
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 10
 
 
  360:.\Generated_Source\PSoC4/Countdown.c ****     #else
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  182              	.L21:
  183 0006 C046     		.align	2
  184              	.L20:
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 11
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 11
 
 
  185 0008 70000F40 		.word	1074724976
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  213              		.section	.text.Countdown_WritePeriod,"ax",%progbits
  214              		.align	2
  215              		.global	Countdown_WritePeriod
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 12
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 12
 
 
  216              		.code	16
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  243              	Countdown_ReadCapture:
  244              	.LFB13:
  440:.\Generated_Source\PSoC4/Countdown.c **** 
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 13
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 13
 
 
  441:.\Generated_Source\PSoC4/Countdown.c **** 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  471:.\Generated_Source\PSoC4/Countdown.c **** *  This funtion is used to set the counter to a specific value
  472:.\Generated_Source\PSoC4/Countdown.c **** *
  473:.\Generated_Source\PSoC4/Countdown.c **** * Parameters:
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 14
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 14
 
 
  474:.\Generated_Source\PSoC4/Countdown.c **** *  counter:  New counter value.
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  504:.\Generated_Source\PSoC4/Countdown.c **** * Return:
  505:.\Generated_Source\PSoC4/Countdown.c **** *  Present compare value.
  506:.\Generated_Source\PSoC4/Countdown.c **** *
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 15
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 15
 
 
  507:.\Generated_Source\PSoC4/Countdown.c **** *******************************************************************************/
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  533:.\Generated_Source\PSoC4/Countdown.c ****  * implementation.  If a feature is selected, then the API is enabled.
  534:.\Generated_Source\PSoC4/Countdown.c ****  ******************************************************************************/
  535:.\Generated_Source\PSoC4/Countdown.c **** 
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 16
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 16
 
 
  536:.\Generated_Source\PSoC4/Countdown.c **** 
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  590:.\Generated_Source\PSoC4/Countdown.c **** * Summary:
  591:.\Generated_Source\PSoC4/Countdown.c **** *  This function sets the trigger input mode
  592:.\Generated_Source\PSoC4/Countdown.c **** *
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 17
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 17
 
 
  593:.\Generated_Source\PSoC4/Countdown.c **** * Parameters:
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  647:.\Generated_Source\PSoC4/Countdown.c **** * Function Name: Countdown_DisableTrigger
  648:.\Generated_Source\PSoC4/Countdown.c **** ********************************************************************************
  649:.\Generated_Source\PSoC4/Countdown.c **** *
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 18
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 18
 
 
  650:.\Generated_Source\PSoC4/Countdown.c **** * Summary:
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  704:.\Generated_Source\PSoC4/Countdown.c **** 
  705:.\Generated_Source\PSoC4/Countdown.c **** 
  706:.\Generated_Source\PSoC4/Countdown.c **** /*******************************************************************************
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 19
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 19
 
 
  707:.\Generated_Source\PSoC4/Countdown.c **** * Function Name: Countdown_SetCaptureCount
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  761:.\Generated_Source\PSoC4/Countdown.c **** *
  762:.\Generated_Source\PSoC4/Countdown.c **** *******************************************************************************/
  763:.\Generated_Source\PSoC4/Countdown.c **** void Countdown_ClearFIFO(void) 
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 20
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 20
 
 
  764:.\Generated_Source\PSoC4/Countdown.c **** {
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  365 000a 201C     		mov	r0, r4
  366 000c FFF7FEFF 		bl	Countdown_WriteCounter
  367              	.LVL7:
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 21
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 21
 
 
  142:.\Generated_Source\PSoC4/Countdown.c **** 
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  414 0004 1B78     		ldrb	r3, [r3]
  415 0006 002B     		cmp	r3, #0
  416 0008 04D1     		bne	.L44
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 22
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 22
 
 
  219:.\Generated_Source\PSoC4/Countdown.c **** 
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  467 002c 02       		.uleb128 0x2
  468 002d 01       		.byte	0x1
  469 002e 08       		.byte	0x8
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 23
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 23
 
 
  470 002f DA000000 		.4byte	.LASF1
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  524 0094 51030000 		.4byte	.LASF13
  525 0098 04       		.uleb128 0x4
  526 0099 1A010000 		.4byte	.LASF14
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 24
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 24
 
 
  527 009d 02       		.byte	0x2
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  581 0114 0C000000 		.4byte	.LFE7-.LFB7
  582 0118 01       		.uleb128 0x1
  583 0119 9C       		.byte	0x9c
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 25
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 25
 
 
  584 011a 0A       		.uleb128 0xa
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  638 0198 3A000000 		.4byte	.LASF28
  639 019c 01       		.byte	0x1
  640 019d AF01     		.2byte	0x1af
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 26
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 26
 
 
  641 019f 77000000 		.4byte	0x77
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  695 021f 00       		.byte	0
  696 0220 0C       		.uleb128 0xc
  697 0221 2B000000 		.4byte	.LASF34
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 27
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 27
 
 
  698 0225 01       		.byte	0x1
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  752 0297 0C       		.uleb128 0xc
  753 0298 56030000 		.4byte	.LASF35
  754 029c 01       		.byte	0x1
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 28
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 28
 
 
  755 029d D7       		.byte	0xd7
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  809 0012 00       		.byte	0
  810 0013 02       		.uleb128 0x2
  811 0014 24       		.uleb128 0x24
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 29
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 29
 
 
  812 0015 00       		.byte	0
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  866 004b 01       		.uleb128 0x1
  867 004c 12       		.uleb128 0x12
  868 004d 06       		.uleb128 0x6
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 30
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 30
 
 
  869 004e 40       		.uleb128 0x40
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  923 0086 0B       		.uleb128 0xb
  924 0087 3B       		.uleb128 0x3b
  925 0088 05       		.uleb128 0x5
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 31
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 31
 
 
  926 0089 27       		.uleb128 0x27
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  980 00c3 0B       		.uleb128 0xb
  981 00c4 3B       		.uleb128 0x3b
  982 00c5 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 32
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 32
 
 
  983 00c6 27       		.uleb128 0x27
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  1037 0104 31       		.uleb128 0x31
  1038 0105 13       		.uleb128 0x13
  1039 0106 00       		.byte	0
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 33
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 33
 
 
  1040 0107 00       		.byte	0
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  1094 013d 14       		.uleb128 0x14
  1095 013e 05       		.uleb128 0x5
  1096 013f 00       		.byte	0
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 34
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 34
 
 
  1097 0140 49       		.uleb128 0x49
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  1151              		.section	.debug_ranges,"",%progbits
  1152              	.Ldebug_ranges0:
  1153 0000 00000000 		.4byte	.LFB3
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 35
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 35
 
 
  1154 0004 10000000 		.4byte	.LFE3
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  1195      6F6400
  1196              	.LASF40:
  1197 0041 436F756E 		.ascii	"Countdown_initVar\000"
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 36
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 36
 
 
  1197      74646F77 
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  1217      6E5F5265 
  1217      61645065 
  1217      72696F64 
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 37
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 37
 
 
  1218              	.LASF14:
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  1241      63616C53 
  1241      65637469 
  1242              	.LASF8:
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 38
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 38
 
 
  1243 01c8 756E7369 		.ascii	"unsigned int\000"
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 1
  1262      4320342E 
  1262      392E3320 
  1262      32303135 
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cc2NqWig.s 			page 39
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccwV0Vrk.s 			page 39
 
 
  1262      30333033 

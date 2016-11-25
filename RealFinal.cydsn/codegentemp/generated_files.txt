@@ -52,6 +52,14 @@
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Countdown_PM.c" value="ARM_C_FILE;Countdown" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\timer_interrupt.c" value="ARM_C_FILE;timer_interrupt" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\timer_interrupt.h" value="NONE;timer_interrupt" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Key_Switch.c" value="ARM_C_FILE;Key_Switch" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Key_Switch.h" value="NONE;Key_Switch" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Key_Switch_aliases.h" value="NONE;Key_Switch" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Key_Switch_PM.c" value="ARM_C_FILE;Key_Switch" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Servo_En_3.c" value="ARM_C_FILE;Servo_En_3" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Servo_En_3.h" value="NONE;Servo_En_3" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Servo_En_3_aliases.h" value="NONE;Servo_En_3" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Servo_En_3_PM.c" value="ARM_C_FILE;Servo_En_3" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\cycodeshareimport.ld" value="NONE;" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\cycodeshareexport.ld" value="NONE;" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\cycodeshareimport.scat" value="NONE;" />
