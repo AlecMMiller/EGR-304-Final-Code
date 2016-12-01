@@ -265,11 +265,12 @@ int main()
         /*******************************************************************
         *  Process all pending BLE events in the stack
         *******************************************************************/
-        if (strcmp(inString,"")){
-            UART_UartPutString("\nsentstring:\r");
-            UART_UartPutString(inString);
-            UART_UartPutString("|");
-            sentString = inString;
+        if (!strcmp(inString,"hi")){
+            //UART_UartPutString("\nsentstring:\r");
+            //UART_UartPutString(inString);
+            //UART_UartPutString("|");
+            //sentString = inString;
+            sentString = "Fuck you\r";
             inString = "";
         }
         HandleBleProcessing();
