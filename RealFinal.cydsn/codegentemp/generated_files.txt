@@ -60,6 +60,52 @@
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Servo_En_3.h" value="NONE;Servo_En_3" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Servo_En_3_aliases.h" value="NONE;Servo_En_3" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Servo_En_3_PM.c" value="ARM_C_FILE;Servo_En_3" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART.c" value="ARM_C_FILE;UART" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART.h" value="NONE;UART" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_SPI_UART.h" value="NONE;UART" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_SPI_UART.c" value="ARM_C_FILE;UART" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_SPI_UART_INT.c" value="ARM_C_FILE;UART" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_PM.c" value="ARM_C_FILE;UART" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_UART.c" value="ARM_C_FILE;UART" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_BOOT.c" value="ARM_C_FILE;UART" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_UART_BOOT.c" value="ARM_C_FILE;UART" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_PINS.h" value="NONE;UART" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_SPI_UART_PVT.h" value="NONE;UART" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_PVT.h" value="NONE;UART" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_BOOT.h" value="NONE;UART" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_gatt.h" value="NONE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE.h" value="NONE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE.c" value="ARM_C_FILE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_gatt.c" value="ARM_C_FILE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_eventHandler.c" value="ARM_C_FILE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_HAL_INT.c" value="ARM_C_FILE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_HAL_PVT.c" value="ARM_C_FILE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_HAL_PVT.h" value="NONE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_STACK_PVT.h" value="NONE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_StackGap.h" value="NONE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_StackGatt.h" value="NONE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_StackGattDb.h" value="NONE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_StackHostMain.h" value="NONE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_StackL2cap.h" value="NONE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_StackGattServer.h" value="NONE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_StackGattClient.h" value="NONE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_Stack.h" value="NONE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_eventHandler.h" value="NONE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_custom.h" value="NONE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_custom.c" value="ARM_C_FILE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_SCBCLK.c" value="ARM_C_FILE;UART_SCBCLK" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_SCBCLK.h" value="NONE;UART_SCBCLK" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_tx.c" value="ARM_C_FILE;UART_tx" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_tx.h" value="NONE;UART_tx" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_tx_aliases.h" value="NONE;UART_tx" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_tx_PM.c" value="ARM_C_FILE;UART_tx" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_rx.c" value="ARM_C_FILE;UART_rx" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_rx.h" value="NONE;UART_rx" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_rx_aliases.h" value="NONE;UART_rx" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_rx_PM.c" value="ARM_C_FILE;UART_rx" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_bless_isr.c" value="ARM_C_FILE;BLE_bless_isr" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_bless_isr.h" value="NONE;BLE_bless_isr" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE.cycsa" value="NONE;" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\cycodeshareimport.ld" value="NONE;" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\cycodeshareexport.ld" value="NONE;" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\cycodeshareimport.scat" value="NONE;" />

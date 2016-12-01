@@ -1,4 +1,5 @@
 #include <project.h>
+#include "main.h"
 
 #define  CHALLENGE_TIME 10
 
@@ -12,6 +13,8 @@ unsigned int count = CHALLENGE_TIME;
 uint8_t battery_state = 3;
 uint8_t system_state = ACTIVE;
 int dumb_placeholder;
+char* sentString = "this test";
+char* inString = "";
 
 typedef struct { // Servo object
     void (*pwmPtr)(uint16_t);
@@ -151,6 +154,56 @@ Manipulator create_manipulator(void (en_ptr)(uint8),
 
 int main()
 {
+    #ifdef LOW_POWER_MODE    
+        CYBLE_LP_MODE_T         lpMode;
+        CYBLE_BLESS_STATE_T     blessState;
+    #endif
+    
+    CYBLE_API_RESULT_T      bleApiResult;
+    
+    CyGlobalIntEnable;
+    
+    /* Start UART and BLE component and display project information */
+    UART_Start();   
+    bleApiResult = CyBle_Start(AppCallBack); 
+    
+    if(bleApiResult == CYBLE_ERROR_OK)
+    {
+        #ifdef PRINT_MESSAGE_LOG
+            UART_UartPutString("\n\r************************************************************");
+            UART_UartPutString("\n\r***************** BLE UART example project *****************");
+            UART_UartPutString("\n\r************************************************************\n\r");
+            UART_UartPutString("\n\rDevice role \t: PERIPHERAL");
+            
+            #ifdef LOW_POWER_MODE
+                UART_UartPutString("\n\rLow Power Mode \t: ENABLED");
+            #else
+                UART_UartPutString("\n\rLow Power Mode \t: DISABLED");
+            #endif
+            
+            #ifdef FLOW_CONTROL
+                UART_UartPutString("\n\rFlow Control \t: ENABLED");  
+            #else
+                UART_UartPutString("\n\rFlow Control \t: DISABLED");
+            #endif
+            
+        #endif
+    }
+    else
+    {
+        #ifdef PRINT_MESSAGE_LOG   
+            UART_UartPutString("\n\r\t\tCyBle stack initilization FAILED!!! \n\r ");
+        #endif
+        
+        /* Enter infinite loop */
+        while(1);
+    }
+    
+    CyBle_ProcessEvents();
+    
+    /***************************************************************************
+    * Main polling loop
+    ***************************************************************************/
     Countdown_Start();
     timer_interrupt_StartEx(TIMER_ISR);
     CyGlobalIntEnable; /* Enable global interrupts. */
@@ -160,6 +213,68 @@ int main()
     set_battery_light(0b111);
     for(;;)
     {
+        #ifdef LOW_POWER_MODE
+            
+            if((CyBle_GetState() != CYBLE_STATE_INITIALIZING) && (CyBle_GetState() != CYBLE_STATE_DISCONNECTED))
+            {
+                /* Enter DeepSleep mode between connection intervals */
+                
+                lpMode = CyBle_EnterLPM(CYBLE_BLESS_DEEPSLEEP);
+                CyGlobalIntDisable;
+                blessState = CyBle_GetBleSsState();
+
+                if(lpMode == CYBLE_BLESS_DEEPSLEEP) 
+                {   
+                    if((blessState == CYBLE_BLESS_STATE_ECO_ON || blessState == CYBLE_BLESS_STATE_DEEPSLEEP) && \
+                            (UART_SpiUartGetTxBufferSize() + UART_GET_TX_FIFO_SR_VALID) == 0u)
+                    {
+                        #ifdef FLOW_CONTROL
+                        EnableUartRxInt();
+                        #endif
+                        
+                        CySysPmSleep();
+                        
+                        #ifdef FLOW_CONTROL
+                        DisableUartRxInt();
+                        #endif
+                    }
+                }
+                else
+                {
+                    if((blessState != CYBLE_BLESS_STATE_EVENT_CLOSE) && \
+                            (UART_SpiUartGetTxBufferSize() + UART_GET_TX_FIFO_SR_VALID) == 0u)
+                    {
+                        #ifdef FLOW_CONTROL
+                        EnableUartRxInt();
+                        #endif
+                        
+                        CySysPmSleep();
+                        
+                        #ifdef FLOW_CONTROL
+                        DisableUartRxInt();
+                        #endif
+                    }
+                }
+                CyGlobalIntEnable;
+                
+            }
+        #else
+            HandleLeds();
+        #endif
+        
+        /*******************************************************************
+        *  Process all pending BLE events in the stack
+        *******************************************************************/
+        if (strcmp(inString,"")){
+            UART_UartPutString("\nsentstring:\r");
+            UART_UartPutString(inString);
+            UART_UartPutString("|");
+            sentString = inString;
+            inString = "";
+        }
+        HandleBleProcessing();
+        CyBle_ProcessEvents();
+        
         switch(system_state){
             case ACTIVE:
                 Servo_En_2_Write(0);

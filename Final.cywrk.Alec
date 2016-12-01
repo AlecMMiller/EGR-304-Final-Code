@@ -13,18 +13,47 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Final\RealFinal\Source Files\main.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Final\RealFinal\Source Files\app_UART.c">
 <ExpandedNodeIds>
 <v>Final</v>
 <v>Final\RealFinal</v>
 <v>Final\RealFinal\TopDesign</v>
 <v>Final\RealFinal\RealFinal.cydwr</v>
 <v>Final\RealFinal\Header Files</v>
+<v>Final\RealFinal\Header Files\app_Ble.h</v>
+<v>Final\RealFinal\Header Files\app_UART.h</v>
 <v>Final\RealFinal\Header Files\cyapicallbacks.h</v>
+<v>Final\RealFinal\Header Files\main.h</v>
 <v>Final\RealFinal\Source Files</v>
+<v>Final\RealFinal\Source Files\app_Ble.c</v>
+<v>Final\RealFinal\Source Files\app_UART.c</v>
 <v>Final\RealFinal\Source Files\main.c</v>
 <v>Final\RealFinal\Generated_Source</v>
 <v>Final\RealFinal\Generated_Source\PSoC4</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_custom.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_custom.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_eventHandler.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_eventHandler.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_gatt.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_gatt.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_HAL_INT.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_HAL_PVT.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_HAL_PVT.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_Stack.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_STACK_PVT.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_StackGap.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_StackGatt.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_StackGattClient.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_StackGattDb.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_StackGattServer.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_StackHostMain.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_StackL2cap.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE_bless_isr</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE_bless_isr\BLE_bless_isr.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE_bless_isr\BLE_bless_isr.h</v>
 <v>Final\RealFinal\Generated_Source\PSoC4\Clock_1</v>
 <v>Final\RealFinal\Generated_Source\PSoC4\Clock_1\Clock_1.c</v>
 <v>Final\RealFinal\Generated_Source\PSoC4\Clock_1\Clock_1.h</v>
@@ -110,6 +139,34 @@
 <v>Final\RealFinal\Generated_Source\PSoC4\timer_interrupt</v>
 <v>Final\RealFinal\Generated_Source\PSoC4\timer_interrupt\timer_interrupt.c</v>
 <v>Final\RealFinal\Generated_Source\PSoC4\timer_interrupt\timer_interrupt.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART\UART.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART\UART.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART\UART_BOOT.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART\UART_BOOT.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART\UART_PINS.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART\UART_PM.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART\UART_PVT.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART\UART_SPI_UART.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART\UART_SPI_UART.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART\UART_SPI_UART_INT.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART\UART_SPI_UART_PVT.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART\UART_UART.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART\UART_UART_BOOT.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART_rx</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART_rx\UART_rx.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART_rx\UART_rx.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART_rx\UART_rx_aliases.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART_rx\UART_rx_PM.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART_SCBCLK</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART_SCBCLK\UART_SCBCLK.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART_SCBCLK\UART_SCBCLK.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART_tx</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART_tx\UART_tx.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART_tx\UART_tx.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART_tx\UART_tx_aliases.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\UART_tx\UART_tx_PM.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE.cycsa</v>
 <v>Final\RealFinal\Generated_Source\PSoC4\cycodeshareexport.ld</v>
 <v>Final\RealFinal\Generated_Source\PSoC4\cycodeshareimport.ld</v>
 <v>Final\RealFinal\Generated_Source\PSoC4\cycodeshareimport.scat</v>
@@ -133,11 +190,40 @@
 <v>Final\RealFinal\TopDesign</v>
 <v>Final\RealFinal\RealFinal.cydwr</v>
 <v>Final\RealFinal\Header Files</v>
+<v>Final\RealFinal\Header Files\app_Ble.h</v>
+<v>Final\RealFinal\Header Files\app_UART.h</v>
 <v>Final\RealFinal\Header Files\cyapicallbacks.h</v>
+<v>Final\RealFinal\Header Files\main.h</v>
 <v>Final\RealFinal\Source Files</v>
+<v>Final\RealFinal\Source Files\app_Ble.c</v>
+<v>Final\RealFinal\Source Files\app_UART.c</v>
 <v>Final\RealFinal\Source Files\main.c</v>
 <v>Final\RealFinal\Generated_Source</v>
 <v>Final\RealFinal\Generated_Source\PSoC4</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_custom.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_custom.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_eventHandler.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_eventHandler.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_gatt.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_gatt.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_HAL_INT.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_HAL_PVT.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_HAL_PVT.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_Stack.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_STACK_PVT.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_StackGap.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_StackGatt.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_StackGattClient.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_StackGattDb.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_StackGattServer.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_StackHostMain.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE\BLE_StackL2cap.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE_bless_isr</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE_bless_isr\BLE_bless_isr.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\BLE_bless_isr\BLE_bless_isr.h</v>
 <v>Final\RealFinal\Generated_Source\PSoC4\Clock_1</v>
 <v>Final\RealFinal\Generated_Source\PSoC4\Clock_1\Clock_1.c</v>
 <v>Final\RealFinal\Generated_Source\PSoC4\Clock_1\Clock_1.h</v>
@@ -149,21 +235,6 @@
 <v>Final\RealFinal\Generated_Source\PSoC4\cy_boot\cm0gcc.ld</v>
 <v>Final\RealFinal\Generated_Source\PSoC4\cy_boot\Cm0Iar.icf</v>
 <v>Final\RealFinal\Generated_Source\PSoC4\cy_boot\Cm0RealView.scat</v>
-<v>Final\RealFinal\Generated_Source\PSoC4\cy_boot\Cm0Start.c</v>
-<v>Final\RealFinal\Generated_Source\PSoC4\cy_boot\cmsis_armcc.h</v>
-<v>Final\RealFinal\Generated_Source\PSoC4\cy_boot\cmsis_gcc.h</v>
-<v>Final\RealFinal\Generated_Source\PSoC4\cy_boot\core_cm0.h</v>
-<v>Final\RealFinal\Generated_Source\PSoC4\cy_boot\core_cm0_psoc4.h</v>
-<v>Final\RealFinal\Generated_Source\PSoC4\cy_boot\core_cmFunc.h</v>
-<v>Final\RealFinal\Generated_Source\PSoC4\cy_boot\core_cmInstr.h</v>
-<v>Final\RealFinal\Generated_Source\PSoC4\cy_boot\CyBootAsmGnu.s</v>
-<v>Final\RealFinal\Generated_Source\PSoC4\cy_boot\CyBootAsmIar.s</v>
-<v>Final\RealFinal\Generated_Source\PSoC4\cy_boot\CyBootAsmRv.s</v>
-<v>Final\RealFinal\Generated_Source\PSoC4\cy_boot\CyFlash.c</v>
-<v>Final\RealFinal\Generated_Source\PSoC4\cy_boot\CyFlash.h</v>
-<v>Final\RealFinal\Generated_Source\PSoC4\cy_boot\CyLib.c</v>
-<v>Final\RealFinal\Generated_Source\PSoC4\cy_boot\CyLib.h</v>
-<v>Final\RealFinal\Generated_Source\PSoC4\cy_boot\cypins.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -188,6 +259,15 @@
 <v>Final\RealFinal\CortexM0\ARM_GCC_493</v>
 <v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug</v>
 <v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\app_Ble.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\app_UART.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_bless_isr.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_custom.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_eventHandler.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_gatt.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_HAL_INT.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_HAL_PVT.lst</v>
 <v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
 <v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
 <v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\Countdown.lst</v>
@@ -222,6 +302,18 @@
 <v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\Servo_En_3.lst</v>
 <v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\Servo_En_3_PM.lst</v>
 <v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\timer_interrupt.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\UART.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_BOOT.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_PM.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx_PM.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SCBCLK.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SPI_UART.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SPI_UART_INT.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_tx.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_tx_PM.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_UART.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_UART_BOOT.lst</v>
 <v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\RealFinal.elf</v>
 <v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\RealFinal.hex</v>
 <v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\RealFinal.map</v>
@@ -232,40 +324,6 @@
 <VisibleNodeIds>
 <v>Final</v>
 <v>Final\RealFinal</v>
-<v>Final\RealFinal\CortexM0</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\Countdown.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\Countdown_PM.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\Key_Switch.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\Key_Switch_PM.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_1.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_1_PM.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_2.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_2_PM.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_3.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_3_PM.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\PWM_1.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\PWM_1_PM.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\PWM_Out_1.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\PWM_Out_1_PM.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\PWM_Out_2.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\PWM_Out_2_PM.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\Servo_En_1.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\Servo_En_1_PM.lst</v>
-<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\Servo_En_2.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -282,6 +340,7 @@
 <v>Final\RealFinal\System Reference Guides</v>
 <v>Final\RealFinal\System Reference Guides\cy_boot_v5_40</v>
 <v>Final\RealFinal\System Reference Guides\cy_lfclk_v1_10</v>
+<v>Final\RealFinal\BLE_v3_10.pdf</v>
 <v>Final\RealFinal\cy_clock_v2_20</v>
 <v>Final\RealFinal\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
 <v>Final\RealFinal\cy_constant_v1_0.pdf</v>
@@ -289,6 +348,7 @@
 <v>Final\RealFinal\cy_pins_v2_20</v>
 <v>Final\RealFinal\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>Final\RealFinal\PWM_v3_30.pdf</v>
+<v>Final\RealFinal\SCB_P4_v3_20.pdf</v>
 <v>Final\RealFinal\Timer_v2_70.pdf</v>
 <v>Final\RealFinal\ZeroTerminal.pdf</v>
 </ExpandedNodeIds>
@@ -300,6 +360,7 @@
 <v>Final\RealFinal\System Reference Guides</v>
 <v>Final\RealFinal\System Reference Guides\cy_boot_v5_40</v>
 <v>Final\RealFinal\System Reference Guides\cy_lfclk_v1_10</v>
+<v>Final\RealFinal\BLE_v3_10.pdf</v>
 <v>Final\RealFinal\cy_clock_v2_20</v>
 <v>Final\RealFinal\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
 <v>Final\RealFinal\cy_constant_v1_0.pdf</v>
@@ -307,6 +368,7 @@
 <v>Final\RealFinal\cy_pins_v2_20</v>
 <v>Final\RealFinal\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>Final\RealFinal\PWM_v3_30.pdf</v>
+<v>Final\RealFinal\SCB_P4_v3_20.pdf</v>
 <v>Final\RealFinal\Timer_v2_70.pdf</v>
 <v>Final\RealFinal\ZeroTerminal.pdf</v>
 </VisibleNodeIds>
