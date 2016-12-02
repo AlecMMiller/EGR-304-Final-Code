@@ -68,10 +68,6 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\PWM_Out_1.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\PWM_Out_1_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\PWM_Out_1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\PWM_Out_2.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\PWM_Out_2.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\PWM_Out_2_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\PWM_Out_2_PM.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\cycodeshareimport.ld</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\cycodeshareexport.ld</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\cycodeshareimport.scat</File>
@@ -178,6 +174,14 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\UART_rx_PM.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\BLE_bless_isr.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\BLE_bless_isr.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Laser.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Laser.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Laser_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Laser_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Sensor.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Sensor.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Sensor_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Sensor_PM.c</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\Export\ARM_GCC_Generic\BLE_v3_10">

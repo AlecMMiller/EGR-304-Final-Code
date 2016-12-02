@@ -3,7 +3,7 @@
 #include <math.h>
 #include "main.h"
 
-#define  CHALLENGE_TIME 10
+#define  CHALLENGE_TIME 100
 
 enum states{
     ACTIVE,
@@ -14,6 +14,7 @@ enum states{
 unsigned int count = CHALLENGE_TIME;
 uint8_t battery_state = 3;
 uint8_t system_state = ACTIVE;
+uint8_t last_key_state = 0;
 int dumb_placeholder;
 char* sentString = "this test";
 char* inString = "";
@@ -28,18 +29,14 @@ typedef struct { // Servo object
 typedef struct {
     void (*activatePtr)(uint8);
     
-    uint16_t YAW_MAX;
-    uint16_t YAW_MIN;
-    uint16_t YAW_RESET;
-    uint16_t yaw_current;
-    Servo yawServo;
-    
-    uint16_t PITCH_MAX;
-    uint16_t PITCH_MIN;
-    uint16_t PITCH_RESET;
-    uint16_t pitch_current;
-    Servo pitchServo;
+    uint16_t ANGLE_MAX;
+    uint16_t ANGLE_MIN;
+    uint16_t ANGLE_RESET;
+    uint16_t angle_current;
+    Servo Servo;
 } Manipulator;
+
+Manipulator CurrentManipulator;
 
 void set_servo(Servo servo, uint8_t angle){ // Set servo to the angle specified
     double setpoint = angle * servo.range / 180 + servo.min;
@@ -47,12 +44,12 @@ void set_servo(Servo servo, uint8_t angle){ // Set servo to the angle specified
 }
 
 void set_current_manipulator(Manipulator manipulator){
+    CurrentManipulator = manipulator;
     Servo_En_1_Write(0);
     Servo_En_2_Write(0);
     Servo_En_3_Write(0);
     
-    set_servo(manipulator.pitchServo,manipulator.pitch_current);
-    set_servo(manipulator.yawServo,manipulator.yaw_current);
+    set_servo(manipulator.Servo,manipulator.angle_current);
     
     manipulator.activatePtr(1);
 }
@@ -79,12 +76,15 @@ void go_to_state(uint8_t state){
     
     switch(state) {
         case ACTIVE:
+            UART_UartPutString("System active\n");
             set_battery_light(0b111);
             battery_state = 3;
             system_state = ACTIVE;
             break;
     
         case OFF:
+            UART_UartPutString("System inactive\n");
+            sentString = "System down\r";
             break;
         
         case VICTORY:
@@ -110,7 +110,7 @@ CY_ISR(TIMER_ISR){
                 
             case 0:
                 set_battery_light(0b000);
-                system_state = OFF;
+                go_to_state(OFF);
                 break;
                 
            }
@@ -128,30 +128,31 @@ Servo create_servo(void (pwm_ptr)(uint16_t), uint16_t min, uint16_t max){ // Ini
 }
 
 Manipulator create_manipulator(void (en_ptr)(uint8),
-                                uint16_t yaw_min, uint16_t yaw_max,
-                                uint16_t yaw_reset,
-                                uint16_t yaw_full, uint16_t yaw_none,
-                                uint16_t pitch_min, uint16_t pitch_max,
-                                uint16_t pitch_full, uint16_t pitch_none,
-                                uint16_t pitch_reset)
+                                uint16_t angle_min, uint16_t angle_max,
+                                uint16_t per_full, uint16_t per_none,
+                                uint16_t angle_reset)
 {                                    
     
     Manipulator createdManipulator;
     createdManipulator.activatePtr = en_ptr;
                                     
-    createdManipulator.PITCH_MAX = pitch_max;
-    createdManipulator.PITCH_MIN = pitch_min;
-    createdManipulator.PITCH_RESET = pitch_reset;
-    createdManipulator.pitch_current = pitch_reset;
-    createdManipulator.pitchServo = create_servo(PWM_1_WriteCompare1,pitch_none,pitch_full);
-    
-    createdManipulator.YAW_MAX = yaw_max;
-    createdManipulator.YAW_MIN = yaw_min;
-    createdManipulator.YAW_RESET = yaw_reset;
-    createdManipulator.yaw_current = yaw_reset;
-    createdManipulator.yawServo = create_servo(PWM_1_WriteCompare2,yaw_none,yaw_full);
+    createdManipulator.ANGLE_MIN = angle_min;
+    createdManipulator.ANGLE_MAX = angle_max;
+    createdManipulator.ANGLE_RESET = angle_reset;
+    createdManipulator.angle_current = angle_reset;
+    createdManipulator.Servo = create_servo(PWM_1_WriteCompare,per_none,per_full);
     
     return createdManipulator;
+}
+
+void SetDesiredAngle(uint8 angle){
+    if (angle > CurrentManipulator.ANGLE_MAX){
+        angle = CurrentManipulator.ANGLE_MAX;
+    } else if (angle < CurrentManipulator.ANGLE_MIN) {
+        angle = CurrentManipulator.ANGLE_MIN;
+    }
+    
+    CurrentManipulator.angle_current = angle;
 }
 
 void UpdatePositions(){
@@ -179,10 +180,12 @@ void UpdatePositions(){
             }
             
             if(isValid){
-                sentString = "Is number\r";
-                sprintf(debug, "Length: %d\n", holdingVar);
-                UART_UartPutString(debug);
+                SetDesiredAngle(holdingVar);
+//                sentString = "Is number\r";
+//                sprintf(debug, "Length: %d\n", holdingVar);
+//                UART_UartPutString(debug);
             }
+            //SetDesiredAngle(CurrentManipulator.angle_current + holdingVar);
             //sprintf(sentString, "test");
         } else {
             UART_UartPutString(inString);    
@@ -246,9 +249,25 @@ int main()
     timer_interrupt_StartEx(TIMER_ISR);
     CyGlobalIntEnable; /* Enable global interrupts. */
     PWM_1_Enable();
-    Servo servoBottom =  create_servo(PWM_1_WriteCompare1,1400,6750);
-    Servo servoTop =  create_servo(PWM_1_WriteCompare2,6900,1650);
     set_battery_light(0b111);
+    
+    Manipulator Servo1 = create_manipulator(Servo_En_1_Write,
+                                0, 180,
+                                6750, 1400,
+                                90);
+    
+    Manipulator Servo2 = create_manipulator(Servo_En_2_Write,
+                                0, 180,
+                                6750, 1400,
+                                90);
+    
+    Manipulator Servo3 = create_manipulator(Servo_En_3_Write,
+                                0, 180,
+                                6750, 1400,
+                                90);
+    
+    CurrentManipulator = Servo1;
+    
     for(;;)
     {
         #ifdef LOW_POWER_MODE
@@ -309,16 +328,19 @@ int main()
         switch(system_state){
             case ACTIVE:
                 UpdatePositions();
-                Servo_En_2_Write(0);
-                Servo_En_1_Write(1);
-                CyDelay(10);
-                dumb_placeholder++;
-                set_servo(servoBottom,dumb_placeholder);
-                set_servo(servoTop,dumb_placeholder);
+                set_servo(CurrentManipulator.Servo, CurrentManipulator.angle_current);
+                //Servo_En_2_Write(0);
+                //Servo_En_1_Write(1);
+                //CyDelay(10);
+                //dumb_placeholder++;
+                //set_servo(servoBottom,dumb_placeholder);
+                //set_servo(servoTop,dumb_placeholder);
                 break;
             case OFF:
-                set_servo(servoBottom,0);
-                set_servo(servoTop,0);
+                //if K
+                //set_servo(servoBottom,0);
+                //set_servo(servoTop,0);
+                break;
         }
     }
 }

@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: PWM_Out_2.c  
+* File Name: Laser.c  
 * Version 2.20
 *
 * Description:
@@ -13,35 +13,35 @@
 *******************************************************************************/
 
 #include "cytypes.h"
-#include "PWM_Out_2.h"
+#include "Laser.h"
 
 
-#if defined(PWM_Out_2__PC)
-    #define PWM_Out_2_SetP4PinDriveMode(shift, mode)  \
+#if defined(Laser__PC)
+    #define Laser_SetP4PinDriveMode(shift, mode)  \
     do { \
-        PWM_Out_2_PC =   (PWM_Out_2_PC & \
-                                (uint32)(~(uint32)(PWM_Out_2_DRIVE_MODE_IND_MASK << \
-                                (PWM_Out_2_DRIVE_MODE_BITS * (shift))))) | \
+        Laser_PC =   (Laser_PC & \
+                                (uint32)(~(uint32)(Laser_DRIVE_MODE_IND_MASK << \
+                                (Laser_DRIVE_MODE_BITS * (shift))))) | \
                                 (uint32)((uint32)(mode) << \
-                                (PWM_Out_2_DRIVE_MODE_BITS * (shift))); \
+                                (Laser_DRIVE_MODE_BITS * (shift))); \
     } while (0)
 #else
     #if (CY_PSOC4_4200L)
-        #define PWM_Out_2_SetP4PinDriveMode(shift, mode)  \
+        #define Laser_SetP4PinDriveMode(shift, mode)  \
         do { \
-            PWM_Out_2_USBIO_CTRL_REG = (PWM_Out_2_USBIO_CTRL_REG & \
-                                    (uint32)(~(uint32)(PWM_Out_2_DRIVE_MODE_IND_MASK << \
-                                    (PWM_Out_2_DRIVE_MODE_BITS * (shift))))) | \
+            Laser_USBIO_CTRL_REG = (Laser_USBIO_CTRL_REG & \
+                                    (uint32)(~(uint32)(Laser_DRIVE_MODE_IND_MASK << \
+                                    (Laser_DRIVE_MODE_BITS * (shift))))) | \
                                     (uint32)((uint32)(mode) << \
-                                    (PWM_Out_2_DRIVE_MODE_BITS * (shift))); \
+                                    (Laser_DRIVE_MODE_BITS * (shift))); \
         } while (0)
     #endif
 #endif
   
 
-#if defined(PWM_Out_2__PC) || (CY_PSOC4_4200L) 
+#if defined(Laser__PC) || (CY_PSOC4_4200L) 
     /*******************************************************************************
-    * Function Name: PWM_Out_2_SetDriveMode
+    * Function Name: Laser_SetDriveMode
     ****************************************************************************//**
     *
     * \brief Sets the drive mode for each of the Pins component's pins.
@@ -67,17 +67,17 @@
     *  APIs (primary method) or disable interrupts around this function.
     *
     * \funcusage
-    *  \snippet PWM_Out_2_SUT.c usage_PWM_Out_2_SetDriveMode
+    *  \snippet Laser_SUT.c usage_Laser_SetDriveMode
     *******************************************************************************/
-    void PWM_Out_2_SetDriveMode(uint8 mode)
+    void Laser_SetDriveMode(uint8 mode)
     {
-		PWM_Out_2_SetP4PinDriveMode(PWM_Out_2__0__SHIFT, mode);
+		Laser_SetP4PinDriveMode(Laser__0__SHIFT, mode);
     }
 #endif
 
 
 /*******************************************************************************
-* Function Name: PWM_Out_2_Write
+* Function Name: Laser_Write
 ****************************************************************************//**
 *
 * \brief Writes the value to the physical port (data output register), masking
@@ -106,18 +106,18 @@
 *  this function.
 *
 * \funcusage
-*  \snippet PWM_Out_2_SUT.c usage_PWM_Out_2_Write
+*  \snippet Laser_SUT.c usage_Laser_Write
 *******************************************************************************/
-void PWM_Out_2_Write(uint8 value)
+void Laser_Write(uint8 value)
 {
-    uint8 drVal = (uint8)(PWM_Out_2_DR & (uint8)(~PWM_Out_2_MASK));
-    drVal = (drVal | ((uint8)(value << PWM_Out_2_SHIFT) & PWM_Out_2_MASK));
-    PWM_Out_2_DR = (uint32)drVal;
+    uint8 drVal = (uint8)(Laser_DR & (uint8)(~Laser_MASK));
+    drVal = (drVal | ((uint8)(value << Laser_SHIFT) & Laser_MASK));
+    Laser_DR = (uint32)drVal;
 }
 
 
 /*******************************************************************************
-* Function Name: PWM_Out_2_Read
+* Function Name: Laser_Read
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port (pin status register) and masks 
@@ -131,16 +131,16 @@ void PWM_Out_2_Write(uint8 value)
 *  The current value for the pins in the component as a right justified number.
 *
 * \funcusage
-*  \snippet PWM_Out_2_SUT.c usage_PWM_Out_2_Read  
+*  \snippet Laser_SUT.c usage_Laser_Read  
 *******************************************************************************/
-uint8 PWM_Out_2_Read(void)
+uint8 Laser_Read(void)
 {
-    return (uint8)((PWM_Out_2_PS & PWM_Out_2_MASK) >> PWM_Out_2_SHIFT);
+    return (uint8)((Laser_PS & Laser_MASK) >> Laser_SHIFT);
 }
 
 
 /*******************************************************************************
-* Function Name: PWM_Out_2_ReadDataReg
+* Function Name: Laser_ReadDataReg
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port's data output register and masks 
@@ -149,8 +149,8 @@ uint8 PWM_Out_2_Read(void)
 *
 * The data output register controls the signal applied to the physical pin in 
 * conjunction with the drive mode parameter. This is not the same as the 
-* preferred PWM_Out_2_Read() API because the 
-* PWM_Out_2_ReadDataReg() reads the data register instead of the status 
+* preferred Laser_Read() API because the 
+* Laser_ReadDataReg() reads the data register instead of the status 
 * register. For output pins this is a useful function to determine the value 
 * just written to the pin.
 *
@@ -159,16 +159,16 @@ uint8 PWM_Out_2_Read(void)
 *  justified number for the component instance.
 *
 * \funcusage
-*  \snippet PWM_Out_2_SUT.c usage_PWM_Out_2_ReadDataReg 
+*  \snippet Laser_SUT.c usage_Laser_ReadDataReg 
 *******************************************************************************/
-uint8 PWM_Out_2_ReadDataReg(void)
+uint8 Laser_ReadDataReg(void)
 {
-    return (uint8)((PWM_Out_2_DR & PWM_Out_2_MASK) >> PWM_Out_2_SHIFT);
+    return (uint8)((Laser_DR & Laser_MASK) >> Laser_SHIFT);
 }
 
 
 /*******************************************************************************
-* Function Name: PWM_Out_2_SetInterruptMode
+* Function Name: Laser_SetInterruptMode
 ****************************************************************************//**
 *
 * \brief Configures the interrupt mode for each of the Pins component's
@@ -181,12 +181,12 @@ uint8 PWM_Out_2_ReadDataReg(void)
 * \param position
 *  The pin position as listed in the Pins component. You may OR these to be 
 *  able to configure the interrupt mode of multiple pins within a Pins 
-*  component. Or you may use PWM_Out_2_INTR_ALL to configure the
+*  component. Or you may use Laser_INTR_ALL to configure the
 *  interrupt mode of all the pins in the Pins component.       
-*  - PWM_Out_2_0_INTR       (First pin in the list)
-*  - PWM_Out_2_1_INTR       (Second pin in the list)
+*  - Laser_0_INTR       (First pin in the list)
+*  - Laser_1_INTR       (Second pin in the list)
 *  - ...
-*  - PWM_Out_2_INTR_ALL     (All pins in Pins component)
+*  - Laser_INTR_ALL     (All pins in Pins component)
 *
 * \param mode
 *  Interrupt mode for the selected pins. Valid options are documented in
@@ -202,19 +202,19 @@ uint8 PWM_Out_2_ReadDataReg(void)
 *  port.
 *
 * \funcusage
-*  \snippet PWM_Out_2_SUT.c usage_PWM_Out_2_SetInterruptMode
+*  \snippet Laser_SUT.c usage_Laser_SetInterruptMode
 *******************************************************************************/
-void PWM_Out_2_SetInterruptMode(uint16 position, uint16 mode)
+void Laser_SetInterruptMode(uint16 position, uint16 mode)
 {
     uint32 intrCfg;
     
-    intrCfg =  PWM_Out_2_INTCFG & (uint32)(~(uint32)position);
-    PWM_Out_2_INTCFG = intrCfg | ((uint32)position & (uint32)mode);
+    intrCfg =  Laser_INTCFG & (uint32)(~(uint32)position);
+    Laser_INTCFG = intrCfg | ((uint32)position & (uint32)mode);
 }
 
 
 /*******************************************************************************
-* Function Name: PWM_Out_2_ClearInterrupt
+* Function Name: Laser_ClearInterrupt
 ****************************************************************************//**
 *
 * \brief Clears any active interrupts attached with the component and returns 
@@ -231,13 +231,13 @@ void PWM_Out_2_SetInterruptMode(uint16 position, uint16 mode)
 *  those associated with the Pins component.
 *
 * \funcusage
-*  \snippet PWM_Out_2_SUT.c usage_PWM_Out_2_ClearInterrupt
+*  \snippet Laser_SUT.c usage_Laser_ClearInterrupt
 *******************************************************************************/
-uint8 PWM_Out_2_ClearInterrupt(void)
+uint8 Laser_ClearInterrupt(void)
 {
-	uint8 maskedStatus = (uint8)(PWM_Out_2_INTSTAT & PWM_Out_2_MASK);
-	PWM_Out_2_INTSTAT = maskedStatus;
-    return maskedStatus >> PWM_Out_2_SHIFT;
+	uint8 maskedStatus = (uint8)(Laser_INTSTAT & Laser_MASK);
+	Laser_INTSTAT = maskedStatus;
+    return maskedStatus >> Laser_SHIFT;
 }
 
 

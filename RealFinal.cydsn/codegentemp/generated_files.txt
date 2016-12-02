@@ -23,10 +23,10 @@
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\PWM_Out_1.h" value="NONE;PWM_Out_1" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\PWM_Out_1_aliases.h" value="NONE;PWM_Out_1" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\PWM_Out_1_PM.c" value="ARM_C_FILE;PWM_Out_1" />
-  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\PWM_Out_2.c" value="ARM_C_FILE;PWM_Out_2" />
-  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\PWM_Out_2.h" value="NONE;PWM_Out_2" />
-  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\PWM_Out_2_aliases.h" value="NONE;PWM_Out_2" />
-  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\PWM_Out_2_PM.c" value="ARM_C_FILE;PWM_Out_2" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Laser.c" value="ARM_C_FILE;Laser" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Laser.h" value="NONE;Laser" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Laser_aliases.h" value="NONE;Laser" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Laser_PM.c" value="ARM_C_FILE;Laser" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Servo_En_1.c" value="ARM_C_FILE;Servo_En_1" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Servo_En_1.h" value="NONE;Servo_En_1" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Servo_En_1_aliases.h" value="NONE;Servo_En_1" />
@@ -93,6 +93,10 @@
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_eventHandler.h" value="NONE;BLE" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_custom.h" value="NONE;BLE" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\BLE_custom.c" value="ARM_C_FILE;BLE" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Sensor.c" value="ARM_C_FILE;Sensor" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Sensor.h" value="NONE;Sensor" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Sensor_aliases.h" value="NONE;Sensor" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Sensor_PM.c" value="ARM_C_FILE;Sensor" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_SCBCLK.c" value="ARM_C_FILE;UART_SCBCLK" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_SCBCLK.h" value="NONE;UART_SCBCLK" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_tx.c" value="ARM_C_FILE;UART_tx" />

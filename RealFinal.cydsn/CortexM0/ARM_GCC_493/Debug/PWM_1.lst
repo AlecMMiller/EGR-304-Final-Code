@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
   30:.\Generated_Source\PSoC4/PWM_1.c **** #endif /* PWM_1_PWMUDB_genblk1_ctrlreg__REMOVED */
   31:.\Generated_Source\PSoC4/PWM_1.c **** 
   32:.\Generated_Source\PSoC4/PWM_1.c **** uint8 PWM_1_initVar = 0u;
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 2
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 2
 
 
   33:.\Generated_Source\PSoC4/PWM_1.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
   87:.\Generated_Source\PSoC4/PWM_1.c ****         uint8 ctrl;
   88:.\Generated_Source\PSoC4/PWM_1.c ****     #endif /* (PWM_1_UsingFixedFunction || PWM_1_UseControl) */
   89:.\Generated_Source\PSoC4/PWM_1.c **** 
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 3
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 3
 
 
   90:.\Generated_Source\PSoC4/PWM_1.c ****     #if(!PWM_1_UsingFixedFunction)
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  144:.\Generated_Source\PSoC4/PWM_1.c **** 
  145:.\Generated_Source\PSoC4/PWM_1.c ****         #if (PWM_1_KillModeMinTime)
  146:.\Generated_Source\PSoC4/PWM_1.c ****             PWM_1_WriteKillTime(PWM_1_MinimumKillTime);
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 4
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 4
 
 
  147:.\Generated_Source\PSoC4/PWM_1.c ****         #endif /* (PWM_1_KillModeMinTime) */
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
   26              		.loc 1 200 0
   27              		.cfi_startproc
  201:.\Generated_Source\PSoC4/PWM_1.c ****     /* Globally Enable the Fixed Function Block chosen */
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 5
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 5
 
 
  202:.\Generated_Source\PSoC4/PWM_1.c ****     #if (PWM_1_UsingFixedFunction)
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  232:.\Generated_Source\PSoC4/PWM_1.c **** *******************************************************************************/
  233:.\Generated_Source\PSoC4/PWM_1.c **** void PWM_1_Stop(void) 
  234:.\Generated_Source\PSoC4/PWM_1.c **** {
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 6
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 6
 
 
   52              		.loc 1 234 0
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  263:.\Generated_Source\PSoC4/PWM_1.c ****         *  None
  264:.\Generated_Source\PSoC4/PWM_1.c ****         *
  265:.\Generated_Source\PSoC4/PWM_1.c ****         *******************************************************************************/
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 7
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 7
 
 
  266:.\Generated_Source\PSoC4/PWM_1.c ****         void PWM_1_SetCompareMode(uint8 comparemode) 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  320:.\Generated_Source\PSoC4/PWM_1.c ****         *                defined in the H file as input arguments.
  321:.\Generated_Source\PSoC4/PWM_1.c ****         *
  322:.\Generated_Source\PSoC4/PWM_1.c ****         * Return:
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 8
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 8
 
 
  323:.\Generated_Source\PSoC4/PWM_1.c ****         *  None
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  377:.\Generated_Source\PSoC4/PWM_1.c **** #endif /* UseOneCompareMode */
  378:.\Generated_Source\PSoC4/PWM_1.c **** 
  379:.\Generated_Source\PSoC4/PWM_1.c **** 
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 9
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 9
 
 
  380:.\Generated_Source\PSoC4/PWM_1.c **** #if (!PWM_1_UsingFixedFunction)
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  410:.\Generated_Source\PSoC4/PWM_1.c ****     /*******************************************************************************
  411:.\Generated_Source\PSoC4/PWM_1.c ****     * Function Name: PWM_1_ReadCounter
  412:.\Generated_Source\PSoC4/PWM_1.c ****     ********************************************************************************
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 10
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 10
 
 
  413:.\Generated_Source\PSoC4/PWM_1.c ****     *
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  439:.\Generated_Source\PSoC4/PWM_1.c ****         /*******************************************************************************
  440:.\Generated_Source\PSoC4/PWM_1.c ****         * Function Name: PWM_1_ClearFIFO
  441:.\Generated_Source\PSoC4/PWM_1.c ****         ********************************************************************************
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 11
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 11
 
 
  442:.\Generated_Source\PSoC4/PWM_1.c ****         *
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  136              		.loc 1 489 0
  137              		@ sp needed
  138 0004 7047     		bx	lr
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 12
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 12
 
 
  139              	.L15:
@@ -668,13 +668,13 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  143              		.cfi_endproc
  144              	.LFE9:
  145              		.size	PWM_1_WritePeriod, .-PWM_1_WritePeriod
- 146              		.section	.text.PWM_1_WriteCompare1,"ax",%progbits
+ 146              		.section	.text.PWM_1_WriteCompare,"ax",%progbits
  147              		.align	2
- 148              		.global	PWM_1_WriteCompare1
+ 148              		.global	PWM_1_WriteCompare
  149              		.code	16
  150              		.thumb_func
- 151              		.type	PWM_1_WriteCompare1, %function
- 152              	PWM_1_WriteCompare1:
+ 151              		.type	PWM_1_WriteCompare, %function
+ 152              	PWM_1_WriteCompare:
  153              	.LFB10:
  490:.\Generated_Source\PSoC4/PWM_1.c **** 
  491:.\Generated_Source\PSoC4/PWM_1.c **** #if (PWM_1_UseOneCompareMode)
@@ -705,23 +705,47 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  516:.\Generated_Source\PSoC4/PWM_1.c ****     void PWM_1_WriteCompare(uint16 compare) \
  517:.\Generated_Source\PSoC4/PWM_1.c ****                                        
  518:.\Generated_Source\PSoC4/PWM_1.c ****     {
+ 154              		.loc 1 518 0
+ 155              		.cfi_startproc
+ 156              	.LVL2:
  519:.\Generated_Source\PSoC4/PWM_1.c ****         #if(PWM_1_UsingFixedFunction)
  520:.\Generated_Source\PSoC4/PWM_1.c ****             CY_SET_REG16(PWM_1_COMPARE1_LSB_PTR, (uint16)compare);
  521:.\Generated_Source\PSoC4/PWM_1.c ****         #else
  522:.\Generated_Source\PSoC4/PWM_1.c ****             CY_SET_REG16(PWM_1_COMPARE1_LSB_PTR, compare);
+ 157              		.loc 1 522 0
+ 158 0000 014B     		ldr	r3, .L17
+ 159 0002 1880     		strh	r0, [r3]
  523:.\Generated_Source\PSoC4/PWM_1.c ****         #endif /* (PWM_1_UsingFixedFunction) */
  524:.\Generated_Source\PSoC4/PWM_1.c **** 
  525:.\Generated_Source\PSoC4/PWM_1.c ****         #if (PWM_1_PWMMode == PWM_1__B_PWM__DITHER)
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 13
+
+
  526:.\Generated_Source\PSoC4/PWM_1.c ****             #if(PWM_1_UsingFixedFunction)
  527:.\Generated_Source\PSoC4/PWM_1.c ****                 CY_SET_REG16(PWM_1_COMPARE2_LSB_PTR, (uint16)(compare + 1u));
  528:.\Generated_Source\PSoC4/PWM_1.c ****             #else
  529:.\Generated_Source\PSoC4/PWM_1.c ****                 CY_SET_REG16(PWM_1_COMPARE2_LSB_PTR, (compare + 1u));
  530:.\Generated_Source\PSoC4/PWM_1.c ****             #endif /* (PWM_1_UsingFixedFunction) */
  531:.\Generated_Source\PSoC4/PWM_1.c ****         #endif /* (PWM_1_PWMMode == PWM_1__B_PWM__DITHER) */
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 13
-
-
  532:.\Generated_Source\PSoC4/PWM_1.c ****     }
+ 160              		.loc 1 532 0
+ 161              		@ sp needed
+ 162 0004 7047     		bx	lr
+ 163              	.L18:
+ 164 0006 C046     		.align	2
+ 165              	.L17:
+ 166 0008 40100F40 		.word	1074729024
+ 167              		.cfi_endproc
+ 168              	.LFE10:
+ 169              		.size	PWM_1_WriteCompare, .-PWM_1_WriteCompare
+ 170              		.section	.text.PWM_1_SetInterruptMode,"ax",%progbits
+ 171              		.align	2
+ 172              		.global	PWM_1_SetInterruptMode
+ 173              		.code	16
+ 174              		.thumb_func
+ 175              		.type	PWM_1_SetInterruptMode, %function
+ 176              	PWM_1_SetInterruptMode:
+ 177              	.LFB11:
  533:.\Generated_Source\PSoC4/PWM_1.c **** 
  534:.\Generated_Source\PSoC4/PWM_1.c **** 
  535:.\Generated_Source\PSoC4/PWM_1.c **** #else
@@ -747,38 +771,14 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  555:.\Generated_Source\PSoC4/PWM_1.c ****     void PWM_1_WriteCompare1(uint16 compare) \
  556:.\Generated_Source\PSoC4/PWM_1.c ****                                         
  557:.\Generated_Source\PSoC4/PWM_1.c ****     {
- 154              		.loc 1 557 0
- 155              		.cfi_startproc
- 156              	.LVL2:
  558:.\Generated_Source\PSoC4/PWM_1.c ****         #if(PWM_1_UsingFixedFunction)
  559:.\Generated_Source\PSoC4/PWM_1.c ****             CY_SET_REG16(PWM_1_COMPARE1_LSB_PTR, (uint16)compare);
  560:.\Generated_Source\PSoC4/PWM_1.c ****         #else
  561:.\Generated_Source\PSoC4/PWM_1.c ****             CY_SET_REG16(PWM_1_COMPARE1_LSB_PTR, compare);
- 157              		.loc 1 561 0
- 158 0000 014B     		ldr	r3, .L17
- 159 0002 1880     		strh	r0, [r3]
  562:.\Generated_Source\PSoC4/PWM_1.c ****         #endif /* (PWM_1_UsingFixedFunction) */
  563:.\Generated_Source\PSoC4/PWM_1.c ****     }
- 160              		.loc 1 563 0
- 161              		@ sp needed
- 162 0004 7047     		bx	lr
- 163              	.L18:
- 164 0006 C046     		.align	2
- 165              	.L17:
- 166 0008 40100F40 		.word	1074729024
- 167              		.cfi_endproc
- 168              	.LFE10:
- 169              		.size	PWM_1_WriteCompare1, .-PWM_1_WriteCompare1
- 170              		.section	.text.PWM_1_WriteCompare2,"ax",%progbits
- 171              		.align	2
- 172              		.global	PWM_1_WriteCompare2
- 173              		.code	16
- 174              		.thumb_func
- 175              		.type	PWM_1_WriteCompare2, %function
- 176              	PWM_1_WriteCompare2:
- 177              	.LFB11:
  564:.\Generated_Source\PSoC4/PWM_1.c **** 
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 14
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 14
 
 
  565:.\Generated_Source\PSoC4/PWM_1.c **** 
@@ -803,44 +803,17 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  584:.\Generated_Source\PSoC4/PWM_1.c ****     void PWM_1_WriteCompare2(uint16 compare) \
  585:.\Generated_Source\PSoC4/PWM_1.c ****                                         
  586:.\Generated_Source\PSoC4/PWM_1.c ****     {
- 178              		.loc 1 586 0
- 179              		.cfi_startproc
- 180              	.LVL3:
  587:.\Generated_Source\PSoC4/PWM_1.c ****         #if(PWM_1_UsingFixedFunction)
  588:.\Generated_Source\PSoC4/PWM_1.c ****             CY_SET_REG16(PWM_1_COMPARE2_LSB_PTR, compare);
  589:.\Generated_Source\PSoC4/PWM_1.c ****         #else
  590:.\Generated_Source\PSoC4/PWM_1.c ****             CY_SET_REG16(PWM_1_COMPARE2_LSB_PTR, compare);
- 181              		.loc 1 590 0
- 182 0000 014B     		ldr	r3, .L20
- 183 0002 1880     		strh	r0, [r3]
  591:.\Generated_Source\PSoC4/PWM_1.c ****         #endif /* (PWM_1_UsingFixedFunction) */
  592:.\Generated_Source\PSoC4/PWM_1.c ****     }
- 184              		.loc 1 592 0
- 185              		@ sp needed
- 186 0004 7047     		bx	lr
- 187              	.L21:
- 188 0006 C046     		.align	2
- 189              	.L20:
- 190 0008 60100F40 		.word	1074729056
- 191              		.cfi_endproc
- 192              	.LFE11:
- 193              		.size	PWM_1_WriteCompare2, .-PWM_1_WriteCompare2
- 194              		.section	.text.PWM_1_SetInterruptMode,"ax",%progbits
- 195              		.align	2
- 196              		.global	PWM_1_SetInterruptMode
- 197              		.code	16
- 198              		.thumb_func
- 199              		.type	PWM_1_SetInterruptMode, %function
- 200              	PWM_1_SetInterruptMode:
- 201              	.LFB12:
  593:.\Generated_Source\PSoC4/PWM_1.c **** #endif /* UseOneCompareMode */
  594:.\Generated_Source\PSoC4/PWM_1.c **** 
  595:.\Generated_Source\PSoC4/PWM_1.c **** #if (PWM_1_DeadBandUsed)
  596:.\Generated_Source\PSoC4/PWM_1.c **** 
  597:.\Generated_Source\PSoC4/PWM_1.c **** 
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 15
-
-
  598:.\Generated_Source\PSoC4/PWM_1.c ****     /*******************************************************************************
  599:.\Generated_Source\PSoC4/PWM_1.c ****     * Function Name: PWM_1_WriteDeadTime
  600:.\Generated_Source\PSoC4/PWM_1.c ****     ********************************************************************************
@@ -865,6 +838,9 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  619:.\Generated_Source\PSoC4/PWM_1.c ****             /* Clear existing data */
  620:.\Generated_Source\PSoC4/PWM_1.c ****             PWM_1_DEADBAND_COUNT &= ((uint8)(~PWM_1_DEADBAND_COUNT_MASK));
  621:.\Generated_Source\PSoC4/PWM_1.c **** 
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 15
+
+
  622:.\Generated_Source\PSoC4/PWM_1.c ****             /* Set new dead time */
  623:.\Generated_Source\PSoC4/PWM_1.c ****             #if(PWM_1_DEADBAND_COUNT_SHIFT)
  624:.\Generated_Source\PSoC4/PWM_1.c ****                 PWM_1_DEADBAND_COUNT |= ((uint8)((uint8)deadtime << PWM_1_DEADBAND_COUNT_SHIFT)) &
@@ -898,9 +874,6 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  652:.\Generated_Source\PSoC4/PWM_1.c ****             return (CY_GET_REG8(PWM_1_DEADBAND_COUNT_PTR));
  653:.\Generated_Source\PSoC4/PWM_1.c ****         #else
  654:.\Generated_Source\PSoC4/PWM_1.c **** 
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 16
-
-
  655:.\Generated_Source\PSoC4/PWM_1.c ****             /* Otherwise the data has to be masked and offset */
  656:.\Generated_Source\PSoC4/PWM_1.c ****             #if(PWM_1_DEADBAND_COUNT_SHIFT)
  657:.\Generated_Source\PSoC4/PWM_1.c ****                 return ((uint8)(((uint8)(PWM_1_DEADBAND_COUNT & PWM_1_DEADBAND_COUNT_MASK)) >>
@@ -925,6 +898,9 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  676:.\Generated_Source\PSoC4/PWM_1.c ****     *
  677:.\Generated_Source\PSoC4/PWM_1.c ****     * Parameters:
  678:.\Generated_Source\PSoC4/PWM_1.c ****     *  uint8 interruptMode: Bit field containing the interrupt sources enabled
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 16
+
+
  679:.\Generated_Source\PSoC4/PWM_1.c ****     *
  680:.\Generated_Source\PSoC4/PWM_1.c ****     * Return:
  681:.\Generated_Source\PSoC4/PWM_1.c ****     *  None
@@ -932,35 +908,32 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  683:.\Generated_Source\PSoC4/PWM_1.c ****     *******************************************************************************/
  684:.\Generated_Source\PSoC4/PWM_1.c ****     void PWM_1_SetInterruptMode(uint8 interruptMode) 
  685:.\Generated_Source\PSoC4/PWM_1.c ****     {
- 202              		.loc 1 685 0
- 203              		.cfi_startproc
- 204              	.LVL4:
+ 178              		.loc 1 685 0
+ 179              		.cfi_startproc
+ 180              	.LVL3:
  686:.\Generated_Source\PSoC4/PWM_1.c ****         CY_SET_REG8(PWM_1_STATUS_MASK_PTR, interruptMode);
- 205              		.loc 1 686 0
- 206 0000 014B     		ldr	r3, .L23
- 207 0002 1870     		strb	r0, [r3]
+ 181              		.loc 1 686 0
+ 182 0000 014B     		ldr	r3, .L20
+ 183 0002 1870     		strb	r0, [r3]
  687:.\Generated_Source\PSoC4/PWM_1.c ****     }
- 208              		.loc 1 687 0
- 209              		@ sp needed
- 210 0004 7047     		bx	lr
- 211              	.L24:
- 212 0006 C046     		.align	2
- 213              	.L23:
- 214 0008 81000F40 		.word	1074724993
- 215              		.cfi_endproc
- 216              	.LFE12:
- 217              		.size	PWM_1_SetInterruptMode, .-PWM_1_SetInterruptMode
- 218              		.section	.text.PWM_1_ReadStatusRegister,"ax",%progbits
- 219              		.align	2
- 220              		.global	PWM_1_ReadStatusRegister
- 221              		.code	16
- 222              		.thumb_func
- 223              		.type	PWM_1_ReadStatusRegister, %function
- 224              	PWM_1_ReadStatusRegister:
- 225              	.LFB13:
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 17
-
-
+ 184              		.loc 1 687 0
+ 185              		@ sp needed
+ 186 0004 7047     		bx	lr
+ 187              	.L21:
+ 188 0006 C046     		.align	2
+ 189              	.L20:
+ 190 0008 81000F40 		.word	1074724993
+ 191              		.cfi_endproc
+ 192              	.LFE11:
+ 193              		.size	PWM_1_SetInterruptMode, .-PWM_1_SetInterruptMode
+ 194              		.section	.text.PWM_1_ReadStatusRegister,"ax",%progbits
+ 195              		.align	2
+ 196              		.global	PWM_1_ReadStatusRegister
+ 197              		.code	16
+ 198              		.thumb_func
+ 199              		.type	PWM_1_ReadStatusRegister, %function
+ 200              	PWM_1_ReadStatusRegister:
+ 201              	.LFB12:
  688:.\Generated_Source\PSoC4/PWM_1.c **** 
  689:.\Generated_Source\PSoC4/PWM_1.c **** 
  690:.\Generated_Source\PSoC4/PWM_1.c ****     /*******************************************************************************
@@ -985,42 +958,42 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  709:.\Generated_Source\PSoC4/PWM_1.c ****     *
  710:.\Generated_Source\PSoC4/PWM_1.c ****     *******************************************************************************/
  711:.\Generated_Source\PSoC4/PWM_1.c ****     uint8 PWM_1_ReadStatusRegister(void) 
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 17
+
+
  712:.\Generated_Source\PSoC4/PWM_1.c ****     {
- 226              		.loc 1 712 0
- 227              		.cfi_startproc
+ 202              		.loc 1 712 0
+ 203              		.cfi_startproc
  713:.\Generated_Source\PSoC4/PWM_1.c ****         return (CY_GET_REG8(PWM_1_STATUS_PTR));
- 228              		.loc 1 713 0
- 229 0000 014B     		ldr	r3, .L26
- 230 0002 1878     		ldrb	r0, [r3]
- 231 0004 C0B2     		uxtb	r0, r0
+ 204              		.loc 1 713 0
+ 205 0000 014B     		ldr	r3, .L23
+ 206 0002 1878     		ldrb	r0, [r3]
+ 207 0004 C0B2     		uxtb	r0, r0
  714:.\Generated_Source\PSoC4/PWM_1.c ****     }
- 232              		.loc 1 714 0
- 233              		@ sp needed
- 234 0006 7047     		bx	lr
- 235              	.L27:
- 236              		.align	2
- 237              	.L26:
- 238 0008 61000F40 		.word	1074724961
- 239              		.cfi_endproc
- 240              	.LFE13:
- 241              		.size	PWM_1_ReadStatusRegister, .-PWM_1_ReadStatusRegister
- 242              		.section	.text.PWM_1_ReadControlRegister,"ax",%progbits
- 243              		.align	2
- 244              		.global	PWM_1_ReadControlRegister
- 245              		.code	16
- 246              		.thumb_func
- 247              		.type	PWM_1_ReadControlRegister, %function
- 248              	PWM_1_ReadControlRegister:
- 249              	.LFB14:
+ 208              		.loc 1 714 0
+ 209              		@ sp needed
+ 210 0006 7047     		bx	lr
+ 211              	.L24:
+ 212              		.align	2
+ 213              	.L23:
+ 214 0008 61000F40 		.word	1074724961
+ 215              		.cfi_endproc
+ 216              	.LFE12:
+ 217              		.size	PWM_1_ReadStatusRegister, .-PWM_1_ReadStatusRegister
+ 218              		.section	.text.PWM_1_ReadControlRegister,"ax",%progbits
+ 219              		.align	2
+ 220              		.global	PWM_1_ReadControlRegister
+ 221              		.code	16
+ 222              		.thumb_func
+ 223              		.type	PWM_1_ReadControlRegister, %function
+ 224              	PWM_1_ReadControlRegister:
+ 225              	.LFB13:
  715:.\Generated_Source\PSoC4/PWM_1.c **** 
  716:.\Generated_Source\PSoC4/PWM_1.c **** #endif /* (PWM_1_UseStatus || PWM_1_UsingFixedFunction) */
  717:.\Generated_Source\PSoC4/PWM_1.c **** 
  718:.\Generated_Source\PSoC4/PWM_1.c **** 
  719:.\Generated_Source\PSoC4/PWM_1.c **** #if (PWM_1_UseControl)
  720:.\Generated_Source\PSoC4/PWM_1.c **** 
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 18
-
-
  721:.\Generated_Source\PSoC4/PWM_1.c **** 
  722:.\Generated_Source\PSoC4/PWM_1.c ****     /*******************************************************************************
  723:.\Generated_Source\PSoC4/PWM_1.c ****     * Function Name: PWM_1_ReadControlRegister
@@ -1039,36 +1012,39 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  736:.\Generated_Source\PSoC4/PWM_1.c ****     *******************************************************************************/
  737:.\Generated_Source\PSoC4/PWM_1.c ****     uint8 PWM_1_ReadControlRegister(void) 
  738:.\Generated_Source\PSoC4/PWM_1.c ****     {
- 250              		.loc 1 738 0
- 251              		.cfi_startproc
+ 226              		.loc 1 738 0
+ 227              		.cfi_startproc
  739:.\Generated_Source\PSoC4/PWM_1.c ****         uint8 result;
  740:.\Generated_Source\PSoC4/PWM_1.c **** 
  741:.\Generated_Source\PSoC4/PWM_1.c ****         result = CY_GET_REG8(PWM_1_CONTROL_PTR);
- 252              		.loc 1 741 0
- 253 0000 014B     		ldr	r3, .L29
- 254 0002 1878     		ldrb	r0, [r3]
- 255 0004 C0B2     		uxtb	r0, r0
- 256              	.LVL5:
+ 228              		.loc 1 741 0
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 18
+
+
+ 229 0000 014B     		ldr	r3, .L26
+ 230 0002 1878     		ldrb	r0, [r3]
+ 231 0004 C0B2     		uxtb	r0, r0
+ 232              	.LVL4:
  742:.\Generated_Source\PSoC4/PWM_1.c ****         return (result);
  743:.\Generated_Source\PSoC4/PWM_1.c ****     }
- 257              		.loc 1 743 0
- 258              		@ sp needed
- 259 0006 7047     		bx	lr
- 260              	.L30:
- 261              		.align	2
- 262              	.L29:
- 263 0008 71000F40 		.word	1074724977
- 264              		.cfi_endproc
- 265              	.LFE14:
- 266              		.size	PWM_1_ReadControlRegister, .-PWM_1_ReadControlRegister
- 267              		.section	.text.PWM_1_WriteControlRegister,"ax",%progbits
- 268              		.align	2
- 269              		.global	PWM_1_WriteControlRegister
- 270              		.code	16
- 271              		.thumb_func
- 272              		.type	PWM_1_WriteControlRegister, %function
- 273              	PWM_1_WriteControlRegister:
- 274              	.LFB15:
+ 233              		.loc 1 743 0
+ 234              		@ sp needed
+ 235 0006 7047     		bx	lr
+ 236              	.L27:
+ 237              		.align	2
+ 238              	.L26:
+ 239 0008 71000F40 		.word	1074724977
+ 240              		.cfi_endproc
+ 241              	.LFE13:
+ 242              		.size	PWM_1_ReadControlRegister, .-PWM_1_ReadControlRegister
+ 243              		.section	.text.PWM_1_WriteControlRegister,"ax",%progbits
+ 244              		.align	2
+ 245              		.global	PWM_1_WriteControlRegister
+ 246              		.code	16
+ 247              		.thumb_func
+ 248              		.type	PWM_1_WriteControlRegister, %function
+ 249              	PWM_1_WriteControlRegister:
+ 250              	.LFB14:
  744:.\Generated_Source\PSoC4/PWM_1.c **** 
  745:.\Generated_Source\PSoC4/PWM_1.c **** 
  746:.\Generated_Source\PSoC4/PWM_1.c ****     /*******************************************************************************
@@ -1078,9 +1054,6 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  750:.\Generated_Source\PSoC4/PWM_1.c ****     * Summary:
  751:.\Generated_Source\PSoC4/PWM_1.c ****     *  Sets the bit field of the control register. This API is available only if
  752:.\Generated_Source\PSoC4/PWM_1.c ****     *  the control register is not removed.
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 19
-
-
  753:.\Generated_Source\PSoC4/PWM_1.c ****     *
  754:.\Generated_Source\PSoC4/PWM_1.c ****     * Parameters:
  755:.\Generated_Source\PSoC4/PWM_1.c ****     *  uint8 control: Control register bit field, The status register bits are:
@@ -1095,32 +1068,35 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  764:.\Generated_Source\PSoC4/PWM_1.c ****     *******************************************************************************/
  765:.\Generated_Source\PSoC4/PWM_1.c ****     void PWM_1_WriteControlRegister(uint8 control) 
  766:.\Generated_Source\PSoC4/PWM_1.c ****     {
- 275              		.loc 1 766 0
- 276              		.cfi_startproc
- 277              	.LVL6:
+ 251              		.loc 1 766 0
+ 252              		.cfi_startproc
+ 253              	.LVL5:
  767:.\Generated_Source\PSoC4/PWM_1.c ****         CY_SET_REG8(PWM_1_CONTROL_PTR, control);
- 278              		.loc 1 767 0
- 279 0000 014B     		ldr	r3, .L32
- 280 0002 1870     		strb	r0, [r3]
+ 254              		.loc 1 767 0
+ 255 0000 014B     		ldr	r3, .L29
+ 256 0002 1870     		strb	r0, [r3]
  768:.\Generated_Source\PSoC4/PWM_1.c ****     }
- 281              		.loc 1 768 0
- 282              		@ sp needed
- 283 0004 7047     		bx	lr
- 284              	.L33:
- 285 0006 C046     		.align	2
- 286              	.L32:
- 287 0008 71000F40 		.word	1074724977
- 288              		.cfi_endproc
- 289              	.LFE15:
- 290              		.size	PWM_1_WriteControlRegister, .-PWM_1_WriteControlRegister
- 291              		.section	.text.PWM_1_ReadCapture,"ax",%progbits
- 292              		.align	2
- 293              		.global	PWM_1_ReadCapture
- 294              		.code	16
- 295              		.thumb_func
- 296              		.type	PWM_1_ReadCapture, %function
- 297              	PWM_1_ReadCapture:
- 298              	.LFB16:
+ 257              		.loc 1 768 0
+ 258              		@ sp needed
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 19
+
+
+ 259 0004 7047     		bx	lr
+ 260              	.L30:
+ 261 0006 C046     		.align	2
+ 262              	.L29:
+ 263 0008 71000F40 		.word	1074724977
+ 264              		.cfi_endproc
+ 265              	.LFE14:
+ 266              		.size	PWM_1_WriteControlRegister, .-PWM_1_WriteControlRegister
+ 267              		.section	.text.PWM_1_ReadCapture,"ax",%progbits
+ 268              		.align	2
+ 269              		.global	PWM_1_ReadCapture
+ 270              		.code	16
+ 271              		.thumb_func
+ 272              		.type	PWM_1_ReadCapture, %function
+ 273              	PWM_1_ReadCapture:
+ 274              	.LFB15:
  769:.\Generated_Source\PSoC4/PWM_1.c **** 
  770:.\Generated_Source\PSoC4/PWM_1.c **** #endif /* (PWM_1_UseControl) */
  771:.\Generated_Source\PSoC4/PWM_1.c **** 
@@ -1138,236 +1114,231 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  783:.\Generated_Source\PSoC4/PWM_1.c ****     * Parameters:
  784:.\Generated_Source\PSoC4/PWM_1.c ****     *  None
  785:.\Generated_Source\PSoC4/PWM_1.c ****     *
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 20
-
-
  786:.\Generated_Source\PSoC4/PWM_1.c ****     * Return:
  787:.\Generated_Source\PSoC4/PWM_1.c ****     *  uint8/uint16: The current capture value
  788:.\Generated_Source\PSoC4/PWM_1.c ****     *
  789:.\Generated_Source\PSoC4/PWM_1.c ****     *******************************************************************************/
  790:.\Generated_Source\PSoC4/PWM_1.c ****     uint16 PWM_1_ReadCapture(void) 
  791:.\Generated_Source\PSoC4/PWM_1.c ****     {
- 299              		.loc 1 791 0
- 300              		.cfi_startproc
+ 275              		.loc 1 791 0
+ 276              		.cfi_startproc
  792:.\Generated_Source\PSoC4/PWM_1.c ****         return (CY_GET_REG16(PWM_1_CAPTURE_LSB_PTR));
- 301              		.loc 1 792 0
- 302 0000 014B     		ldr	r3, .L35
- 303 0002 1888     		ldrh	r0, [r3]
- 304 0004 80B2     		uxth	r0, r0
+ 277              		.loc 1 792 0
+ 278 0000 014B     		ldr	r3, .L32
+ 279 0002 1888     		ldrh	r0, [r3]
+ 280 0004 80B2     		uxth	r0, r0
  793:.\Generated_Source\PSoC4/PWM_1.c ****     }
- 305              		.loc 1 793 0
- 306              		@ sp needed
- 307 0006 7047     		bx	lr
- 308              	.L36:
- 309              		.align	2
- 310              	.L35:
- 311 0008 A0100F40 		.word	1074729120
- 312              		.cfi_endproc
- 313              	.LFE16:
- 314              		.size	PWM_1_ReadCapture, .-PWM_1_ReadCapture
- 315              		.section	.text.PWM_1_ClearFIFO,"ax",%progbits
- 316              		.align	2
- 317              		.global	PWM_1_ClearFIFO
- 318              		.code	16
- 319              		.thumb_func
- 320              		.type	PWM_1_ClearFIFO, %function
- 321              	PWM_1_ClearFIFO:
- 322              	.LFB8:
+ 281              		.loc 1 793 0
+ 282              		@ sp needed
+ 283 0006 7047     		bx	lr
+ 284              	.L33:
+ 285              		.align	2
+ 286              	.L32:
+ 287 0008 A0100F40 		.word	1074729120
+ 288              		.cfi_endproc
+ 289              	.LFE15:
+ 290              		.size	PWM_1_ReadCapture, .-PWM_1_ReadCapture
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 20
+
+
+ 291              		.section	.text.PWM_1_ClearFIFO,"ax",%progbits
+ 292              		.align	2
+ 293              		.global	PWM_1_ClearFIFO
+ 294              		.code	16
+ 295              		.thumb_func
+ 296              		.type	PWM_1_ClearFIFO, %function
+ 297              	PWM_1_ClearFIFO:
+ 298              	.LFB8:
  454:.\Generated_Source\PSoC4/PWM_1.c ****             while(0u != (PWM_1_ReadStatusRegister() & PWM_1_STATUS_FIFONEMPTY))
- 323              		.loc 1 454 0
- 324              		.cfi_startproc
- 325 0000 08B5     		push	{r3, lr}
- 326              		.cfi_def_cfa_offset 8
- 327              		.cfi_offset 3, -8
- 328              		.cfi_offset 14, -4
+ 299              		.loc 1 454 0
+ 300              		.cfi_startproc
+ 301 0000 08B5     		push	{r3, lr}
+ 302              		.cfi_def_cfa_offset 8
+ 303              		.cfi_offset 3, -8
+ 304              		.cfi_offset 14, -4
  455:.\Generated_Source\PSoC4/PWM_1.c ****             {
- 329              		.loc 1 455 0
- 330 0002 01E0     		b	.L38
- 331              	.L39:
+ 305              		.loc 1 455 0
+ 306 0002 01E0     		b	.L35
+ 307              	.L36:
  457:.\Generated_Source\PSoC4/PWM_1.c ****             }
- 332              		.loc 1 457 0
- 333 0004 FFF7FEFF 		bl	PWM_1_ReadCapture
- 334              	.LVL7:
- 335              	.L38:
+ 308              		.loc 1 457 0
+ 309 0004 FFF7FEFF 		bl	PWM_1_ReadCapture
+ 310              	.LVL6:
+ 311              	.L35:
  455:.\Generated_Source\PSoC4/PWM_1.c ****             {
- 336              		.loc 1 455 0
- 337 0008 FFF7FEFF 		bl	PWM_1_ReadStatusRegister
- 338              	.LVL8:
- 339 000c C306     		lsl	r3, r0, #27
- 340 000e F9D4     		bmi	.L39
+ 312              		.loc 1 455 0
+ 313 0008 FFF7FEFF 		bl	PWM_1_ReadStatusRegister
+ 314              	.LVL7:
+ 315 000c C306     		lsl	r3, r0, #27
+ 316 000e F9D4     		bmi	.L36
  459:.\Generated_Source\PSoC4/PWM_1.c **** 
- 341              		.loc 1 459 0
- 342              		@ sp needed
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 21
-
-
- 343 0010 08BD     		pop	{r3, pc}
- 344              		.cfi_endproc
- 345              	.LFE8:
- 346              		.size	PWM_1_ClearFIFO, .-PWM_1_ClearFIFO
- 347 0012 C046     		.section	.text.PWM_1_Init,"ax",%progbits
- 348              		.align	2
- 349              		.global	PWM_1_Init
- 350              		.code	16
- 351              		.thumb_func
- 352              		.type	PWM_1_Init, %function
- 353              	PWM_1_Init:
- 354              	.LFB3:
+ 317              		.loc 1 459 0
+ 318              		@ sp needed
+ 319 0010 08BD     		pop	{r3, pc}
+ 320              		.cfi_endproc
+ 321              	.LFE8:
+ 322              		.size	PWM_1_ClearFIFO, .-PWM_1_ClearFIFO
+ 323 0012 C046     		.section	.text.PWM_1_Init,"ax",%progbits
+ 324              		.align	2
+ 325              		.global	PWM_1_Init
+ 326              		.code	16
+ 327              		.thumb_func
+ 328              		.type	PWM_1_Init, %function
+ 329              	PWM_1_Init:
+ 330              	.LFB3:
   85:.\Generated_Source\PSoC4/PWM_1.c ****     #if (PWM_1_UsingFixedFunction || PWM_1_UseControl)
- 355              		.loc 1 85 0
- 356              		.cfi_startproc
- 357 0000 38B5     		push	{r3, r4, r5, lr}
- 358              		.cfi_def_cfa_offset 16
- 359              		.cfi_offset 3, -16
- 360              		.cfi_offset 4, -12
- 361              		.cfi_offset 5, -8
- 362              		.cfi_offset 14, -4
+ 331              		.loc 1 85 0
+ 332              		.cfi_startproc
+ 333 0000 38B5     		push	{r3, r4, r5, lr}
+ 334              		.cfi_def_cfa_offset 16
+ 335              		.cfi_offset 3, -16
+ 336              		.cfi_offset 4, -12
+ 337              		.cfi_offset 5, -8
+ 338              		.cfi_offset 14, -4
  117:.\Generated_Source\PSoC4/PWM_1.c ****                 ((uint8)(~PWM_1_CTRL_CMPMODE1_MASK));
- 363              		.loc 1 117 0
- 364 0002 1649     		ldr	r1, .L41
- 365 0004 0B78     		ldrb	r3, [r1]
- 366 0006 3F22     		mov	r2, #63
- 367 0008 9343     		bic	r3, r2
- 368              	.LVL9:
+ 339              		.loc 1 117 0
+ 340 0002 1549     		ldr	r1, .L38
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 21
+
+
+ 341 0004 0B78     		ldrb	r3, [r1]
+ 342 0006 3F22     		mov	r2, #63
+ 343 0008 9343     		bic	r3, r2
+ 344              	.LVL8:
  119:.\Generated_Source\PSoC4/PWM_1.c ****                                    PWM_1_DEFAULT_COMPARE1_MODE;
- 369              		.loc 1 119 0
- 370 000a 363A     		sub	r2, r2, #54
- 371 000c 1343     		orr	r3, r2
- 372              	.LVL10:
- 373 000e 0B70     		strb	r3, [r1]
+ 345              		.loc 1 119 0
+ 346 000a 363A     		sub	r2, r2, #54
+ 347 000c 1343     		orr	r3, r2
+ 348              	.LVL9:
+ 349 000e 0B70     		strb	r3, [r1]
  129:.\Generated_Source\PSoC4/PWM_1.c ****             PWM_1_AUX_CONTROLDP1 |= (PWM_1_AUX_CTRL_FIFO0_CLR);
- 374              		.loc 1 129 0
- 375 0010 1349     		ldr	r1, .L41+4
- 376 0012 0A78     		ldrb	r2, [r1]
- 377 0014 0123     		mov	r3, #1
- 378 0016 1A43     		orr	r2, r3
- 379 0018 D2B2     		uxtb	r2, r2
- 380 001a 0A70     		strb	r2, [r1]
+ 350              		.loc 1 129 0
+ 351 0010 1249     		ldr	r1, .L38+4
+ 352 0012 0A78     		ldrb	r2, [r1]
+ 353 0014 0123     		mov	r3, #1
+ 354 0016 1A43     		orr	r2, r3
+ 355 0018 D2B2     		uxtb	r2, r2
+ 356 001a 0A70     		strb	r2, [r1]
  130:.\Generated_Source\PSoC4/PWM_1.c ****         #endif /* (PWM_1_Resolution == 8) */
- 381              		.loc 1 130 0
- 382 001c 114C     		ldr	r4, .L41+8
- 383 001e 2278     		ldrb	r2, [r4]
- 384 0020 1343     		orr	r3, r2
- 385 0022 DBB2     		uxtb	r3, r3
- 386 0024 2370     		strb	r3, [r4]
+ 357              		.loc 1 130 0
+ 358 001c 104C     		ldr	r4, .L38+8
+ 359 001e 2278     		ldrb	r2, [r4]
+ 360 0020 1343     		orr	r3, r2
+ 361 0022 DBB2     		uxtb	r3, r3
+ 362 0024 2370     		strb	r3, [r4]
  133:.\Generated_Source\PSoC4/PWM_1.c ****     #endif /* (!PWM_1_UsingFixedFunction) */
- 387              		.loc 1 133 0
- 388 0026 104D     		ldr	r5, .L41+12
- 389 0028 281C     		mov	r0, r5
- 390 002a FFF7FEFF 		bl	PWM_1_WriteCounter
- 391              	.LVL11:
+ 363              		.loc 1 133 0
+ 364 0026 0F4D     		ldr	r5, .L38+12
+ 365 0028 281C     		mov	r0, r5
+ 366 002a FFF7FEFF 		bl	PWM_1_WriteCounter
+ 367              	.LVL10:
  136:.\Generated_Source\PSoC4/PWM_1.c **** 
- 392              		.loc 1 136 0
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 22
-
-
- 393 002e 281C     		mov	r0, r5
- 394 0030 FFF7FEFF 		bl	PWM_1_WritePeriod
- 395              	.LVL12:
- 141:.\Generated_Source\PSoC4/PWM_1.c ****             PWM_1_WriteCompare2(PWM_1_INIT_COMPARE_VALUE2);
- 396              		.loc 1 141 0
- 397 0034 7F20     		mov	r0, #127
- 398 0036 FFF7FEFF 		bl	PWM_1_WriteCompare1
- 399              	.LVL13:
- 142:.\Generated_Source\PSoC4/PWM_1.c ****         #endif /* (PWM_1_UseOneCompareMode) */
- 400              		.loc 1 142 0
- 401 003a 3F20     		mov	r0, #63
- 402 003c FFF7FEFF 		bl	PWM_1_WriteCompare2
- 403              	.LVL14:
+ 368              		.loc 1 136 0
+ 369 002e 281C     		mov	r0, r5
+ 370 0030 FFF7FEFF 		bl	PWM_1_WritePeriod
+ 371              	.LVL11:
+ 139:.\Generated_Source\PSoC4/PWM_1.c ****         #else
+ 372              		.loc 1 139 0
+ 373 0034 7F20     		mov	r0, #127
+ 374 0036 FFF7FEFF 		bl	PWM_1_WriteCompare
+ 375              	.LVL12:
  154:.\Generated_Source\PSoC4/PWM_1.c ****     #endif /* (PWM_1_UseStatus || PWM_1_UsingFixedFunction) */
- 404              		.loc 1 154 0
- 405 0040 0020     		mov	r0, #0
- 406 0042 FFF7FEFF 		bl	PWM_1_SetInterruptMode
- 407              	.LVL15:
+ 376              		.loc 1 154 0
+ 377 003a 0020     		mov	r0, #0
+ 378 003c FFF7FEFF 		bl	PWM_1_SetInterruptMode
+ 379              	.LVL13:
  167:.\Generated_Source\PSoC4/PWM_1.c ****             /* Use the interrupt output of the status register for IRQ output */
- 408              		.loc 1 167 0
- 409 0046 FFF7FEFF 		bl	CyEnterCriticalSection
- 410              	.LVL16:
+ 380              		.loc 1 167 0
+ 381 0040 FFF7FEFF 		bl	CyEnterCriticalSection
+ 382              	.LVL14:
  169:.\Generated_Source\PSoC4/PWM_1.c **** 
- 411              		.loc 1 169 0
- 412 004a 2278     		ldrb	r2, [r4]
- 413 004c 1023     		mov	r3, #16
- 414 004e 1343     		orr	r3, r2
- 415 0050 2370     		strb	r3, [r4]
+ 383              		.loc 1 169 0
+ 384 0044 2278     		ldrb	r2, [r4]
+ 385 0046 1023     		mov	r3, #16
+ 386 0048 1343     		orr	r3, r2
+ 387 004a 2370     		strb	r3, [r4]
  172:.\Generated_Source\PSoC4/PWM_1.c **** 
- 416              		.loc 1 172 0
- 417 0052 FFF7FEFF 		bl	CyExitCriticalSection
- 418              	.LVL17:
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 22
+
+
+ 388              		.loc 1 172 0
+ 389 004c FFF7FEFF 		bl	CyExitCriticalSection
+ 390              	.LVL15:
  176:.\Generated_Source\PSoC4/PWM_1.c ****         #endif /* (PWM_1_UseStatus) */
- 419              		.loc 1 176 0
- 420 0056 FFF7FEFF 		bl	PWM_1_ClearFIFO
- 421              	.LVL18:
+ 391              		.loc 1 176 0
+ 392 0050 FFF7FEFF 		bl	PWM_1_ClearFIFO
+ 393              	.LVL16:
  179:.\Generated_Source\PSoC4/PWM_1.c **** 
- 422              		.loc 1 179 0
- 423              		@ sp needed
- 424 005a 38BD     		pop	{r3, r4, r5, pc}
- 425              	.L42:
- 426              		.align	2
- 427              	.L41:
- 428 005c 71000F40 		.word	1074724977
- 429 0060 90000F40 		.word	1074725008
- 430 0064 91000F40 		.word	1074725009
- 431 0068 60EA0000 		.word	60000
- 432              		.cfi_endproc
- 433              	.LFE3:
- 434              		.size	PWM_1_Init, .-PWM_1_Init
- 435              		.section	.text.PWM_1_Start,"ax",%progbits
- 436              		.align	2
- 437              		.global	PWM_1_Start
- 438              		.code	16
- 439              		.thumb_func
- 440              		.type	PWM_1_Start, %function
- 441              	PWM_1_Start:
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 23
-
-
- 442              	.LFB2:
+ 394              		.loc 1 179 0
+ 395              		@ sp needed
+ 396 0054 38BD     		pop	{r3, r4, r5, pc}
+ 397              	.L39:
+ 398 0056 C046     		.align	2
+ 399              	.L38:
+ 400 0058 71000F40 		.word	1074724977
+ 401 005c 90000F40 		.word	1074725008
+ 402 0060 91000F40 		.word	1074725009
+ 403 0064 60EA0000 		.word	60000
+ 404              		.cfi_endproc
+ 405              	.LFE3:
+ 406              		.size	PWM_1_Init, .-PWM_1_Init
+ 407              		.section	.text.PWM_1_Start,"ax",%progbits
+ 408              		.align	2
+ 409              		.global	PWM_1_Start
+ 410              		.code	16
+ 411              		.thumb_func
+ 412              		.type	PWM_1_Start, %function
+ 413              	PWM_1_Start:
+ 414              	.LFB2:
   56:.\Generated_Source\PSoC4/PWM_1.c ****     /* If not Initialized then initialize all required hardware and software */
- 443              		.loc 1 56 0
- 444              		.cfi_startproc
- 445 0000 08B5     		push	{r3, lr}
- 446              		.cfi_def_cfa_offset 8
- 447              		.cfi_offset 3, -8
- 448              		.cfi_offset 14, -4
+ 415              		.loc 1 56 0
+ 416              		.cfi_startproc
+ 417 0000 08B5     		push	{r3, lr}
+ 418              		.cfi_def_cfa_offset 8
+ 419              		.cfi_offset 3, -8
+ 420              		.cfi_offset 14, -4
   58:.\Generated_Source\PSoC4/PWM_1.c ****     {
- 449              		.loc 1 58 0
- 450 0002 064B     		ldr	r3, .L45
- 451 0004 1B78     		ldrb	r3, [r3]
- 452 0006 002B     		cmp	r3, #0
- 453 0008 04D1     		bne	.L44
+ 421              		.loc 1 58 0
+ 422 0002 064B     		ldr	r3, .L42
+ 423 0004 1B78     		ldrb	r3, [r3]
+ 424 0006 002B     		cmp	r3, #0
+ 425 0008 04D1     		bne	.L41
   60:.\Generated_Source\PSoC4/PWM_1.c ****         PWM_1_initVar = 1u;
- 454              		.loc 1 60 0
- 455 000a FFF7FEFF 		bl	PWM_1_Init
- 456              	.LVL19:
+ 426              		.loc 1 60 0
+ 427 000a FFF7FEFF 		bl	PWM_1_Init
+ 428              	.LVL17:
   61:.\Generated_Source\PSoC4/PWM_1.c ****     }
- 457              		.loc 1 61 0
- 458 000e 0122     		mov	r2, #1
- 459 0010 024B     		ldr	r3, .L45
- 460 0012 1A70     		strb	r2, [r3]
- 461              	.L44:
+ 429              		.loc 1 61 0
+ 430 000e 0122     		mov	r2, #1
+ 431 0010 024B     		ldr	r3, .L42
+ 432 0012 1A70     		strb	r2, [r3]
+ 433              	.L41:
   63:.\Generated_Source\PSoC4/PWM_1.c **** 
- 462              		.loc 1 63 0
- 463 0014 FFF7FEFF 		bl	PWM_1_Enable
- 464              	.LVL20:
+ 434              		.loc 1 63 0
+ 435 0014 FFF7FEFF 		bl	PWM_1_Enable
+ 436              	.LVL18:
   65:.\Generated_Source\PSoC4/PWM_1.c **** 
- 465              		.loc 1 65 0
- 466              		@ sp needed
- 467 0018 08BD     		pop	{r3, pc}
- 468              	.L46:
- 469 001a C046     		.align	2
- 470              	.L45:
- 471 001c 00000000 		.word	.LANCHOR0
- 472              		.cfi_endproc
- 473              	.LFE2:
- 474              		.size	PWM_1_Start, .-PWM_1_Start
- 475              		.section	.text.PWM_1_ReadCompare1,"ax",%progbits
- 476              		.align	2
- 477              		.global	PWM_1_ReadCompare1
- 478              		.code	16
- 479              		.thumb_func
- 480              		.type	PWM_1_ReadCompare1, %function
- 481              	PWM_1_ReadCompare1:
- 482              	.LFB17:
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 23
+
+
+ 437              		.loc 1 65 0
+ 438              		@ sp needed
+ 439 0018 08BD     		pop	{r3, pc}
+ 440              	.L43:
+ 441 001a C046     		.align	2
+ 442              	.L42:
+ 443 001c 00000000 		.word	.LANCHOR0
+ 444              		.cfi_endproc
+ 445              	.LFE2:
+ 446              		.size	PWM_1_Start, .-PWM_1_Start
+ 447              		.section	.text.PWM_1_ReadCompare,"ax",%progbits
+ 448              		.align	2
+ 449              		.global	PWM_1_ReadCompare
+ 450              		.code	16
+ 451              		.thumb_func
+ 452              		.type	PWM_1_ReadCompare, %function
+ 453              	PWM_1_ReadCompare:
+ 454              	.LFB16:
  794:.\Generated_Source\PSoC4/PWM_1.c **** 
  795:.\Generated_Source\PSoC4/PWM_1.c **** #endif /* (!PWM_1_UsingFixedFunction) */
  796:.\Generated_Source\PSoC4/PWM_1.c **** 
@@ -1378,9 +1349,6 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  801:.\Generated_Source\PSoC4/PWM_1.c ****     /*******************************************************************************
  802:.\Generated_Source\PSoC4/PWM_1.c ****     * Function Name: PWM_1_ReadCompare
  803:.\Generated_Source\PSoC4/PWM_1.c ****     ********************************************************************************
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 24
-
-
  804:.\Generated_Source\PSoC4/PWM_1.c ****     *
  805:.\Generated_Source\PSoC4/PWM_1.c ****     * Summary:
  806:.\Generated_Source\PSoC4/PWM_1.c ****     *  Reads the compare value for the compare output when the PWM Mode parameter is
@@ -1395,12 +1363,39 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  815:.\Generated_Source\PSoC4/PWM_1.c ****     *******************************************************************************/
  816:.\Generated_Source\PSoC4/PWM_1.c ****     uint16 PWM_1_ReadCompare(void) 
  817:.\Generated_Source\PSoC4/PWM_1.c ****     {
+ 455              		.loc 1 817 0
+ 456              		.cfi_startproc
  818:.\Generated_Source\PSoC4/PWM_1.c ****         #if(PWM_1_UsingFixedFunction)
  819:.\Generated_Source\PSoC4/PWM_1.c ****             return ((uint16)CY_GET_REG16(PWM_1_COMPARE1_LSB_PTR));
  820:.\Generated_Source\PSoC4/PWM_1.c ****         #else
  821:.\Generated_Source\PSoC4/PWM_1.c ****             return (CY_GET_REG16(PWM_1_COMPARE1_LSB_PTR));
+ 457              		.loc 1 821 0
+ 458 0000 014B     		ldr	r3, .L45
+ 459 0002 1888     		ldrh	r0, [r3]
+ 460 0004 80B2     		uxth	r0, r0
  822:.\Generated_Source\PSoC4/PWM_1.c ****         #endif /* (PWM_1_UsingFixedFunction) */
  823:.\Generated_Source\PSoC4/PWM_1.c ****     }
+ 461              		.loc 1 823 0
+ 462              		@ sp needed
+ 463 0006 7047     		bx	lr
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 24
+
+
+ 464              	.L46:
+ 465              		.align	2
+ 466              	.L45:
+ 467 0008 40100F40 		.word	1074729024
+ 468              		.cfi_endproc
+ 469              	.LFE16:
+ 470              		.size	PWM_1_ReadCompare, .-PWM_1_ReadCompare
+ 471              		.section	.text.PWM_1_ReadPeriod,"ax",%progbits
+ 472              		.align	2
+ 473              		.global	PWM_1_ReadPeriod
+ 474              		.code	16
+ 475              		.thumb_func
+ 476              		.type	PWM_1_ReadPeriod, %function
+ 477              	PWM_1_ReadPeriod:
+ 478              	.LFB17:
  824:.\Generated_Source\PSoC4/PWM_1.c **** 
  825:.\Generated_Source\PSoC4/PWM_1.c **** #else
  826:.\Generated_Source\PSoC4/PWM_1.c **** 
@@ -1421,35 +1416,8 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  841:.\Generated_Source\PSoC4/PWM_1.c ****     *******************************************************************************/
  842:.\Generated_Source\PSoC4/PWM_1.c ****     uint16 PWM_1_ReadCompare1(void) 
  843:.\Generated_Source\PSoC4/PWM_1.c ****     {
- 483              		.loc 1 843 0
- 484              		.cfi_startproc
  844:.\Generated_Source\PSoC4/PWM_1.c ****         return (CY_GET_REG16(PWM_1_COMPARE1_LSB_PTR));
- 485              		.loc 1 844 0
- 486 0000 014B     		ldr	r3, .L48
- 487 0002 1888     		ldrh	r0, [r3]
- 488 0004 80B2     		uxth	r0, r0
  845:.\Generated_Source\PSoC4/PWM_1.c ****     }
- 489              		.loc 1 845 0
- 490              		@ sp needed
- 491 0006 7047     		bx	lr
- 492              	.L49:
- 493              		.align	2
- 494              	.L48:
- 495 0008 40100F40 		.word	1074729024
- 496              		.cfi_endproc
- 497              	.LFE17:
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 25
-
-
- 498              		.size	PWM_1_ReadCompare1, .-PWM_1_ReadCompare1
- 499              		.section	.text.PWM_1_ReadCompare2,"ax",%progbits
- 500              		.align	2
- 501              		.global	PWM_1_ReadCompare2
- 502              		.code	16
- 503              		.thumb_func
- 504              		.type	PWM_1_ReadCompare2, %function
- 505              	PWM_1_ReadCompare2:
- 506              	.LFB18:
  846:.\Generated_Source\PSoC4/PWM_1.c **** 
  847:.\Generated_Source\PSoC4/PWM_1.c **** 
  848:.\Generated_Source\PSoC4/PWM_1.c ****     /*******************************************************************************
@@ -1468,39 +1436,15 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  861:.\Generated_Source\PSoC4/PWM_1.c ****     *******************************************************************************/
  862:.\Generated_Source\PSoC4/PWM_1.c ****     uint16 PWM_1_ReadCompare2(void) 
  863:.\Generated_Source\PSoC4/PWM_1.c ****     {
- 507              		.loc 1 863 0
- 508              		.cfi_startproc
  864:.\Generated_Source\PSoC4/PWM_1.c ****         return (CY_GET_REG16(PWM_1_COMPARE2_LSB_PTR));
- 509              		.loc 1 864 0
- 510 0000 014B     		ldr	r3, .L51
- 511 0002 1888     		ldrh	r0, [r3]
- 512 0004 80B2     		uxth	r0, r0
  865:.\Generated_Source\PSoC4/PWM_1.c ****     }
- 513              		.loc 1 865 0
- 514              		@ sp needed
- 515 0006 7047     		bx	lr
- 516              	.L52:
- 517              		.align	2
- 518              	.L51:
- 519 0008 60100F40 		.word	1074729056
- 520              		.cfi_endproc
- 521              	.LFE18:
- 522              		.size	PWM_1_ReadCompare2, .-PWM_1_ReadCompare2
- 523              		.section	.text.PWM_1_ReadPeriod,"ax",%progbits
- 524              		.align	2
- 525              		.global	PWM_1_ReadPeriod
- 526              		.code	16
- 527              		.thumb_func
- 528              		.type	PWM_1_ReadPeriod, %function
- 529              	PWM_1_ReadPeriod:
- 530              	.LFB19:
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 25
+
+
  866:.\Generated_Source\PSoC4/PWM_1.c **** 
  867:.\Generated_Source\PSoC4/PWM_1.c **** #endif /* (PWM_1_UseOneCompareMode) */
  868:.\Generated_Source\PSoC4/PWM_1.c **** 
  869:.\Generated_Source\PSoC4/PWM_1.c **** 
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 26
-
-
  870:.\Generated_Source\PSoC4/PWM_1.c **** /*******************************************************************************
  871:.\Generated_Source\PSoC4/PWM_1.c **** * Function Name: PWM_1_ReadPeriod
  872:.\Generated_Source\PSoC4/PWM_1.c **** ********************************************************************************
@@ -1517,1199 +1461,1139 @@ ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 1
  883:.\Generated_Source\PSoC4/PWM_1.c **** *******************************************************************************/
  884:.\Generated_Source\PSoC4/PWM_1.c **** uint16 PWM_1_ReadPeriod(void) 
  885:.\Generated_Source\PSoC4/PWM_1.c **** {
- 531              		.loc 1 885 0
- 532              		.cfi_startproc
+ 479              		.loc 1 885 0
+ 480              		.cfi_startproc
  886:.\Generated_Source\PSoC4/PWM_1.c ****     #if(PWM_1_UsingFixedFunction)
  887:.\Generated_Source\PSoC4/PWM_1.c ****         return ((uint16)CY_GET_REG16(PWM_1_PERIOD_LSB_PTR));
  888:.\Generated_Source\PSoC4/PWM_1.c ****     #else
  889:.\Generated_Source\PSoC4/PWM_1.c ****         return (CY_GET_REG16(PWM_1_PERIOD_LSB_PTR));
- 533              		.loc 1 889 0
- 534 0000 014B     		ldr	r3, .L54
- 535 0002 1888     		ldrh	r0, [r3]
- 536 0004 80B2     		uxth	r0, r0
+ 481              		.loc 1 889 0
+ 482 0000 014B     		ldr	r3, .L48
+ 483 0002 1888     		ldrh	r0, [r3]
+ 484 0004 80B2     		uxth	r0, r0
  890:.\Generated_Source\PSoC4/PWM_1.c ****     #endif /* (PWM_1_UsingFixedFunction) */
  891:.\Generated_Source\PSoC4/PWM_1.c **** }
- 537              		.loc 1 891 0
- 538              		@ sp needed
- 539 0006 7047     		bx	lr
- 540              	.L55:
- 541              		.align	2
- 542              	.L54:
- 543 0008 80100F40 		.word	1074729088
- 544              		.cfi_endproc
- 545              	.LFE19:
- 546              		.size	PWM_1_ReadPeriod, .-PWM_1_ReadPeriod
- 547              		.global	PWM_1_initVar
- 548              		.bss
- 549              		.set	.LANCHOR0,. + 0
- 550              		.type	PWM_1_initVar, %object
- 551              		.size	PWM_1_initVar, 1
- 552              	PWM_1_initVar:
- 553 0000 00       		.space	1
- 554              		.text
- 555              	.Letext0:
- 556              		.file 2 ".\\Generated_Source\\PSoC4\\cytypes.h"
- 557              		.file 3 ".\\Generated_Source\\PSoC4\\CyLib.h"
- 558              		.section	.debug_info,"",%progbits
- 559              	.Ldebug_info0:
- 560 0000 97030000 		.4byte	0x397
- 561 0004 0400     		.2byte	0x4
- 562 0006 00000000 		.4byte	.Ldebug_abbrev0
- 563 000a 04       		.byte	0x4
- 564 000b 01       		.uleb128 0x1
- 565 000c EB010000 		.4byte	.LASF42
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 27
+ 485              		.loc 1 891 0
+ 486              		@ sp needed
+ 487 0006 7047     		bx	lr
+ 488              	.L49:
+ 489              		.align	2
+ 490              	.L48:
+ 491 0008 80100F40 		.word	1074729088
+ 492              		.cfi_endproc
+ 493              	.LFE17:
+ 494              		.size	PWM_1_ReadPeriod, .-PWM_1_ReadPeriod
+ 495              		.global	PWM_1_initVar
+ 496              		.bss
+ 497              		.set	.LANCHOR0,. + 0
+ 498              		.type	PWM_1_initVar, %object
+ 499              		.size	PWM_1_initVar, 1
+ 500              	PWM_1_initVar:
+ 501 0000 00       		.space	1
+ 502              		.text
+ 503              	.Letext0:
+ 504              		.file 2 ".\\Generated_Source\\PSoC4\\cytypes.h"
+ 505              		.file 3 ".\\Generated_Source\\PSoC4\\CyLib.h"
+ 506              		.section	.debug_info,"",%progbits
+ 507              	.Ldebug_info0:
+ 508 0000 48030000 		.4byte	0x348
+ 509 0004 0400     		.2byte	0x4
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 26
 
 
- 566 0010 01       		.byte	0x1
- 567 0011 0A030000 		.4byte	.LASF43
- 568 0015 87020000 		.4byte	.LASF44
- 569 0019 00000000 		.4byte	.Ldebug_ranges0+0
- 570 001d 00000000 		.4byte	0
- 571 0021 00000000 		.4byte	.Ldebug_line0
- 572 0025 02       		.uleb128 0x2
- 573 0026 01       		.byte	0x1
- 574 0027 06       		.byte	0x6
- 575 0028 56030000 		.4byte	.LASF0
- 576 002c 02       		.uleb128 0x2
- 577 002d 01       		.byte	0x1
- 578 002e 08       		.byte	0x8
- 579 002f DE000000 		.4byte	.LASF1
- 580 0033 02       		.uleb128 0x2
- 581 0034 02       		.byte	0x2
- 582 0035 05       		.byte	0x5
- 583 0036 7C010000 		.4byte	.LASF2
- 584 003a 02       		.uleb128 0x2
- 585 003b 02       		.byte	0x2
- 586 003c 07       		.byte	0x7
- 587 003d 7E000000 		.4byte	.LASF3
- 588 0041 02       		.uleb128 0x2
- 589 0042 04       		.byte	0x4
- 590 0043 05       		.byte	0x5
- 591 0044 48030000 		.4byte	.LASF4
- 592 0048 02       		.uleb128 0x2
- 593 0049 04       		.byte	0x4
- 594 004a 07       		.byte	0x7
- 595 004b 02010000 		.4byte	.LASF5
- 596 004f 02       		.uleb128 0x2
- 597 0050 08       		.byte	0x8
- 598 0051 05       		.byte	0x5
- 599 0052 C2020000 		.4byte	.LASF6
- 600 0056 02       		.uleb128 0x2
- 601 0057 08       		.byte	0x8
- 602 0058 07       		.byte	0x7
- 603 0059 C7000000 		.4byte	.LASF7
- 604 005d 03       		.uleb128 0x3
- 605 005e 04       		.byte	0x4
- 606 005f 05       		.byte	0x5
- 607 0060 696E7400 		.ascii	"int\000"
- 608 0064 02       		.uleb128 0x2
- 609 0065 04       		.byte	0x4
- 610 0066 07       		.byte	0x7
- 611 0067 C1010000 		.4byte	.LASF8
- 612 006b 04       		.uleb128 0x4
- 613 006c 14010000 		.4byte	.LASF9
- 614 0070 02       		.byte	0x2
- 615 0071 9801     		.2byte	0x198
- 616 0073 2C000000 		.4byte	0x2c
- 617 0077 04       		.uleb128 0x4
- 618 0078 98010000 		.4byte	.LASF10
- 619 007c 02       		.byte	0x2
- 620 007d 9901     		.2byte	0x199
- 621 007f 3A000000 		.4byte	0x3a
- 622 0083 02       		.uleb128 0x2
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 28
+ 510 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 511 000a 04       		.byte	0x4
+ 512 000b 01       		.uleb128 0x1
+ 513 000c AF010000 		.4byte	.LASF40
+ 514 0010 01       		.byte	0x1
+ 515 0011 E1020000 		.4byte	.LASF41
+ 516 0015 4B020000 		.4byte	.LASF42
+ 517 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 518 001d 00000000 		.4byte	0
+ 519 0021 00000000 		.4byte	.Ldebug_line0
+ 520 0025 02       		.uleb128 0x2
+ 521 0026 01       		.byte	0x1
+ 522 0027 06       		.byte	0x6
+ 523 0028 2D030000 		.4byte	.LASF0
+ 524 002c 02       		.uleb128 0x2
+ 525 002d 01       		.byte	0x1
+ 526 002e 08       		.byte	0x8
+ 527 002f A9000000 		.4byte	.LASF1
+ 528 0033 02       		.uleb128 0x2
+ 529 0034 02       		.byte	0x2
+ 530 0035 05       		.byte	0x5
+ 531 0036 40010000 		.4byte	.LASF2
+ 532 003a 02       		.uleb128 0x2
+ 533 003b 02       		.byte	0x2
+ 534 003c 07       		.byte	0x7
+ 535 003d 58000000 		.4byte	.LASF3
+ 536 0041 02       		.uleb128 0x2
+ 537 0042 04       		.byte	0x4
+ 538 0043 05       		.byte	0x5
+ 539 0044 1F030000 		.4byte	.LASF4
+ 540 0048 02       		.uleb128 0x2
+ 541 0049 04       		.byte	0x4
+ 542 004a 07       		.byte	0x7
+ 543 004b CD000000 		.4byte	.LASF5
+ 544 004f 02       		.uleb128 0x2
+ 545 0050 08       		.byte	0x8
+ 546 0051 05       		.byte	0x5
+ 547 0052 99020000 		.4byte	.LASF6
+ 548 0056 02       		.uleb128 0x2
+ 549 0057 08       		.byte	0x8
+ 550 0058 07       		.byte	0x7
+ 551 0059 92000000 		.4byte	.LASF7
+ 552 005d 03       		.uleb128 0x3
+ 553 005e 04       		.byte	0x4
+ 554 005f 05       		.byte	0x5
+ 555 0060 696E7400 		.ascii	"int\000"
+ 556 0064 02       		.uleb128 0x2
+ 557 0065 04       		.byte	0x4
+ 558 0066 07       		.byte	0x7
+ 559 0067 85010000 		.4byte	.LASF8
+ 560 006b 04       		.uleb128 0x4
+ 561 006c DF000000 		.4byte	.LASF9
+ 562 0070 02       		.byte	0x2
+ 563 0071 9801     		.2byte	0x198
+ 564 0073 2C000000 		.4byte	0x2c
+ 565 0077 04       		.uleb128 0x4
+ 566 0078 5C010000 		.4byte	.LASF10
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 27
 
 
- 623 0084 04       		.byte	0x4
- 624 0085 04       		.byte	0x4
- 625 0086 B9000000 		.4byte	.LASF11
- 626 008a 02       		.uleb128 0x2
- 627 008b 08       		.byte	0x8
- 628 008c 04       		.byte	0x4
- 629 008d 52010000 		.4byte	.LASF12
- 630 0091 02       		.uleb128 0x2
- 631 0092 01       		.byte	0x1
- 632 0093 08       		.byte	0x8
- 633 0094 51030000 		.4byte	.LASF13
- 634 0098 04       		.uleb128 0x4
- 635 0099 EC000000 		.4byte	.LASF14
- 636 009d 02       		.byte	0x2
- 637 009e 4202     		.2byte	0x242
- 638 00a0 A4000000 		.4byte	0xa4
- 639 00a4 05       		.uleb128 0x5
- 640 00a5 6B000000 		.4byte	0x6b
- 641 00a9 04       		.uleb128 0x4
- 642 00aa 00000000 		.4byte	.LASF15
- 643 00ae 02       		.byte	0x2
- 644 00af 4302     		.2byte	0x243
- 645 00b1 B5000000 		.4byte	0xb5
- 646 00b5 05       		.uleb128 0x5
- 647 00b6 77000000 		.4byte	0x77
- 648 00ba 02       		.uleb128 0x2
- 649 00bb 04       		.byte	0x4
- 650 00bc 07       		.byte	0x7
- 651 00bd 7E020000 		.4byte	.LASF16
- 652 00c1 06       		.uleb128 0x6
- 653 00c2 06000000 		.4byte	.LASF17
- 654 00c6 01       		.byte	0x1
- 655 00c7 C7       		.byte	0xc7
- 656 00c8 00000000 		.4byte	.LFB4
- 657 00cc 10000000 		.4byte	.LFE4-.LFB4
- 658 00d0 01       		.uleb128 0x1
- 659 00d1 9C       		.byte	0x9c
- 660 00d2 06       		.uleb128 0x6
- 661 00d3 3D030000 		.4byte	.LASF18
- 662 00d7 01       		.byte	0x1
- 663 00d8 E9       		.byte	0xe9
- 664 00d9 00000000 		.4byte	.LFB5
- 665 00dd 10000000 		.4byte	.LFE5-.LFB5
- 666 00e1 01       		.uleb128 0x1
- 667 00e2 9C       		.byte	0x9c
- 668 00e3 07       		.uleb128 0x7
- 669 00e4 2E000000 		.4byte	.LASF19
- 670 00e8 01       		.byte	0x1
- 671 00e9 9301     		.2byte	0x193
- 672 00eb 00000000 		.4byte	.LFB6
- 673 00ef 0C000000 		.4byte	.LFE6-.LFB6
- 674 00f3 01       		.uleb128 0x1
- 675 00f4 9C       		.byte	0x9c
- 676 00f5 08010000 		.4byte	0x108
- 677 00f9 08       		.uleb128 0x8
- 678 00fa BF000000 		.4byte	.LASF21
- 679 00fe 01       		.byte	0x1
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 29
+ 567 007c 02       		.byte	0x2
+ 568 007d 9901     		.2byte	0x199
+ 569 007f 3A000000 		.4byte	0x3a
+ 570 0083 02       		.uleb128 0x2
+ 571 0084 04       		.byte	0x4
+ 572 0085 04       		.byte	0x4
+ 573 0086 84000000 		.4byte	.LASF11
+ 574 008a 02       		.uleb128 0x2
+ 575 008b 08       		.byte	0x8
+ 576 008c 04       		.byte	0x4
+ 577 008d 16010000 		.4byte	.LASF12
+ 578 0091 02       		.uleb128 0x2
+ 579 0092 01       		.byte	0x1
+ 580 0093 08       		.byte	0x8
+ 581 0094 28030000 		.4byte	.LASF13
+ 582 0098 04       		.uleb128 0x4
+ 583 0099 B7000000 		.4byte	.LASF14
+ 584 009d 02       		.byte	0x2
+ 585 009e 4202     		.2byte	0x242
+ 586 00a0 A4000000 		.4byte	0xa4
+ 587 00a4 05       		.uleb128 0x5
+ 588 00a5 6B000000 		.4byte	0x6b
+ 589 00a9 04       		.uleb128 0x4
+ 590 00aa 00000000 		.4byte	.LASF15
+ 591 00ae 02       		.byte	0x2
+ 592 00af 4302     		.2byte	0x243
+ 593 00b1 B5000000 		.4byte	0xb5
+ 594 00b5 05       		.uleb128 0x5
+ 595 00b6 77000000 		.4byte	0x77
+ 596 00ba 02       		.uleb128 0x2
+ 597 00bb 04       		.byte	0x4
+ 598 00bc 07       		.byte	0x7
+ 599 00bd 42020000 		.4byte	.LASF16
+ 600 00c1 06       		.uleb128 0x6
+ 601 00c2 06000000 		.4byte	.LASF17
+ 602 00c6 01       		.byte	0x1
+ 603 00c7 C7       		.byte	0xc7
+ 604 00c8 00000000 		.4byte	.LFB4
+ 605 00cc 10000000 		.4byte	.LFE4-.LFB4
+ 606 00d0 01       		.uleb128 0x1
+ 607 00d1 9C       		.byte	0x9c
+ 608 00d2 06       		.uleb128 0x6
+ 609 00d3 14030000 		.4byte	.LASF18
+ 610 00d7 01       		.byte	0x1
+ 611 00d8 E9       		.byte	0xe9
+ 612 00d9 00000000 		.4byte	.LFB5
+ 613 00dd 10000000 		.4byte	.LFE5-.LFB5
+ 614 00e1 01       		.uleb128 0x1
+ 615 00e2 9C       		.byte	0x9c
+ 616 00e3 07       		.uleb128 0x7
+ 617 00e4 2E000000 		.4byte	.LASF19
+ 618 00e8 01       		.byte	0x1
+ 619 00e9 9301     		.2byte	0x193
+ 620 00eb 00000000 		.4byte	.LFB6
+ 621 00ef 0C000000 		.4byte	.LFE6-.LFB6
+ 622 00f3 01       		.uleb128 0x1
+ 623 00f4 9C       		.byte	0x9c
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 28
 
 
- 680 00ff 9301     		.2byte	0x193
- 681 0101 77000000 		.4byte	0x77
- 682 0105 01       		.uleb128 0x1
- 683 0106 50       		.byte	0x50
- 684 0107 00       		.byte	0
- 685 0108 09       		.uleb128 0x9
- 686 0109 2B030000 		.4byte	.LASF28
- 687 010d 01       		.byte	0x1
- 688 010e A901     		.2byte	0x1a9
- 689 0110 77000000 		.4byte	0x77
- 690 0114 00000000 		.4byte	.LFB7
- 691 0118 14000000 		.4byte	.LFE7-.LFB7
- 692 011c 01       		.uleb128 0x1
- 693 011d 9C       		.byte	0x9c
- 694 011e 07       		.uleb128 0x7
- 695 011f F8020000 		.4byte	.LASF20
- 696 0123 01       		.byte	0x1
- 697 0124 E201     		.2byte	0x1e2
- 698 0126 00000000 		.4byte	.LFB9
- 699 012a 0C000000 		.4byte	.LFE9-.LFB9
- 700 012e 01       		.uleb128 0x1
- 701 012f 9C       		.byte	0x9c
- 702 0130 43010000 		.4byte	0x143
- 703 0134 08       		.uleb128 0x8
- 704 0135 51000000 		.4byte	.LASF22
- 705 0139 01       		.byte	0x1
- 706 013a E201     		.2byte	0x1e2
- 707 013c 77000000 		.4byte	0x77
- 708 0140 01       		.uleb128 0x1
- 709 0141 50       		.byte	0x50
- 710 0142 00       		.byte	0
- 711 0143 07       		.uleb128 0x7
- 712 0144 91000000 		.4byte	.LASF23
- 713 0148 01       		.byte	0x1
- 714 0149 2B02     		.2byte	0x22b
- 715 014b 00000000 		.4byte	.LFB10
- 716 014f 0C000000 		.4byte	.LFE10-.LFB10
- 717 0153 01       		.uleb128 0x1
- 718 0154 9C       		.byte	0x9c
- 719 0155 68010000 		.4byte	0x168
- 720 0159 08       		.uleb128 0x8
- 721 015a 62030000 		.4byte	.LASF24
- 722 015e 01       		.byte	0x1
- 723 015f 2B02     		.2byte	0x22b
- 724 0161 77000000 		.4byte	0x77
- 725 0165 01       		.uleb128 0x1
- 726 0166 50       		.byte	0x50
- 727 0167 00       		.byte	0
- 728 0168 07       		.uleb128 0x7
- 729 0169 A5000000 		.4byte	.LASF25
- 730 016d 01       		.byte	0x1
- 731 016e 4802     		.2byte	0x248
- 732 0170 00000000 		.4byte	.LFB11
- 733 0174 0C000000 		.4byte	.LFE11-.LFB11
- 734 0178 01       		.uleb128 0x1
- 735 0179 9C       		.byte	0x9c
- 736 017a 8D010000 		.4byte	0x18d
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 30
+ 624 00f5 08010000 		.4byte	0x108
+ 625 00f9 08       		.uleb128 0x8
+ 626 00fa 8A000000 		.4byte	.LASF21
+ 627 00fe 01       		.byte	0x1
+ 628 00ff 9301     		.2byte	0x193
+ 629 0101 77000000 		.4byte	0x77
+ 630 0105 01       		.uleb128 0x1
+ 631 0106 50       		.byte	0x50
+ 632 0107 00       		.byte	0
+ 633 0108 09       		.uleb128 0x9
+ 634 0109 02030000 		.4byte	.LASF27
+ 635 010d 01       		.byte	0x1
+ 636 010e A901     		.2byte	0x1a9
+ 637 0110 77000000 		.4byte	0x77
+ 638 0114 00000000 		.4byte	.LFB7
+ 639 0118 14000000 		.4byte	.LFE7-.LFB7
+ 640 011c 01       		.uleb128 0x1
+ 641 011d 9C       		.byte	0x9c
+ 642 011e 07       		.uleb128 0x7
+ 643 011f CF020000 		.4byte	.LASF20
+ 644 0123 01       		.byte	0x1
+ 645 0124 E201     		.2byte	0x1e2
+ 646 0126 00000000 		.4byte	.LFB9
+ 647 012a 0C000000 		.4byte	.LFE9-.LFB9
+ 648 012e 01       		.uleb128 0x1
+ 649 012f 9C       		.byte	0x9c
+ 650 0130 43010000 		.4byte	0x143
+ 651 0134 08       		.uleb128 0x8
+ 652 0135 41000000 		.4byte	.LASF22
+ 653 0139 01       		.byte	0x1
+ 654 013a E201     		.2byte	0x1e2
+ 655 013c 77000000 		.4byte	0x77
+ 656 0140 01       		.uleb128 0x1
+ 657 0141 50       		.byte	0x50
+ 658 0142 00       		.byte	0
+ 659 0143 07       		.uleb128 0x7
+ 660 0144 86020000 		.4byte	.LASF23
+ 661 0148 01       		.byte	0x1
+ 662 0149 0402     		.2byte	0x204
+ 663 014b 00000000 		.4byte	.LFB10
+ 664 014f 0C000000 		.4byte	.LFE10-.LFB10
+ 665 0153 01       		.uleb128 0x1
+ 666 0154 9C       		.byte	0x9c
+ 667 0155 68010000 		.4byte	0x168
+ 668 0159 08       		.uleb128 0x8
+ 669 015a 39030000 		.4byte	.LASF24
+ 670 015e 01       		.byte	0x1
+ 671 015f 0402     		.2byte	0x204
+ 672 0161 77000000 		.4byte	0x77
+ 673 0165 01       		.uleb128 0x1
+ 674 0166 50       		.byte	0x50
+ 675 0167 00       		.byte	0
+ 676 0168 07       		.uleb128 0x7
+ 677 0169 ED000000 		.4byte	.LASF25
+ 678 016d 01       		.byte	0x1
+ 679 016e AC02     		.2byte	0x2ac
+ 680 0170 00000000 		.4byte	.LFB11
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 29
 
 
- 737 017e 08       		.uleb128 0x8
- 738 017f 62030000 		.4byte	.LASF24
- 739 0183 01       		.byte	0x1
- 740 0184 4802     		.2byte	0x248
- 741 0186 77000000 		.4byte	0x77
- 742 018a 01       		.uleb128 0x1
- 743 018b 50       		.byte	0x50
- 744 018c 00       		.byte	0
- 745 018d 07       		.uleb128 0x7
- 746 018e 22010000 		.4byte	.LASF26
- 747 0192 01       		.byte	0x1
- 748 0193 AC02     		.2byte	0x2ac
- 749 0195 00000000 		.4byte	.LFB12
- 750 0199 0C000000 		.4byte	.LFE12-.LFB12
- 751 019d 01       		.uleb128 0x1
- 752 019e 9C       		.byte	0x9c
- 753 019f B2010000 		.4byte	0x1b2
- 754 01a3 08       		.uleb128 0x8
- 755 01a4 EA020000 		.4byte	.LASF27
- 756 01a8 01       		.byte	0x1
- 757 01a9 AC02     		.2byte	0x2ac
- 758 01ab 6B000000 		.4byte	0x6b
- 759 01af 01       		.uleb128 0x1
- 760 01b0 50       		.byte	0x50
- 761 01b1 00       		.byte	0
- 762 01b2 09       		.uleb128 0x9
- 763 01b3 39010000 		.4byte	.LASF29
- 764 01b7 01       		.byte	0x1
- 765 01b8 C702     		.2byte	0x2c7
- 766 01ba 6B000000 		.4byte	0x6b
- 767 01be 00000000 		.4byte	.LFB13
- 768 01c2 0C000000 		.4byte	.LFE13-.LFB13
- 769 01c6 01       		.uleb128 0x1
- 770 01c7 9C       		.byte	0x9c
- 771 01c8 0A       		.uleb128 0xa
- 772 01c9 D0020000 		.4byte	.LASF45
- 773 01cd 01       		.byte	0x1
- 774 01ce E102     		.2byte	0x2e1
- 775 01d0 6B000000 		.4byte	0x6b
- 776 01d4 00000000 		.4byte	.LFB14
- 777 01d8 0C000000 		.4byte	.LFE14-.LFB14
- 778 01dc 01       		.uleb128 0x1
- 779 01dd 9C       		.byte	0x9c
- 780 01de F1010000 		.4byte	0x1f1
- 781 01e2 0B       		.uleb128 0xb
- 782 01e3 E4010000 		.4byte	.LASF35
- 783 01e7 01       		.byte	0x1
- 784 01e8 E302     		.2byte	0x2e3
- 785 01ea 6B000000 		.4byte	0x6b
- 786 01ee 01       		.uleb128 0x1
- 787 01ef 50       		.byte	0x50
- 788 01f0 00       		.byte	0
- 789 01f1 07       		.uleb128 0x7
- 790 01f2 13000000 		.4byte	.LASF30
- 791 01f6 01       		.byte	0x1
- 792 01f7 FD02     		.2byte	0x2fd
- 793 01f9 00000000 		.4byte	.LFB15
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 31
+ 681 0174 0C000000 		.4byte	.LFE11-.LFB11
+ 682 0178 01       		.uleb128 0x1
+ 683 0179 9C       		.byte	0x9c
+ 684 017a 8D010000 		.4byte	0x18d
+ 685 017e 08       		.uleb128 0x8
+ 686 017f C1020000 		.4byte	.LASF26
+ 687 0183 01       		.byte	0x1
+ 688 0184 AC02     		.2byte	0x2ac
+ 689 0186 6B000000 		.4byte	0x6b
+ 690 018a 01       		.uleb128 0x1
+ 691 018b 50       		.byte	0x50
+ 692 018c 00       		.byte	0
+ 693 018d 09       		.uleb128 0x9
+ 694 018e 6B000000 		.4byte	.LASF28
+ 695 0192 01       		.byte	0x1
+ 696 0193 C702     		.2byte	0x2c7
+ 697 0195 6B000000 		.4byte	0x6b
+ 698 0199 00000000 		.4byte	.LFB12
+ 699 019d 0C000000 		.4byte	.LFE12-.LFB12
+ 700 01a1 01       		.uleb128 0x1
+ 701 01a2 9C       		.byte	0x9c
+ 702 01a3 0A       		.uleb128 0xa
+ 703 01a4 A7020000 		.4byte	.LASF43
+ 704 01a8 01       		.byte	0x1
+ 705 01a9 E102     		.2byte	0x2e1
+ 706 01ab 6B000000 		.4byte	0x6b
+ 707 01af 00000000 		.4byte	.LFB13
+ 708 01b3 0C000000 		.4byte	.LFE13-.LFB13
+ 709 01b7 01       		.uleb128 0x1
+ 710 01b8 9C       		.byte	0x9c
+ 711 01b9 CC010000 		.4byte	0x1cc
+ 712 01bd 0B       		.uleb128 0xb
+ 713 01be A8010000 		.4byte	.LASF34
+ 714 01c2 01       		.byte	0x1
+ 715 01c3 E302     		.2byte	0x2e3
+ 716 01c5 6B000000 		.4byte	0x6b
+ 717 01c9 01       		.uleb128 0x1
+ 718 01ca 50       		.byte	0x50
+ 719 01cb 00       		.byte	0
+ 720 01cc 07       		.uleb128 0x7
+ 721 01cd 13000000 		.4byte	.LASF29
+ 722 01d1 01       		.byte	0x1
+ 723 01d2 FD02     		.2byte	0x2fd
+ 724 01d4 00000000 		.4byte	.LFB14
+ 725 01d8 0C000000 		.4byte	.LFE14-.LFB14
+ 726 01dc 01       		.uleb128 0x1
+ 727 01dd 9C       		.byte	0x9c
+ 728 01de F1010000 		.4byte	0x1f1
+ 729 01e2 08       		.uleb128 0x8
+ 730 01e3 E5000000 		.4byte	.LASF30
+ 731 01e7 01       		.byte	0x1
+ 732 01e8 FD02     		.2byte	0x2fd
+ 733 01ea 6B000000 		.4byte	0x6b
+ 734 01ee 01       		.uleb128 0x1
+ 735 01ef 50       		.byte	0x50
+ 736 01f0 00       		.byte	0
+ 737 01f1 09       		.uleb128 0x9
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 30
 
 
- 794 01fd 0C000000 		.4byte	.LFE15-.LFB15
- 795 0201 01       		.uleb128 0x1
- 796 0202 9C       		.byte	0x9c
- 797 0203 16020000 		.4byte	0x216
- 798 0207 08       		.uleb128 0x8
- 799 0208 1A010000 		.4byte	.LASF31
- 800 020c 01       		.byte	0x1
- 801 020d FD02     		.2byte	0x2fd
- 802 020f 6B000000 		.4byte	0x6b
- 803 0213 01       		.uleb128 0x1
- 804 0214 50       		.byte	0x50
- 805 0215 00       		.byte	0
- 806 0216 09       		.uleb128 0x9
- 807 0217 86010000 		.4byte	.LASF32
- 808 021b 01       		.byte	0x1
- 809 021c 1603     		.2byte	0x316
- 810 021e 77000000 		.4byte	0x77
- 811 0222 00000000 		.4byte	.LFB16
- 812 0226 0C000000 		.4byte	.LFE16-.LFB16
- 813 022a 01       		.uleb128 0x1
- 814 022b 9C       		.byte	0x9c
- 815 022c 07       		.uleb128 0x7
- 816 022d 41000000 		.4byte	.LASF33
- 817 0231 01       		.byte	0x1
- 818 0232 C501     		.2byte	0x1c5
- 819 0234 00000000 		.4byte	.LFB8
- 820 0238 12000000 		.4byte	.LFE8-.LFB8
- 821 023c 01       		.uleb128 0x1
- 822 023d 9C       		.byte	0x9c
- 823 023e 55020000 		.4byte	0x255
- 824 0242 0C       		.uleb128 0xc
- 825 0243 08000000 		.4byte	.LVL7
- 826 0247 16020000 		.4byte	0x216
- 827 024b 0C       		.uleb128 0xc
- 828 024c 0C000000 		.4byte	.LVL8
- 829 0250 B2010000 		.4byte	0x1b2
- 830 0254 00       		.byte	0
- 831 0255 0D       		.uleb128 0xd
- 832 0256 9F010000 		.4byte	.LASF34
- 833 025a 01       		.byte	0x1
- 834 025b 54       		.byte	0x54
- 835 025c 00000000 		.4byte	.LFB3
- 836 0260 6C000000 		.4byte	.LFE3-.LFB3
- 837 0264 01       		.uleb128 0x1
- 838 0265 9C       		.byte	0x9c
- 839 0266 07030000 		.4byte	0x307
- 840 026a 0E       		.uleb128 0xe
- 841 026b 79020000 		.4byte	.LASF36
- 842 026f 01       		.byte	0x1
- 843 0270 57       		.byte	0x57
- 844 0271 6B000000 		.4byte	0x6b
- 845 0275 00000000 		.4byte	.LLST0
- 846 0279 0E       		.uleb128 0xe
- 847 027a 59010000 		.4byte	.LASF37
- 848 027e 01       		.byte	0x1
- 849 027f 5D       		.byte	0x5d
- 850 0280 6B000000 		.4byte	0x6b
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 32
+ 738 01f2 4A010000 		.4byte	.LASF31
+ 739 01f6 01       		.byte	0x1
+ 740 01f7 1603     		.2byte	0x316
+ 741 01f9 77000000 		.4byte	0x77
+ 742 01fd 00000000 		.4byte	.LFB15
+ 743 0201 0C000000 		.4byte	.LFE15-.LFB15
+ 744 0205 01       		.uleb128 0x1
+ 745 0206 9C       		.byte	0x9c
+ 746 0207 07       		.uleb128 0x7
+ 747 0208 48000000 		.4byte	.LASF32
+ 748 020c 01       		.byte	0x1
+ 749 020d C501     		.2byte	0x1c5
+ 750 020f 00000000 		.4byte	.LFB8
+ 751 0213 12000000 		.4byte	.LFE8-.LFB8
+ 752 0217 01       		.uleb128 0x1
+ 753 0218 9C       		.byte	0x9c
+ 754 0219 30020000 		.4byte	0x230
+ 755 021d 0C       		.uleb128 0xc
+ 756 021e 08000000 		.4byte	.LVL6
+ 757 0222 F1010000 		.4byte	0x1f1
+ 758 0226 0C       		.uleb128 0xc
+ 759 0227 0C000000 		.4byte	.LVL7
+ 760 022b 8D010000 		.4byte	0x18d
+ 761 022f 00       		.byte	0
+ 762 0230 0D       		.uleb128 0xd
+ 763 0231 63010000 		.4byte	.LASF33
+ 764 0235 01       		.byte	0x1
+ 765 0236 54       		.byte	0x54
+ 766 0237 00000000 		.4byte	.LFB3
+ 767 023b 68000000 		.4byte	.LFE3-.LFB3
+ 768 023f 01       		.uleb128 0x1
+ 769 0240 9C       		.byte	0x9c
+ 770 0241 CE020000 		.4byte	0x2ce
+ 771 0245 0E       		.uleb128 0xe
+ 772 0246 3D020000 		.4byte	.LASF35
+ 773 024a 01       		.byte	0x1
+ 774 024b 57       		.byte	0x57
+ 775 024c 6B000000 		.4byte	0x6b
+ 776 0250 00000000 		.4byte	.LLST0
+ 777 0254 0E       		.uleb128 0xe
+ 778 0255 1D010000 		.4byte	.LASF36
+ 779 0259 01       		.byte	0x1
+ 780 025a 5D       		.byte	0x5d
+ 781 025b 6B000000 		.4byte	0x6b
+ 782 025f 13000000 		.4byte	.LLST1
+ 783 0263 0F       		.uleb128 0xf
+ 784 0264 2E000000 		.4byte	.LVL10
+ 785 0268 E3000000 		.4byte	0xe3
+ 786 026c 77020000 		.4byte	0x277
+ 787 0270 10       		.uleb128 0x10
+ 788 0271 01       		.uleb128 0x1
+ 789 0272 50       		.byte	0x50
+ 790 0273 02       		.uleb128 0x2
+ 791 0274 75       		.byte	0x75
+ 792 0275 00       		.sleb128 0
+ 793 0276 00       		.byte	0
+ 794 0277 0F       		.uleb128 0xf
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 31
 
 
- 851 0284 13000000 		.4byte	.LLST1
- 852 0288 0F       		.uleb128 0xf
- 853 0289 2E000000 		.4byte	.LVL11
- 854 028d E3000000 		.4byte	0xe3
- 855 0291 9C020000 		.4byte	0x29c
- 856 0295 10       		.uleb128 0x10
- 857 0296 01       		.uleb128 0x1
- 858 0297 50       		.byte	0x50
- 859 0298 02       		.uleb128 0x2
- 860 0299 75       		.byte	0x75
- 861 029a 00       		.sleb128 0
- 862 029b 00       		.byte	0
- 863 029c 0F       		.uleb128 0xf
- 864 029d 34000000 		.4byte	.LVL12
- 865 02a1 1E010000 		.4byte	0x11e
- 866 02a5 B0020000 		.4byte	0x2b0
- 867 02a9 10       		.uleb128 0x10
- 868 02aa 01       		.uleb128 0x1
- 869 02ab 50       		.byte	0x50
- 870 02ac 02       		.uleb128 0x2
- 871 02ad 75       		.byte	0x75
- 872 02ae 00       		.sleb128 0
- 873 02af 00       		.byte	0
- 874 02b0 0F       		.uleb128 0xf
- 875 02b1 3A000000 		.4byte	.LVL13
- 876 02b5 43010000 		.4byte	0x143
- 877 02b9 C4020000 		.4byte	0x2c4
- 878 02bd 10       		.uleb128 0x10
- 879 02be 01       		.uleb128 0x1
- 880 02bf 50       		.byte	0x50
- 881 02c0 02       		.uleb128 0x2
- 882 02c1 08       		.byte	0x8
- 883 02c2 7F       		.byte	0x7f
- 884 02c3 00       		.byte	0
- 885 02c4 0F       		.uleb128 0xf
- 886 02c5 40000000 		.4byte	.LVL14
- 887 02c9 68010000 		.4byte	0x168
- 888 02cd D8020000 		.4byte	0x2d8
- 889 02d1 10       		.uleb128 0x10
- 890 02d2 01       		.uleb128 0x1
- 891 02d3 50       		.byte	0x50
- 892 02d4 02       		.uleb128 0x2
- 893 02d5 08       		.byte	0x8
- 894 02d6 3F       		.byte	0x3f
- 895 02d7 00       		.byte	0
- 896 02d8 0F       		.uleb128 0xf
- 897 02d9 46000000 		.4byte	.LVL15
- 898 02dd 8D010000 		.4byte	0x18d
- 899 02e1 EB020000 		.4byte	0x2eb
- 900 02e5 10       		.uleb128 0x10
- 901 02e6 01       		.uleb128 0x1
- 902 02e7 50       		.byte	0x50
- 903 02e8 01       		.uleb128 0x1
- 904 02e9 30       		.byte	0x30
- 905 02ea 00       		.byte	0
- 906 02eb 0C       		.uleb128 0xc
- 907 02ec 4A000000 		.4byte	.LVL16
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 33
+ 795 0278 34000000 		.4byte	.LVL11
+ 796 027c 1E010000 		.4byte	0x11e
+ 797 0280 8B020000 		.4byte	0x28b
+ 798 0284 10       		.uleb128 0x10
+ 799 0285 01       		.uleb128 0x1
+ 800 0286 50       		.byte	0x50
+ 801 0287 02       		.uleb128 0x2
+ 802 0288 75       		.byte	0x75
+ 803 0289 00       		.sleb128 0
+ 804 028a 00       		.byte	0
+ 805 028b 0F       		.uleb128 0xf
+ 806 028c 3A000000 		.4byte	.LVL12
+ 807 0290 43010000 		.4byte	0x143
+ 808 0294 9F020000 		.4byte	0x29f
+ 809 0298 10       		.uleb128 0x10
+ 810 0299 01       		.uleb128 0x1
+ 811 029a 50       		.byte	0x50
+ 812 029b 02       		.uleb128 0x2
+ 813 029c 08       		.byte	0x8
+ 814 029d 7F       		.byte	0x7f
+ 815 029e 00       		.byte	0
+ 816 029f 0F       		.uleb128 0xf
+ 817 02a0 40000000 		.4byte	.LVL13
+ 818 02a4 68010000 		.4byte	0x168
+ 819 02a8 B2020000 		.4byte	0x2b2
+ 820 02ac 10       		.uleb128 0x10
+ 821 02ad 01       		.uleb128 0x1
+ 822 02ae 50       		.byte	0x50
+ 823 02af 01       		.uleb128 0x1
+ 824 02b0 30       		.byte	0x30
+ 825 02b1 00       		.byte	0
+ 826 02b2 0C       		.uleb128 0xc
+ 827 02b3 44000000 		.4byte	.LVL14
+ 828 02b7 33030000 		.4byte	0x333
+ 829 02bb 0C       		.uleb128 0xc
+ 830 02bc 50000000 		.4byte	.LVL15
+ 831 02c0 3E030000 		.4byte	0x33e
+ 832 02c4 0C       		.uleb128 0xc
+ 833 02c5 54000000 		.4byte	.LVL16
+ 834 02c9 07020000 		.4byte	0x207
+ 835 02cd 00       		.byte	0
+ 836 02ce 0D       		.uleb128 0xd
+ 837 02cf 41030000 		.4byte	.LASF37
+ 838 02d3 01       		.byte	0x1
+ 839 02d4 37       		.byte	0x37
+ 840 02d5 00000000 		.4byte	.LFB2
+ 841 02d9 20000000 		.4byte	.LFE2-.LFB2
+ 842 02dd 01       		.uleb128 0x1
+ 843 02de 9C       		.byte	0x9c
+ 844 02df F6020000 		.4byte	0x2f6
+ 845 02e3 0C       		.uleb128 0xc
+ 846 02e4 0E000000 		.4byte	.LVL17
+ 847 02e8 30020000 		.4byte	0x230
+ 848 02ec 0C       		.uleb128 0xc
+ 849 02ed 18000000 		.4byte	.LVL18
+ 850 02f1 C1000000 		.4byte	0xc1
+ 851 02f5 00       		.byte	0
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 32
 
 
- 908 02f0 82030000 		.4byte	0x382
- 909 02f4 0C       		.uleb128 0xc
- 910 02f5 56000000 		.4byte	.LVL17
- 911 02f9 8D030000 		.4byte	0x38d
- 912 02fd 0C       		.uleb128 0xc
- 913 02fe 5A000000 		.4byte	.LVL18
- 914 0302 2C020000 		.4byte	0x22c
- 915 0306 00       		.byte	0
- 916 0307 0D       		.uleb128 0xd
- 917 0308 6A030000 		.4byte	.LASF38
- 918 030c 01       		.byte	0x1
- 919 030d 37       		.byte	0x37
- 920 030e 00000000 		.4byte	.LFB2
- 921 0312 20000000 		.4byte	.LFE2-.LFB2
- 922 0316 01       		.uleb128 0x1
- 923 0317 9C       		.byte	0x9c
- 924 0318 2F030000 		.4byte	0x32f
- 925 031c 0C       		.uleb128 0xc
- 926 031d 0E000000 		.4byte	.LVL19
- 927 0321 55020000 		.4byte	0x255
- 928 0325 0C       		.uleb128 0xc
- 929 0326 18000000 		.4byte	.LVL20
- 930 032a C1000000 		.4byte	0xc1
- 931 032e 00       		.byte	0
- 932 032f 09       		.uleb128 0x9
- 933 0330 58000000 		.4byte	.LASF39
- 934 0334 01       		.byte	0x1
- 935 0335 4A03     		.2byte	0x34a
- 936 0337 77000000 		.4byte	0x77
- 937 033b 00000000 		.4byte	.LFB17
- 938 033f 0C000000 		.4byte	.LFE17-.LFB17
- 939 0343 01       		.uleb128 0x1
- 940 0344 9C       		.byte	0x9c
- 941 0345 09       		.uleb128 0x9
- 942 0346 6B000000 		.4byte	.LASF40
- 943 034a 01       		.byte	0x1
- 944 034b 5E03     		.2byte	0x35e
- 945 034d 77000000 		.4byte	0x77
- 946 0351 00000000 		.4byte	.LFB18
- 947 0355 0C000000 		.4byte	.LFE18-.LFB18
- 948 0359 01       		.uleb128 0x1
- 949 035a 9C       		.byte	0x9c
- 950 035b 09       		.uleb128 0x9
- 951 035c F1000000 		.4byte	.LASF41
- 952 0360 01       		.byte	0x1
- 953 0361 7403     		.2byte	0x374
- 954 0363 77000000 		.4byte	0x77
- 955 0367 00000000 		.4byte	.LFB19
- 956 036b 0C000000 		.4byte	.LFE19-.LFB19
- 957 036f 01       		.uleb128 0x1
- 958 0370 9C       		.byte	0x9c
- 959 0371 11       		.uleb128 0x11
- 960 0372 6E010000 		.4byte	.LASF46
- 961 0376 01       		.byte	0x1
- 962 0377 20       		.byte	0x20
- 963 0378 6B000000 		.4byte	0x6b
- 964 037c 05       		.uleb128 0x5
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 34
+ 852 02f6 09       		.uleb128 0x9
+ 853 02f7 04010000 		.4byte	.LASF38
+ 854 02fb 01       		.byte	0x1
+ 855 02fc 3003     		.2byte	0x330
+ 856 02fe 77000000 		.4byte	0x77
+ 857 0302 00000000 		.4byte	.LFB16
+ 858 0306 0C000000 		.4byte	.LFE16-.LFB16
+ 859 030a 01       		.uleb128 0x1
+ 860 030b 9C       		.byte	0x9c
+ 861 030c 09       		.uleb128 0x9
+ 862 030d BC000000 		.4byte	.LASF39
+ 863 0311 01       		.byte	0x1
+ 864 0312 7403     		.2byte	0x374
+ 865 0314 77000000 		.4byte	0x77
+ 866 0318 00000000 		.4byte	.LFB17
+ 867 031c 0C000000 		.4byte	.LFE17-.LFB17
+ 868 0320 01       		.uleb128 0x1
+ 869 0321 9C       		.byte	0x9c
+ 870 0322 11       		.uleb128 0x11
+ 871 0323 32010000 		.4byte	.LASF44
+ 872 0327 01       		.byte	0x1
+ 873 0328 20       		.byte	0x20
+ 874 0329 6B000000 		.4byte	0x6b
+ 875 032d 05       		.uleb128 0x5
+ 876 032e 03       		.byte	0x3
+ 877 032f 00000000 		.4byte	PWM_1_initVar
+ 878 0333 12       		.uleb128 0x12
+ 879 0334 6E010000 		.4byte	.LASF45
+ 880 0338 03       		.byte	0x3
+ 881 0339 E3       		.byte	0xe3
+ 882 033a 6B000000 		.4byte	0x6b
+ 883 033e 13       		.uleb128 0x13
+ 884 033f 92010000 		.4byte	.LASF46
+ 885 0343 03       		.byte	0x3
+ 886 0344 E4       		.byte	0xe4
+ 887 0345 14       		.uleb128 0x14
+ 888 0346 6B000000 		.4byte	0x6b
+ 889 034a 00       		.byte	0
+ 890 034b 00       		.byte	0
+ 891              		.section	.debug_abbrev,"",%progbits
+ 892              	.Ldebug_abbrev0:
+ 893 0000 01       		.uleb128 0x1
+ 894 0001 11       		.uleb128 0x11
+ 895 0002 01       		.byte	0x1
+ 896 0003 25       		.uleb128 0x25
+ 897 0004 0E       		.uleb128 0xe
+ 898 0005 13       		.uleb128 0x13
+ 899 0006 0B       		.uleb128 0xb
+ 900 0007 03       		.uleb128 0x3
+ 901 0008 0E       		.uleb128 0xe
+ 902 0009 1B       		.uleb128 0x1b
+ 903 000a 0E       		.uleb128 0xe
+ 904 000b 55       		.uleb128 0x55
+ 905 000c 17       		.uleb128 0x17
+ 906 000d 11       		.uleb128 0x11
+ 907 000e 01       		.uleb128 0x1
+ 908 000f 10       		.uleb128 0x10
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 33
 
 
- 965 037d 03       		.byte	0x3
- 966 037e 00000000 		.4byte	PWM_1_initVar
- 967 0382 12       		.uleb128 0x12
- 968 0383 AA010000 		.4byte	.LASF47
- 969 0387 03       		.byte	0x3
- 970 0388 E3       		.byte	0xe3
- 971 0389 6B000000 		.4byte	0x6b
- 972 038d 13       		.uleb128 0x13
- 973 038e CE010000 		.4byte	.LASF48
- 974 0392 03       		.byte	0x3
- 975 0393 E4       		.byte	0xe4
- 976 0394 14       		.uleb128 0x14
- 977 0395 6B000000 		.4byte	0x6b
- 978 0399 00       		.byte	0
- 979 039a 00       		.byte	0
- 980              		.section	.debug_abbrev,"",%progbits
- 981              	.Ldebug_abbrev0:
- 982 0000 01       		.uleb128 0x1
- 983 0001 11       		.uleb128 0x11
- 984 0002 01       		.byte	0x1
- 985 0003 25       		.uleb128 0x25
- 986 0004 0E       		.uleb128 0xe
- 987 0005 13       		.uleb128 0x13
- 988 0006 0B       		.uleb128 0xb
- 989 0007 03       		.uleb128 0x3
- 990 0008 0E       		.uleb128 0xe
- 991 0009 1B       		.uleb128 0x1b
- 992 000a 0E       		.uleb128 0xe
- 993 000b 55       		.uleb128 0x55
- 994 000c 17       		.uleb128 0x17
- 995 000d 11       		.uleb128 0x11
- 996 000e 01       		.uleb128 0x1
- 997 000f 10       		.uleb128 0x10
- 998 0010 17       		.uleb128 0x17
- 999 0011 00       		.byte	0
- 1000 0012 00       		.byte	0
- 1001 0013 02       		.uleb128 0x2
- 1002 0014 24       		.uleb128 0x24
- 1003 0015 00       		.byte	0
- 1004 0016 0B       		.uleb128 0xb
- 1005 0017 0B       		.uleb128 0xb
- 1006 0018 3E       		.uleb128 0x3e
- 1007 0019 0B       		.uleb128 0xb
- 1008 001a 03       		.uleb128 0x3
- 1009 001b 0E       		.uleb128 0xe
- 1010 001c 00       		.byte	0
- 1011 001d 00       		.byte	0
- 1012 001e 03       		.uleb128 0x3
- 1013 001f 24       		.uleb128 0x24
- 1014 0020 00       		.byte	0
- 1015 0021 0B       		.uleb128 0xb
- 1016 0022 0B       		.uleb128 0xb
- 1017 0023 3E       		.uleb128 0x3e
- 1018 0024 0B       		.uleb128 0xb
- 1019 0025 03       		.uleb128 0x3
- 1020 0026 08       		.uleb128 0x8
- 1021 0027 00       		.byte	0
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 35
+ 909 0010 17       		.uleb128 0x17
+ 910 0011 00       		.byte	0
+ 911 0012 00       		.byte	0
+ 912 0013 02       		.uleb128 0x2
+ 913 0014 24       		.uleb128 0x24
+ 914 0015 00       		.byte	0
+ 915 0016 0B       		.uleb128 0xb
+ 916 0017 0B       		.uleb128 0xb
+ 917 0018 3E       		.uleb128 0x3e
+ 918 0019 0B       		.uleb128 0xb
+ 919 001a 03       		.uleb128 0x3
+ 920 001b 0E       		.uleb128 0xe
+ 921 001c 00       		.byte	0
+ 922 001d 00       		.byte	0
+ 923 001e 03       		.uleb128 0x3
+ 924 001f 24       		.uleb128 0x24
+ 925 0020 00       		.byte	0
+ 926 0021 0B       		.uleb128 0xb
+ 927 0022 0B       		.uleb128 0xb
+ 928 0023 3E       		.uleb128 0x3e
+ 929 0024 0B       		.uleb128 0xb
+ 930 0025 03       		.uleb128 0x3
+ 931 0026 08       		.uleb128 0x8
+ 932 0027 00       		.byte	0
+ 933 0028 00       		.byte	0
+ 934 0029 04       		.uleb128 0x4
+ 935 002a 16       		.uleb128 0x16
+ 936 002b 00       		.byte	0
+ 937 002c 03       		.uleb128 0x3
+ 938 002d 0E       		.uleb128 0xe
+ 939 002e 3A       		.uleb128 0x3a
+ 940 002f 0B       		.uleb128 0xb
+ 941 0030 3B       		.uleb128 0x3b
+ 942 0031 05       		.uleb128 0x5
+ 943 0032 49       		.uleb128 0x49
+ 944 0033 13       		.uleb128 0x13
+ 945 0034 00       		.byte	0
+ 946 0035 00       		.byte	0
+ 947 0036 05       		.uleb128 0x5
+ 948 0037 35       		.uleb128 0x35
+ 949 0038 00       		.byte	0
+ 950 0039 49       		.uleb128 0x49
+ 951 003a 13       		.uleb128 0x13
+ 952 003b 00       		.byte	0
+ 953 003c 00       		.byte	0
+ 954 003d 06       		.uleb128 0x6
+ 955 003e 2E       		.uleb128 0x2e
+ 956 003f 00       		.byte	0
+ 957 0040 3F       		.uleb128 0x3f
+ 958 0041 19       		.uleb128 0x19
+ 959 0042 03       		.uleb128 0x3
+ 960 0043 0E       		.uleb128 0xe
+ 961 0044 3A       		.uleb128 0x3a
+ 962 0045 0B       		.uleb128 0xb
+ 963 0046 3B       		.uleb128 0x3b
+ 964 0047 0B       		.uleb128 0xb
+ 965 0048 27       		.uleb128 0x27
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 34
 
 
- 1022 0028 00       		.byte	0
- 1023 0029 04       		.uleb128 0x4
- 1024 002a 16       		.uleb128 0x16
- 1025 002b 00       		.byte	0
- 1026 002c 03       		.uleb128 0x3
- 1027 002d 0E       		.uleb128 0xe
- 1028 002e 3A       		.uleb128 0x3a
- 1029 002f 0B       		.uleb128 0xb
- 1030 0030 3B       		.uleb128 0x3b
- 1031 0031 05       		.uleb128 0x5
- 1032 0032 49       		.uleb128 0x49
- 1033 0033 13       		.uleb128 0x13
- 1034 0034 00       		.byte	0
- 1035 0035 00       		.byte	0
- 1036 0036 05       		.uleb128 0x5
- 1037 0037 35       		.uleb128 0x35
- 1038 0038 00       		.byte	0
- 1039 0039 49       		.uleb128 0x49
- 1040 003a 13       		.uleb128 0x13
- 1041 003b 00       		.byte	0
- 1042 003c 00       		.byte	0
- 1043 003d 06       		.uleb128 0x6
- 1044 003e 2E       		.uleb128 0x2e
- 1045 003f 00       		.byte	0
- 1046 0040 3F       		.uleb128 0x3f
- 1047 0041 19       		.uleb128 0x19
- 1048 0042 03       		.uleb128 0x3
- 1049 0043 0E       		.uleb128 0xe
- 1050 0044 3A       		.uleb128 0x3a
- 1051 0045 0B       		.uleb128 0xb
- 1052 0046 3B       		.uleb128 0x3b
- 1053 0047 0B       		.uleb128 0xb
- 1054 0048 27       		.uleb128 0x27
- 1055 0049 19       		.uleb128 0x19
- 1056 004a 11       		.uleb128 0x11
- 1057 004b 01       		.uleb128 0x1
- 1058 004c 12       		.uleb128 0x12
- 1059 004d 06       		.uleb128 0x6
- 1060 004e 40       		.uleb128 0x40
- 1061 004f 18       		.uleb128 0x18
- 1062 0050 9742     		.uleb128 0x2117
- 1063 0052 19       		.uleb128 0x19
- 1064 0053 00       		.byte	0
- 1065 0054 00       		.byte	0
- 1066 0055 07       		.uleb128 0x7
- 1067 0056 2E       		.uleb128 0x2e
- 1068 0057 01       		.byte	0x1
- 1069 0058 3F       		.uleb128 0x3f
- 1070 0059 19       		.uleb128 0x19
- 1071 005a 03       		.uleb128 0x3
- 1072 005b 0E       		.uleb128 0xe
- 1073 005c 3A       		.uleb128 0x3a
- 1074 005d 0B       		.uleb128 0xb
- 1075 005e 3B       		.uleb128 0x3b
- 1076 005f 05       		.uleb128 0x5
- 1077 0060 27       		.uleb128 0x27
- 1078 0061 19       		.uleb128 0x19
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 36
+ 966 0049 19       		.uleb128 0x19
+ 967 004a 11       		.uleb128 0x11
+ 968 004b 01       		.uleb128 0x1
+ 969 004c 12       		.uleb128 0x12
+ 970 004d 06       		.uleb128 0x6
+ 971 004e 40       		.uleb128 0x40
+ 972 004f 18       		.uleb128 0x18
+ 973 0050 9742     		.uleb128 0x2117
+ 974 0052 19       		.uleb128 0x19
+ 975 0053 00       		.byte	0
+ 976 0054 00       		.byte	0
+ 977 0055 07       		.uleb128 0x7
+ 978 0056 2E       		.uleb128 0x2e
+ 979 0057 01       		.byte	0x1
+ 980 0058 3F       		.uleb128 0x3f
+ 981 0059 19       		.uleb128 0x19
+ 982 005a 03       		.uleb128 0x3
+ 983 005b 0E       		.uleb128 0xe
+ 984 005c 3A       		.uleb128 0x3a
+ 985 005d 0B       		.uleb128 0xb
+ 986 005e 3B       		.uleb128 0x3b
+ 987 005f 05       		.uleb128 0x5
+ 988 0060 27       		.uleb128 0x27
+ 989 0061 19       		.uleb128 0x19
+ 990 0062 11       		.uleb128 0x11
+ 991 0063 01       		.uleb128 0x1
+ 992 0064 12       		.uleb128 0x12
+ 993 0065 06       		.uleb128 0x6
+ 994 0066 40       		.uleb128 0x40
+ 995 0067 18       		.uleb128 0x18
+ 996 0068 9742     		.uleb128 0x2117
+ 997 006a 19       		.uleb128 0x19
+ 998 006b 01       		.uleb128 0x1
+ 999 006c 13       		.uleb128 0x13
+ 1000 006d 00       		.byte	0
+ 1001 006e 00       		.byte	0
+ 1002 006f 08       		.uleb128 0x8
+ 1003 0070 05       		.uleb128 0x5
+ 1004 0071 00       		.byte	0
+ 1005 0072 03       		.uleb128 0x3
+ 1006 0073 0E       		.uleb128 0xe
+ 1007 0074 3A       		.uleb128 0x3a
+ 1008 0075 0B       		.uleb128 0xb
+ 1009 0076 3B       		.uleb128 0x3b
+ 1010 0077 05       		.uleb128 0x5
+ 1011 0078 49       		.uleb128 0x49
+ 1012 0079 13       		.uleb128 0x13
+ 1013 007a 02       		.uleb128 0x2
+ 1014 007b 18       		.uleb128 0x18
+ 1015 007c 00       		.byte	0
+ 1016 007d 00       		.byte	0
+ 1017 007e 09       		.uleb128 0x9
+ 1018 007f 2E       		.uleb128 0x2e
+ 1019 0080 00       		.byte	0
+ 1020 0081 3F       		.uleb128 0x3f
+ 1021 0082 19       		.uleb128 0x19
+ 1022 0083 03       		.uleb128 0x3
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 35
 
 
- 1079 0062 11       		.uleb128 0x11
- 1080 0063 01       		.uleb128 0x1
- 1081 0064 12       		.uleb128 0x12
- 1082 0065 06       		.uleb128 0x6
- 1083 0066 40       		.uleb128 0x40
- 1084 0067 18       		.uleb128 0x18
- 1085 0068 9742     		.uleb128 0x2117
- 1086 006a 19       		.uleb128 0x19
- 1087 006b 01       		.uleb128 0x1
- 1088 006c 13       		.uleb128 0x13
- 1089 006d 00       		.byte	0
- 1090 006e 00       		.byte	0
- 1091 006f 08       		.uleb128 0x8
- 1092 0070 05       		.uleb128 0x5
- 1093 0071 00       		.byte	0
- 1094 0072 03       		.uleb128 0x3
- 1095 0073 0E       		.uleb128 0xe
- 1096 0074 3A       		.uleb128 0x3a
- 1097 0075 0B       		.uleb128 0xb
- 1098 0076 3B       		.uleb128 0x3b
- 1099 0077 05       		.uleb128 0x5
- 1100 0078 49       		.uleb128 0x49
- 1101 0079 13       		.uleb128 0x13
- 1102 007a 02       		.uleb128 0x2
- 1103 007b 18       		.uleb128 0x18
- 1104 007c 00       		.byte	0
- 1105 007d 00       		.byte	0
- 1106 007e 09       		.uleb128 0x9
- 1107 007f 2E       		.uleb128 0x2e
- 1108 0080 00       		.byte	0
- 1109 0081 3F       		.uleb128 0x3f
- 1110 0082 19       		.uleb128 0x19
- 1111 0083 03       		.uleb128 0x3
- 1112 0084 0E       		.uleb128 0xe
- 1113 0085 3A       		.uleb128 0x3a
- 1114 0086 0B       		.uleb128 0xb
- 1115 0087 3B       		.uleb128 0x3b
- 1116 0088 05       		.uleb128 0x5
- 1117 0089 27       		.uleb128 0x27
- 1118 008a 19       		.uleb128 0x19
- 1119 008b 49       		.uleb128 0x49
- 1120 008c 13       		.uleb128 0x13
- 1121 008d 11       		.uleb128 0x11
- 1122 008e 01       		.uleb128 0x1
- 1123 008f 12       		.uleb128 0x12
- 1124 0090 06       		.uleb128 0x6
- 1125 0091 40       		.uleb128 0x40
- 1126 0092 18       		.uleb128 0x18
- 1127 0093 9742     		.uleb128 0x2117
- 1128 0095 19       		.uleb128 0x19
- 1129 0096 00       		.byte	0
- 1130 0097 00       		.byte	0
- 1131 0098 0A       		.uleb128 0xa
- 1132 0099 2E       		.uleb128 0x2e
- 1133 009a 01       		.byte	0x1
- 1134 009b 3F       		.uleb128 0x3f
- 1135 009c 19       		.uleb128 0x19
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 37
+ 1023 0084 0E       		.uleb128 0xe
+ 1024 0085 3A       		.uleb128 0x3a
+ 1025 0086 0B       		.uleb128 0xb
+ 1026 0087 3B       		.uleb128 0x3b
+ 1027 0088 05       		.uleb128 0x5
+ 1028 0089 27       		.uleb128 0x27
+ 1029 008a 19       		.uleb128 0x19
+ 1030 008b 49       		.uleb128 0x49
+ 1031 008c 13       		.uleb128 0x13
+ 1032 008d 11       		.uleb128 0x11
+ 1033 008e 01       		.uleb128 0x1
+ 1034 008f 12       		.uleb128 0x12
+ 1035 0090 06       		.uleb128 0x6
+ 1036 0091 40       		.uleb128 0x40
+ 1037 0092 18       		.uleb128 0x18
+ 1038 0093 9742     		.uleb128 0x2117
+ 1039 0095 19       		.uleb128 0x19
+ 1040 0096 00       		.byte	0
+ 1041 0097 00       		.byte	0
+ 1042 0098 0A       		.uleb128 0xa
+ 1043 0099 2E       		.uleb128 0x2e
+ 1044 009a 01       		.byte	0x1
+ 1045 009b 3F       		.uleb128 0x3f
+ 1046 009c 19       		.uleb128 0x19
+ 1047 009d 03       		.uleb128 0x3
+ 1048 009e 0E       		.uleb128 0xe
+ 1049 009f 3A       		.uleb128 0x3a
+ 1050 00a0 0B       		.uleb128 0xb
+ 1051 00a1 3B       		.uleb128 0x3b
+ 1052 00a2 05       		.uleb128 0x5
+ 1053 00a3 27       		.uleb128 0x27
+ 1054 00a4 19       		.uleb128 0x19
+ 1055 00a5 49       		.uleb128 0x49
+ 1056 00a6 13       		.uleb128 0x13
+ 1057 00a7 11       		.uleb128 0x11
+ 1058 00a8 01       		.uleb128 0x1
+ 1059 00a9 12       		.uleb128 0x12
+ 1060 00aa 06       		.uleb128 0x6
+ 1061 00ab 40       		.uleb128 0x40
+ 1062 00ac 18       		.uleb128 0x18
+ 1063 00ad 9742     		.uleb128 0x2117
+ 1064 00af 19       		.uleb128 0x19
+ 1065 00b0 01       		.uleb128 0x1
+ 1066 00b1 13       		.uleb128 0x13
+ 1067 00b2 00       		.byte	0
+ 1068 00b3 00       		.byte	0
+ 1069 00b4 0B       		.uleb128 0xb
+ 1070 00b5 34       		.uleb128 0x34
+ 1071 00b6 00       		.byte	0
+ 1072 00b7 03       		.uleb128 0x3
+ 1073 00b8 0E       		.uleb128 0xe
+ 1074 00b9 3A       		.uleb128 0x3a
+ 1075 00ba 0B       		.uleb128 0xb
+ 1076 00bb 3B       		.uleb128 0x3b
+ 1077 00bc 05       		.uleb128 0x5
+ 1078 00bd 49       		.uleb128 0x49
+ 1079 00be 13       		.uleb128 0x13
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 36
 
 
- 1136 009d 03       		.uleb128 0x3
- 1137 009e 0E       		.uleb128 0xe
- 1138 009f 3A       		.uleb128 0x3a
- 1139 00a0 0B       		.uleb128 0xb
- 1140 00a1 3B       		.uleb128 0x3b
- 1141 00a2 05       		.uleb128 0x5
- 1142 00a3 27       		.uleb128 0x27
- 1143 00a4 19       		.uleb128 0x19
- 1144 00a5 49       		.uleb128 0x49
- 1145 00a6 13       		.uleb128 0x13
- 1146 00a7 11       		.uleb128 0x11
- 1147 00a8 01       		.uleb128 0x1
- 1148 00a9 12       		.uleb128 0x12
- 1149 00aa 06       		.uleb128 0x6
- 1150 00ab 40       		.uleb128 0x40
- 1151 00ac 18       		.uleb128 0x18
- 1152 00ad 9742     		.uleb128 0x2117
- 1153 00af 19       		.uleb128 0x19
- 1154 00b0 01       		.uleb128 0x1
- 1155 00b1 13       		.uleb128 0x13
- 1156 00b2 00       		.byte	0
- 1157 00b3 00       		.byte	0
- 1158 00b4 0B       		.uleb128 0xb
- 1159 00b5 34       		.uleb128 0x34
- 1160 00b6 00       		.byte	0
- 1161 00b7 03       		.uleb128 0x3
- 1162 00b8 0E       		.uleb128 0xe
- 1163 00b9 3A       		.uleb128 0x3a
- 1164 00ba 0B       		.uleb128 0xb
- 1165 00bb 3B       		.uleb128 0x3b
- 1166 00bc 05       		.uleb128 0x5
- 1167 00bd 49       		.uleb128 0x49
- 1168 00be 13       		.uleb128 0x13
- 1169 00bf 02       		.uleb128 0x2
- 1170 00c0 18       		.uleb128 0x18
- 1171 00c1 00       		.byte	0
- 1172 00c2 00       		.byte	0
- 1173 00c3 0C       		.uleb128 0xc
- 1174 00c4 898201   		.uleb128 0x4109
- 1175 00c7 00       		.byte	0
- 1176 00c8 11       		.uleb128 0x11
- 1177 00c9 01       		.uleb128 0x1
- 1178 00ca 31       		.uleb128 0x31
- 1179 00cb 13       		.uleb128 0x13
- 1180 00cc 00       		.byte	0
- 1181 00cd 00       		.byte	0
- 1182 00ce 0D       		.uleb128 0xd
- 1183 00cf 2E       		.uleb128 0x2e
- 1184 00d0 01       		.byte	0x1
- 1185 00d1 3F       		.uleb128 0x3f
- 1186 00d2 19       		.uleb128 0x19
- 1187 00d3 03       		.uleb128 0x3
- 1188 00d4 0E       		.uleb128 0xe
- 1189 00d5 3A       		.uleb128 0x3a
- 1190 00d6 0B       		.uleb128 0xb
- 1191 00d7 3B       		.uleb128 0x3b
- 1192 00d8 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 38
+ 1080 00bf 02       		.uleb128 0x2
+ 1081 00c0 18       		.uleb128 0x18
+ 1082 00c1 00       		.byte	0
+ 1083 00c2 00       		.byte	0
+ 1084 00c3 0C       		.uleb128 0xc
+ 1085 00c4 898201   		.uleb128 0x4109
+ 1086 00c7 00       		.byte	0
+ 1087 00c8 11       		.uleb128 0x11
+ 1088 00c9 01       		.uleb128 0x1
+ 1089 00ca 31       		.uleb128 0x31
+ 1090 00cb 13       		.uleb128 0x13
+ 1091 00cc 00       		.byte	0
+ 1092 00cd 00       		.byte	0
+ 1093 00ce 0D       		.uleb128 0xd
+ 1094 00cf 2E       		.uleb128 0x2e
+ 1095 00d0 01       		.byte	0x1
+ 1096 00d1 3F       		.uleb128 0x3f
+ 1097 00d2 19       		.uleb128 0x19
+ 1098 00d3 03       		.uleb128 0x3
+ 1099 00d4 0E       		.uleb128 0xe
+ 1100 00d5 3A       		.uleb128 0x3a
+ 1101 00d6 0B       		.uleb128 0xb
+ 1102 00d7 3B       		.uleb128 0x3b
+ 1103 00d8 0B       		.uleb128 0xb
+ 1104 00d9 27       		.uleb128 0x27
+ 1105 00da 19       		.uleb128 0x19
+ 1106 00db 11       		.uleb128 0x11
+ 1107 00dc 01       		.uleb128 0x1
+ 1108 00dd 12       		.uleb128 0x12
+ 1109 00de 06       		.uleb128 0x6
+ 1110 00df 40       		.uleb128 0x40
+ 1111 00e0 18       		.uleb128 0x18
+ 1112 00e1 9742     		.uleb128 0x2117
+ 1113 00e3 19       		.uleb128 0x19
+ 1114 00e4 01       		.uleb128 0x1
+ 1115 00e5 13       		.uleb128 0x13
+ 1116 00e6 00       		.byte	0
+ 1117 00e7 00       		.byte	0
+ 1118 00e8 0E       		.uleb128 0xe
+ 1119 00e9 34       		.uleb128 0x34
+ 1120 00ea 00       		.byte	0
+ 1121 00eb 03       		.uleb128 0x3
+ 1122 00ec 0E       		.uleb128 0xe
+ 1123 00ed 3A       		.uleb128 0x3a
+ 1124 00ee 0B       		.uleb128 0xb
+ 1125 00ef 3B       		.uleb128 0x3b
+ 1126 00f0 0B       		.uleb128 0xb
+ 1127 00f1 49       		.uleb128 0x49
+ 1128 00f2 13       		.uleb128 0x13
+ 1129 00f3 02       		.uleb128 0x2
+ 1130 00f4 17       		.uleb128 0x17
+ 1131 00f5 00       		.byte	0
+ 1132 00f6 00       		.byte	0
+ 1133 00f7 0F       		.uleb128 0xf
+ 1134 00f8 898201   		.uleb128 0x4109
+ 1135 00fb 01       		.byte	0x1
+ 1136 00fc 11       		.uleb128 0x11
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 37
 
 
- 1193 00d9 27       		.uleb128 0x27
- 1194 00da 19       		.uleb128 0x19
- 1195 00db 11       		.uleb128 0x11
- 1196 00dc 01       		.uleb128 0x1
- 1197 00dd 12       		.uleb128 0x12
- 1198 00de 06       		.uleb128 0x6
- 1199 00df 40       		.uleb128 0x40
- 1200 00e0 18       		.uleb128 0x18
- 1201 00e1 9742     		.uleb128 0x2117
- 1202 00e3 19       		.uleb128 0x19
- 1203 00e4 01       		.uleb128 0x1
- 1204 00e5 13       		.uleb128 0x13
- 1205 00e6 00       		.byte	0
- 1206 00e7 00       		.byte	0
- 1207 00e8 0E       		.uleb128 0xe
- 1208 00e9 34       		.uleb128 0x34
- 1209 00ea 00       		.byte	0
- 1210 00eb 03       		.uleb128 0x3
- 1211 00ec 0E       		.uleb128 0xe
- 1212 00ed 3A       		.uleb128 0x3a
- 1213 00ee 0B       		.uleb128 0xb
- 1214 00ef 3B       		.uleb128 0x3b
- 1215 00f0 0B       		.uleb128 0xb
- 1216 00f1 49       		.uleb128 0x49
- 1217 00f2 13       		.uleb128 0x13
- 1218 00f3 02       		.uleb128 0x2
- 1219 00f4 17       		.uleb128 0x17
- 1220 00f5 00       		.byte	0
- 1221 00f6 00       		.byte	0
- 1222 00f7 0F       		.uleb128 0xf
- 1223 00f8 898201   		.uleb128 0x4109
- 1224 00fb 01       		.byte	0x1
- 1225 00fc 11       		.uleb128 0x11
- 1226 00fd 01       		.uleb128 0x1
- 1227 00fe 31       		.uleb128 0x31
- 1228 00ff 13       		.uleb128 0x13
- 1229 0100 01       		.uleb128 0x1
- 1230 0101 13       		.uleb128 0x13
- 1231 0102 00       		.byte	0
- 1232 0103 00       		.byte	0
- 1233 0104 10       		.uleb128 0x10
- 1234 0105 8A8201   		.uleb128 0x410a
- 1235 0108 00       		.byte	0
- 1236 0109 02       		.uleb128 0x2
- 1237 010a 18       		.uleb128 0x18
- 1238 010b 9142     		.uleb128 0x2111
- 1239 010d 18       		.uleb128 0x18
- 1240 010e 00       		.byte	0
- 1241 010f 00       		.byte	0
- 1242 0110 11       		.uleb128 0x11
- 1243 0111 34       		.uleb128 0x34
- 1244 0112 00       		.byte	0
- 1245 0113 03       		.uleb128 0x3
- 1246 0114 0E       		.uleb128 0xe
- 1247 0115 3A       		.uleb128 0x3a
- 1248 0116 0B       		.uleb128 0xb
- 1249 0117 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 39
+ 1137 00fd 01       		.uleb128 0x1
+ 1138 00fe 31       		.uleb128 0x31
+ 1139 00ff 13       		.uleb128 0x13
+ 1140 0100 01       		.uleb128 0x1
+ 1141 0101 13       		.uleb128 0x13
+ 1142 0102 00       		.byte	0
+ 1143 0103 00       		.byte	0
+ 1144 0104 10       		.uleb128 0x10
+ 1145 0105 8A8201   		.uleb128 0x410a
+ 1146 0108 00       		.byte	0
+ 1147 0109 02       		.uleb128 0x2
+ 1148 010a 18       		.uleb128 0x18
+ 1149 010b 9142     		.uleb128 0x2111
+ 1150 010d 18       		.uleb128 0x18
+ 1151 010e 00       		.byte	0
+ 1152 010f 00       		.byte	0
+ 1153 0110 11       		.uleb128 0x11
+ 1154 0111 34       		.uleb128 0x34
+ 1155 0112 00       		.byte	0
+ 1156 0113 03       		.uleb128 0x3
+ 1157 0114 0E       		.uleb128 0xe
+ 1158 0115 3A       		.uleb128 0x3a
+ 1159 0116 0B       		.uleb128 0xb
+ 1160 0117 3B       		.uleb128 0x3b
+ 1161 0118 0B       		.uleb128 0xb
+ 1162 0119 49       		.uleb128 0x49
+ 1163 011a 13       		.uleb128 0x13
+ 1164 011b 3F       		.uleb128 0x3f
+ 1165 011c 19       		.uleb128 0x19
+ 1166 011d 02       		.uleb128 0x2
+ 1167 011e 18       		.uleb128 0x18
+ 1168 011f 00       		.byte	0
+ 1169 0120 00       		.byte	0
+ 1170 0121 12       		.uleb128 0x12
+ 1171 0122 2E       		.uleb128 0x2e
+ 1172 0123 00       		.byte	0
+ 1173 0124 3F       		.uleb128 0x3f
+ 1174 0125 19       		.uleb128 0x19
+ 1175 0126 03       		.uleb128 0x3
+ 1176 0127 0E       		.uleb128 0xe
+ 1177 0128 3A       		.uleb128 0x3a
+ 1178 0129 0B       		.uleb128 0xb
+ 1179 012a 3B       		.uleb128 0x3b
+ 1180 012b 0B       		.uleb128 0xb
+ 1181 012c 27       		.uleb128 0x27
+ 1182 012d 19       		.uleb128 0x19
+ 1183 012e 49       		.uleb128 0x49
+ 1184 012f 13       		.uleb128 0x13
+ 1185 0130 3C       		.uleb128 0x3c
+ 1186 0131 19       		.uleb128 0x19
+ 1187 0132 00       		.byte	0
+ 1188 0133 00       		.byte	0
+ 1189 0134 13       		.uleb128 0x13
+ 1190 0135 2E       		.uleb128 0x2e
+ 1191 0136 01       		.byte	0x1
+ 1192 0137 3F       		.uleb128 0x3f
+ 1193 0138 19       		.uleb128 0x19
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 38
 
 
- 1250 0118 0B       		.uleb128 0xb
- 1251 0119 49       		.uleb128 0x49
- 1252 011a 13       		.uleb128 0x13
- 1253 011b 3F       		.uleb128 0x3f
- 1254 011c 19       		.uleb128 0x19
- 1255 011d 02       		.uleb128 0x2
- 1256 011e 18       		.uleb128 0x18
- 1257 011f 00       		.byte	0
- 1258 0120 00       		.byte	0
- 1259 0121 12       		.uleb128 0x12
- 1260 0122 2E       		.uleb128 0x2e
- 1261 0123 00       		.byte	0
- 1262 0124 3F       		.uleb128 0x3f
- 1263 0125 19       		.uleb128 0x19
- 1264 0126 03       		.uleb128 0x3
- 1265 0127 0E       		.uleb128 0xe
- 1266 0128 3A       		.uleb128 0x3a
- 1267 0129 0B       		.uleb128 0xb
- 1268 012a 3B       		.uleb128 0x3b
- 1269 012b 0B       		.uleb128 0xb
- 1270 012c 27       		.uleb128 0x27
- 1271 012d 19       		.uleb128 0x19
- 1272 012e 49       		.uleb128 0x49
- 1273 012f 13       		.uleb128 0x13
- 1274 0130 3C       		.uleb128 0x3c
- 1275 0131 19       		.uleb128 0x19
- 1276 0132 00       		.byte	0
- 1277 0133 00       		.byte	0
- 1278 0134 13       		.uleb128 0x13
- 1279 0135 2E       		.uleb128 0x2e
- 1280 0136 01       		.byte	0x1
- 1281 0137 3F       		.uleb128 0x3f
- 1282 0138 19       		.uleb128 0x19
- 1283 0139 03       		.uleb128 0x3
- 1284 013a 0E       		.uleb128 0xe
- 1285 013b 3A       		.uleb128 0x3a
- 1286 013c 0B       		.uleb128 0xb
- 1287 013d 3B       		.uleb128 0x3b
- 1288 013e 0B       		.uleb128 0xb
- 1289 013f 27       		.uleb128 0x27
- 1290 0140 19       		.uleb128 0x19
- 1291 0141 3C       		.uleb128 0x3c
- 1292 0142 19       		.uleb128 0x19
- 1293 0143 00       		.byte	0
- 1294 0144 00       		.byte	0
- 1295 0145 14       		.uleb128 0x14
- 1296 0146 05       		.uleb128 0x5
- 1297 0147 00       		.byte	0
- 1298 0148 49       		.uleb128 0x49
- 1299 0149 13       		.uleb128 0x13
- 1300 014a 00       		.byte	0
- 1301 014b 00       		.byte	0
- 1302 014c 00       		.byte	0
- 1303              		.section	.debug_loc,"",%progbits
- 1304              	.Ldebug_loc0:
- 1305              	.LLST0:
- 1306 0000 0A000000 		.4byte	.LVL9
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 40
+ 1194 0139 03       		.uleb128 0x3
+ 1195 013a 0E       		.uleb128 0xe
+ 1196 013b 3A       		.uleb128 0x3a
+ 1197 013c 0B       		.uleb128 0xb
+ 1198 013d 3B       		.uleb128 0x3b
+ 1199 013e 0B       		.uleb128 0xb
+ 1200 013f 27       		.uleb128 0x27
+ 1201 0140 19       		.uleb128 0x19
+ 1202 0141 3C       		.uleb128 0x3c
+ 1203 0142 19       		.uleb128 0x19
+ 1204 0143 00       		.byte	0
+ 1205 0144 00       		.byte	0
+ 1206 0145 14       		.uleb128 0x14
+ 1207 0146 05       		.uleb128 0x5
+ 1208 0147 00       		.byte	0
+ 1209 0148 49       		.uleb128 0x49
+ 1210 0149 13       		.uleb128 0x13
+ 1211 014a 00       		.byte	0
+ 1212 014b 00       		.byte	0
+ 1213 014c 00       		.byte	0
+ 1214              		.section	.debug_loc,"",%progbits
+ 1215              	.Ldebug_loc0:
+ 1216              	.LLST0:
+ 1217 0000 0A000000 		.4byte	.LVL8
+ 1218 0004 0E000000 		.4byte	.LVL9
+ 1219 0008 0100     		.2byte	0x1
+ 1220 000a 53       		.byte	0x53
+ 1221 000b 00000000 		.4byte	0
+ 1222 000f 00000000 		.4byte	0
+ 1223              	.LLST1:
+ 1224 0013 44000000 		.4byte	.LVL14
+ 1225 0017 4F000000 		.4byte	.LVL15-1
+ 1226 001b 0100     		.2byte	0x1
+ 1227 001d 50       		.byte	0x50
+ 1228 001e 00000000 		.4byte	0
+ 1229 0022 00000000 		.4byte	0
+ 1230              		.section	.debug_aranges,"",%progbits
+ 1231 0000 94000000 		.4byte	0x94
+ 1232 0004 0200     		.2byte	0x2
+ 1233 0006 00000000 		.4byte	.Ldebug_info0
+ 1234 000a 04       		.byte	0x4
+ 1235 000b 00       		.byte	0
+ 1236 000c 0000     		.2byte	0
+ 1237 000e 0000     		.2byte	0
+ 1238 0010 00000000 		.4byte	.LFB4
+ 1239 0014 10000000 		.4byte	.LFE4-.LFB4
+ 1240 0018 00000000 		.4byte	.LFB5
+ 1241 001c 10000000 		.4byte	.LFE5-.LFB5
+ 1242 0020 00000000 		.4byte	.LFB6
+ 1243 0024 0C000000 		.4byte	.LFE6-.LFB6
+ 1244 0028 00000000 		.4byte	.LFB7
+ 1245 002c 14000000 		.4byte	.LFE7-.LFB7
+ 1246 0030 00000000 		.4byte	.LFB9
+ 1247 0034 0C000000 		.4byte	.LFE9-.LFB9
+ 1248 0038 00000000 		.4byte	.LFB10
+ 1249 003c 0C000000 		.4byte	.LFE10-.LFB10
+ 1250 0040 00000000 		.4byte	.LFB11
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 39
 
 
- 1307 0004 0E000000 		.4byte	.LVL10
- 1308 0008 0100     		.2byte	0x1
- 1309 000a 53       		.byte	0x53
- 1310 000b 00000000 		.4byte	0
- 1311 000f 00000000 		.4byte	0
- 1312              	.LLST1:
- 1313 0013 4A000000 		.4byte	.LVL16
- 1314 0017 55000000 		.4byte	.LVL17-1
- 1315 001b 0100     		.2byte	0x1
- 1316 001d 50       		.byte	0x50
- 1317 001e 00000000 		.4byte	0
- 1318 0022 00000000 		.4byte	0
- 1319              		.section	.debug_aranges,"",%progbits
- 1320 0000 A4000000 		.4byte	0xa4
- 1321 0004 0200     		.2byte	0x2
- 1322 0006 00000000 		.4byte	.Ldebug_info0
- 1323 000a 04       		.byte	0x4
- 1324 000b 00       		.byte	0
- 1325 000c 0000     		.2byte	0
- 1326 000e 0000     		.2byte	0
- 1327 0010 00000000 		.4byte	.LFB4
- 1328 0014 10000000 		.4byte	.LFE4-.LFB4
- 1329 0018 00000000 		.4byte	.LFB5
- 1330 001c 10000000 		.4byte	.LFE5-.LFB5
- 1331 0020 00000000 		.4byte	.LFB6
- 1332 0024 0C000000 		.4byte	.LFE6-.LFB6
- 1333 0028 00000000 		.4byte	.LFB7
- 1334 002c 14000000 		.4byte	.LFE7-.LFB7
- 1335 0030 00000000 		.4byte	.LFB9
- 1336 0034 0C000000 		.4byte	.LFE9-.LFB9
- 1337 0038 00000000 		.4byte	.LFB10
- 1338 003c 0C000000 		.4byte	.LFE10-.LFB10
- 1339 0040 00000000 		.4byte	.LFB11
- 1340 0044 0C000000 		.4byte	.LFE11-.LFB11
- 1341 0048 00000000 		.4byte	.LFB12
- 1342 004c 0C000000 		.4byte	.LFE12-.LFB12
- 1343 0050 00000000 		.4byte	.LFB13
- 1344 0054 0C000000 		.4byte	.LFE13-.LFB13
- 1345 0058 00000000 		.4byte	.LFB14
- 1346 005c 0C000000 		.4byte	.LFE14-.LFB14
- 1347 0060 00000000 		.4byte	.LFB15
- 1348 0064 0C000000 		.4byte	.LFE15-.LFB15
- 1349 0068 00000000 		.4byte	.LFB16
- 1350 006c 0C000000 		.4byte	.LFE16-.LFB16
- 1351 0070 00000000 		.4byte	.LFB8
- 1352 0074 12000000 		.4byte	.LFE8-.LFB8
- 1353 0078 00000000 		.4byte	.LFB3
- 1354 007c 6C000000 		.4byte	.LFE3-.LFB3
- 1355 0080 00000000 		.4byte	.LFB2
- 1356 0084 20000000 		.4byte	.LFE2-.LFB2
- 1357 0088 00000000 		.4byte	.LFB17
- 1358 008c 0C000000 		.4byte	.LFE17-.LFB17
- 1359 0090 00000000 		.4byte	.LFB18
- 1360 0094 0C000000 		.4byte	.LFE18-.LFB18
- 1361 0098 00000000 		.4byte	.LFB19
- 1362 009c 0C000000 		.4byte	.LFE19-.LFB19
- 1363 00a0 00000000 		.4byte	0
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 41
+ 1251 0044 0C000000 		.4byte	.LFE11-.LFB11
+ 1252 0048 00000000 		.4byte	.LFB12
+ 1253 004c 0C000000 		.4byte	.LFE12-.LFB12
+ 1254 0050 00000000 		.4byte	.LFB13
+ 1255 0054 0C000000 		.4byte	.LFE13-.LFB13
+ 1256 0058 00000000 		.4byte	.LFB14
+ 1257 005c 0C000000 		.4byte	.LFE14-.LFB14
+ 1258 0060 00000000 		.4byte	.LFB15
+ 1259 0064 0C000000 		.4byte	.LFE15-.LFB15
+ 1260 0068 00000000 		.4byte	.LFB8
+ 1261 006c 12000000 		.4byte	.LFE8-.LFB8
+ 1262 0070 00000000 		.4byte	.LFB3
+ 1263 0074 68000000 		.4byte	.LFE3-.LFB3
+ 1264 0078 00000000 		.4byte	.LFB2
+ 1265 007c 20000000 		.4byte	.LFE2-.LFB2
+ 1266 0080 00000000 		.4byte	.LFB16
+ 1267 0084 0C000000 		.4byte	.LFE16-.LFB16
+ 1268 0088 00000000 		.4byte	.LFB17
+ 1269 008c 0C000000 		.4byte	.LFE17-.LFB17
+ 1270 0090 00000000 		.4byte	0
+ 1271 0094 00000000 		.4byte	0
+ 1272              		.section	.debug_ranges,"",%progbits
+ 1273              	.Ldebug_ranges0:
+ 1274 0000 00000000 		.4byte	.LFB4
+ 1275 0004 10000000 		.4byte	.LFE4
+ 1276 0008 00000000 		.4byte	.LFB5
+ 1277 000c 10000000 		.4byte	.LFE5
+ 1278 0010 00000000 		.4byte	.LFB6
+ 1279 0014 0C000000 		.4byte	.LFE6
+ 1280 0018 00000000 		.4byte	.LFB7
+ 1281 001c 14000000 		.4byte	.LFE7
+ 1282 0020 00000000 		.4byte	.LFB9
+ 1283 0024 0C000000 		.4byte	.LFE9
+ 1284 0028 00000000 		.4byte	.LFB10
+ 1285 002c 0C000000 		.4byte	.LFE10
+ 1286 0030 00000000 		.4byte	.LFB11
+ 1287 0034 0C000000 		.4byte	.LFE11
+ 1288 0038 00000000 		.4byte	.LFB12
+ 1289 003c 0C000000 		.4byte	.LFE12
+ 1290 0040 00000000 		.4byte	.LFB13
+ 1291 0044 0C000000 		.4byte	.LFE13
+ 1292 0048 00000000 		.4byte	.LFB14
+ 1293 004c 0C000000 		.4byte	.LFE14
+ 1294 0050 00000000 		.4byte	.LFB15
+ 1295 0054 0C000000 		.4byte	.LFE15
+ 1296 0058 00000000 		.4byte	.LFB8
+ 1297 005c 12000000 		.4byte	.LFE8
+ 1298 0060 00000000 		.4byte	.LFB3
+ 1299 0064 68000000 		.4byte	.LFE3
+ 1300 0068 00000000 		.4byte	.LFB2
+ 1301 006c 20000000 		.4byte	.LFE2
+ 1302 0070 00000000 		.4byte	.LFB16
+ 1303 0074 0C000000 		.4byte	.LFE16
+ 1304 0078 00000000 		.4byte	.LFB17
+ 1305 007c 0C000000 		.4byte	.LFE17
+ 1306 0080 00000000 		.4byte	0
+ 1307 0084 00000000 		.4byte	0
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 40
 
 
- 1364 00a4 00000000 		.4byte	0
- 1365              		.section	.debug_ranges,"",%progbits
- 1366              	.Ldebug_ranges0:
- 1367 0000 00000000 		.4byte	.LFB4
- 1368 0004 10000000 		.4byte	.LFE4
- 1369 0008 00000000 		.4byte	.LFB5
- 1370 000c 10000000 		.4byte	.LFE5
- 1371 0010 00000000 		.4byte	.LFB6
- 1372 0014 0C000000 		.4byte	.LFE6
- 1373 0018 00000000 		.4byte	.LFB7
- 1374 001c 14000000 		.4byte	.LFE7
- 1375 0020 00000000 		.4byte	.LFB9
- 1376 0024 0C000000 		.4byte	.LFE9
- 1377 0028 00000000 		.4byte	.LFB10
- 1378 002c 0C000000 		.4byte	.LFE10
- 1379 0030 00000000 		.4byte	.LFB11
- 1380 0034 0C000000 		.4byte	.LFE11
- 1381 0038 00000000 		.4byte	.LFB12
- 1382 003c 0C000000 		.4byte	.LFE12
- 1383 0040 00000000 		.4byte	.LFB13
- 1384 0044 0C000000 		.4byte	.LFE13
- 1385 0048 00000000 		.4byte	.LFB14
- 1386 004c 0C000000 		.4byte	.LFE14
- 1387 0050 00000000 		.4byte	.LFB15
- 1388 0054 0C000000 		.4byte	.LFE15
- 1389 0058 00000000 		.4byte	.LFB16
- 1390 005c 0C000000 		.4byte	.LFE16
- 1391 0060 00000000 		.4byte	.LFB8
- 1392 0064 12000000 		.4byte	.LFE8
- 1393 0068 00000000 		.4byte	.LFB3
- 1394 006c 6C000000 		.4byte	.LFE3
- 1395 0070 00000000 		.4byte	.LFB2
- 1396 0074 20000000 		.4byte	.LFE2
- 1397 0078 00000000 		.4byte	.LFB17
- 1398 007c 0C000000 		.4byte	.LFE17
- 1399 0080 00000000 		.4byte	.LFB18
- 1400 0084 0C000000 		.4byte	.LFE18
- 1401 0088 00000000 		.4byte	.LFB19
- 1402 008c 0C000000 		.4byte	.LFE19
- 1403 0090 00000000 		.4byte	0
- 1404 0094 00000000 		.4byte	0
- 1405              		.section	.debug_line,"",%progbits
- 1406              	.Ldebug_line0:
- 1407 0000 B4010000 		.section	.debug_str,"MS",%progbits,1
- 1407      02004F00 
- 1407      00000201 
- 1407      FB0E0D00 
- 1407      01010101 
- 1408              	.LASF15:
- 1409 0000 72656731 		.ascii	"reg16\000"
- 1409      3600
- 1410              	.LASF17:
- 1411 0006 50574D5F 		.ascii	"PWM_1_Enable\000"
- 1411      315F456E 
- 1411      61626C65 
- 1411      00
- 1412              	.LASF30:
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 42
+ 1308              		.section	.debug_line,"",%progbits
+ 1309              	.Ldebug_line0:
+ 1310 0000 91010000 		.section	.debug_str,"MS",%progbits,1
+ 1310      02004F00 
+ 1310      00000201 
+ 1310      FB0E0D00 
+ 1310      01010101 
+ 1311              	.LASF15:
+ 1312 0000 72656731 		.ascii	"reg16\000"
+ 1312      3600
+ 1313              	.LASF17:
+ 1314 0006 50574D5F 		.ascii	"PWM_1_Enable\000"
+ 1314      315F456E 
+ 1314      61626C65 
+ 1314      00
+ 1315              	.LASF29:
+ 1316 0013 50574D5F 		.ascii	"PWM_1_WriteControlRegister\000"
+ 1316      315F5772 
+ 1316      69746543 
+ 1316      6F6E7472 
+ 1316      6F6C5265 
+ 1317              	.LASF19:
+ 1318 002e 50574D5F 		.ascii	"PWM_1_WriteCounter\000"
+ 1318      315F5772 
+ 1318      69746543 
+ 1318      6F756E74 
+ 1318      657200
+ 1319              	.LASF22:
+ 1320 0041 70657269 		.ascii	"period\000"
+ 1320      6F6400
+ 1321              	.LASF32:
+ 1322 0048 50574D5F 		.ascii	"PWM_1_ClearFIFO\000"
+ 1322      315F436C 
+ 1322      65617246 
+ 1322      49464F00 
+ 1323              	.LASF3:
+ 1324 0058 73686F72 		.ascii	"short unsigned int\000"
+ 1324      7420756E 
+ 1324      7369676E 
+ 1324      65642069 
+ 1324      6E7400
+ 1325              	.LASF28:
+ 1326 006b 50574D5F 		.ascii	"PWM_1_ReadStatusRegister\000"
+ 1326      315F5265 
+ 1326      61645374 
+ 1326      61747573 
+ 1326      52656769 
+ 1327              	.LASF11:
+ 1328 0084 666C6F61 		.ascii	"float\000"
+ 1328      7400
+ 1329              	.LASF21:
+ 1330 008a 636F756E 		.ascii	"counter\000"
+ 1330      74657200 
+ 1331              	.LASF7:
+ 1332 0092 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1332      206C6F6E 
+ 1332      6720756E 
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 41
 
 
- 1413 0013 50574D5F 		.ascii	"PWM_1_WriteControlRegister\000"
- 1413      315F5772 
- 1413      69746543 
- 1413      6F6E7472 
- 1413      6F6C5265 
- 1414              	.LASF19:
- 1415 002e 50574D5F 		.ascii	"PWM_1_WriteCounter\000"
- 1415      315F5772 
- 1415      69746543 
- 1415      6F756E74 
- 1415      657200
- 1416              	.LASF33:
- 1417 0041 50574D5F 		.ascii	"PWM_1_ClearFIFO\000"
- 1417      315F436C 
- 1417      65617246 
- 1417      49464F00 
- 1418              	.LASF22:
- 1419 0051 70657269 		.ascii	"period\000"
- 1419      6F6400
- 1420              	.LASF39:
- 1421 0058 50574D5F 		.ascii	"PWM_1_ReadCompare1\000"
- 1421      315F5265 
- 1421      6164436F 
- 1421      6D706172 
- 1421      653100
- 1422              	.LASF40:
- 1423 006b 50574D5F 		.ascii	"PWM_1_ReadCompare2\000"
- 1423      315F5265 
- 1423      6164436F 
- 1423      6D706172 
- 1423      653200
- 1424              	.LASF3:
- 1425 007e 73686F72 		.ascii	"short unsigned int\000"
- 1425      7420756E 
- 1425      7369676E 
- 1425      65642069 
- 1425      6E7400
- 1426              	.LASF23:
- 1427 0091 50574D5F 		.ascii	"PWM_1_WriteCompare1\000"
- 1427      315F5772 
- 1427      69746543 
- 1427      6F6D7061 
- 1427      72653100 
- 1428              	.LASF25:
- 1429 00a5 50574D5F 		.ascii	"PWM_1_WriteCompare2\000"
- 1429      315F5772 
- 1429      69746543 
- 1429      6F6D7061 
- 1429      72653200 
- 1430              	.LASF11:
- 1431 00b9 666C6F61 		.ascii	"float\000"
- 1431      7400
- 1432              	.LASF21:
- 1433 00bf 636F756E 		.ascii	"counter\000"
- 1433      74657200 
- 1434              	.LASF7:
- 1435 00c7 6C6F6E67 		.ascii	"long long unsigned int\000"
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 43
+ 1332      7369676E 
+ 1332      65642069 
+ 1333              	.LASF1:
+ 1334 00a9 756E7369 		.ascii	"unsigned char\000"
+ 1334      676E6564 
+ 1334      20636861 
+ 1334      7200
+ 1335              	.LASF14:
+ 1336 00b7 72656738 		.ascii	"reg8\000"
+ 1336      00
+ 1337              	.LASF39:
+ 1338 00bc 50574D5F 		.ascii	"PWM_1_ReadPeriod\000"
+ 1338      315F5265 
+ 1338      61645065 
+ 1338      72696F64 
+ 1338      00
+ 1339              	.LASF5:
+ 1340 00cd 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1340      20756E73 
+ 1340      69676E65 
+ 1340      6420696E 
+ 1340      7400
+ 1341              	.LASF9:
+ 1342 00df 75696E74 		.ascii	"uint8\000"
+ 1342      3800
+ 1343              	.LASF30:
+ 1344 00e5 636F6E74 		.ascii	"control\000"
+ 1344      726F6C00 
+ 1345              	.LASF25:
+ 1346 00ed 50574D5F 		.ascii	"PWM_1_SetInterruptMode\000"
+ 1346      315F5365 
+ 1346      74496E74 
+ 1346      65727275 
+ 1346      70744D6F 
+ 1347              	.LASF38:
+ 1348 0104 50574D5F 		.ascii	"PWM_1_ReadCompare\000"
+ 1348      315F5265 
+ 1348      6164436F 
+ 1348      6D706172 
+ 1348      6500
+ 1349              	.LASF12:
+ 1350 0116 646F7562 		.ascii	"double\000"
+ 1350      6C6500
+ 1351              	.LASF36:
+ 1352 011d 50574D5F 		.ascii	"PWM_1_interruptState\000"
+ 1352      315F696E 
+ 1352      74657272 
+ 1352      75707453 
+ 1352      74617465 
+ 1353              	.LASF44:
+ 1354 0132 50574D5F 		.ascii	"PWM_1_initVar\000"
+ 1354      315F696E 
+ 1354      69745661 
+ 1354      7200
+ 1355              	.LASF2:
+ 1356 0140 73686F72 		.ascii	"short int\000"
+ 1356      7420696E 
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 42
 
 
- 1435      206C6F6E 
- 1435      6720756E 
- 1435      7369676E 
- 1435      65642069 
- 1436              	.LASF1:
- 1437 00de 756E7369 		.ascii	"unsigned char\000"
- 1437      676E6564 
- 1437      20636861 
- 1437      7200
- 1438              	.LASF14:
- 1439 00ec 72656738 		.ascii	"reg8\000"
- 1439      00
- 1440              	.LASF41:
- 1441 00f1 50574D5F 		.ascii	"PWM_1_ReadPeriod\000"
- 1441      315F5265 
- 1441      61645065 
- 1441      72696F64 
- 1441      00
- 1442              	.LASF5:
- 1443 0102 6C6F6E67 		.ascii	"long unsigned int\000"
- 1443      20756E73 
- 1443      69676E65 
- 1443      6420696E 
- 1443      7400
- 1444              	.LASF9:
- 1445 0114 75696E74 		.ascii	"uint8\000"
- 1445      3800
- 1446              	.LASF31:
- 1447 011a 636F6E74 		.ascii	"control\000"
- 1447      726F6C00 
- 1448              	.LASF26:
- 1449 0122 50574D5F 		.ascii	"PWM_1_SetInterruptMode\000"
- 1449      315F5365 
- 1449      74496E74 
- 1449      65727275 
- 1449      70744D6F 
- 1450              	.LASF29:
- 1451 0139 50574D5F 		.ascii	"PWM_1_ReadStatusRegister\000"
- 1451      315F5265 
- 1451      61645374 
- 1451      61747573 
- 1451      52656769 
- 1452              	.LASF12:
- 1453 0152 646F7562 		.ascii	"double\000"
- 1453      6C6500
- 1454              	.LASF37:
- 1455 0159 50574D5F 		.ascii	"PWM_1_interruptState\000"
- 1455      315F696E 
- 1455      74657272 
- 1455      75707453 
- 1455      74617465 
- 1456              	.LASF46:
- 1457 016e 50574D5F 		.ascii	"PWM_1_initVar\000"
- 1457      315F696E 
- 1457      69745661 
- 1457      7200
- 1458              	.LASF2:
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 44
+ 1356      7400
+ 1357              	.LASF31:
+ 1358 014a 50574D5F 		.ascii	"PWM_1_ReadCapture\000"
+ 1358      315F5265 
+ 1358      61644361 
+ 1358      70747572 
+ 1358      6500
+ 1359              	.LASF10:
+ 1360 015c 75696E74 		.ascii	"uint16\000"
+ 1360      313600
+ 1361              	.LASF33:
+ 1362 0163 50574D5F 		.ascii	"PWM_1_Init\000"
+ 1362      315F496E 
+ 1362      697400
+ 1363              	.LASF45:
+ 1364 016e 4379456E 		.ascii	"CyEnterCriticalSection\000"
+ 1364      74657243 
+ 1364      72697469 
+ 1364      63616C53 
+ 1364      65637469 
+ 1365              	.LASF8:
+ 1366 0185 756E7369 		.ascii	"unsigned int\000"
+ 1366      676E6564 
+ 1366      20696E74 
+ 1366      00
+ 1367              	.LASF46:
+ 1368 0192 43794578 		.ascii	"CyExitCriticalSection\000"
+ 1368      69744372 
+ 1368      69746963 
+ 1368      616C5365 
+ 1368      6374696F 
+ 1369              	.LASF34:
+ 1370 01a8 72657375 		.ascii	"result\000"
+ 1370      6C7400
+ 1371              	.LASF40:
+ 1372 01af 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 1372      4320342E 
+ 1372      392E3320 
+ 1372      32303135 
+ 1372      30333033 
+ 1373 01e2 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 1373      20726576 
+ 1373      6973696F 
+ 1373      6E203232 
+ 1373      31323230 
+ 1374 0215 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1374      66756E63 
+ 1374      74696F6E 
+ 1374      2D736563 
+ 1374      74696F6E 
+ 1375              	.LASF35:
+ 1376 023d 6374726C 		.ascii	"ctrl\000"
+ 1376      00
+ 1377              	.LASF16:
+ 1378 0242 73697A65 		.ascii	"sizetype\000"
+ 1378      74797065 
+ 1378      00
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 43
 
 
- 1459 017c 73686F72 		.ascii	"short int\000"
- 1459      7420696E 
- 1459      7400
- 1460              	.LASF32:
- 1461 0186 50574D5F 		.ascii	"PWM_1_ReadCapture\000"
- 1461      315F5265 
- 1461      61644361 
- 1461      70747572 
- 1461      6500
- 1462              	.LASF10:
- 1463 0198 75696E74 		.ascii	"uint16\000"
- 1463      313600
- 1464              	.LASF34:
- 1465 019f 50574D5F 		.ascii	"PWM_1_Init\000"
- 1465      315F496E 
- 1465      697400
- 1466              	.LASF47:
- 1467 01aa 4379456E 		.ascii	"CyEnterCriticalSection\000"
- 1467      74657243 
- 1467      72697469 
- 1467      63616C53 
- 1467      65637469 
- 1468              	.LASF8:
- 1469 01c1 756E7369 		.ascii	"unsigned int\000"
- 1469      676E6564 
- 1469      20696E74 
- 1469      00
- 1470              	.LASF48:
- 1471 01ce 43794578 		.ascii	"CyExitCriticalSection\000"
- 1471      69744372 
- 1471      69746963 
- 1471      616C5365 
- 1471      6374696F 
- 1472              	.LASF35:
- 1473 01e4 72657375 		.ascii	"result\000"
- 1473      6C7400
- 1474              	.LASF42:
- 1475 01eb 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 1475      4320342E 
- 1475      392E3320 
- 1475      32303135 
- 1475      30333033 
- 1476 021e 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 1476      20726576 
- 1476      6973696F 
- 1476      6E203232 
- 1476      31323230 
- 1477 0251 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 1477      66756E63 
- 1477      74696F6E 
- 1477      2D736563 
- 1477      74696F6E 
- 1478              	.LASF36:
- 1479 0279 6374726C 		.ascii	"ctrl\000"
- 1479      00
- 1480              	.LASF16:
- 1481 027e 73697A65 		.ascii	"sizetype\000"
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 45
+ 1379              	.LASF42:
+ 1380 024b 433A5C55 		.ascii	"C:\\Users\\Alec\\Documents\\PSoC Creator\\Final\\Re"
+ 1380      73657273 
+ 1380      5C416C65 
+ 1380      635C446F 
+ 1380      63756D65 
+ 1381 0278 616C4669 		.ascii	"alFinal.cydsn\000"
+ 1381      6E616C2E 
+ 1381      63796473 
+ 1381      6E00
+ 1382              	.LASF23:
+ 1383 0286 50574D5F 		.ascii	"PWM_1_WriteCompare\000"
+ 1383      315F5772 
+ 1383      69746543 
+ 1383      6F6D7061 
+ 1383      726500
+ 1384              	.LASF6:
+ 1385 0299 6C6F6E67 		.ascii	"long long int\000"
+ 1385      206C6F6E 
+ 1385      6720696E 
+ 1385      7400
+ 1386              	.LASF43:
+ 1387 02a7 50574D5F 		.ascii	"PWM_1_ReadControlRegister\000"
+ 1387      315F5265 
+ 1387      6164436F 
+ 1387      6E74726F 
+ 1387      6C526567 
+ 1388              	.LASF26:
+ 1389 02c1 696E7465 		.ascii	"interruptMode\000"
+ 1389      72727570 
+ 1389      744D6F64 
+ 1389      6500
+ 1390              	.LASF20:
+ 1391 02cf 50574D5F 		.ascii	"PWM_1_WritePeriod\000"
+ 1391      315F5772 
+ 1391      69746550 
+ 1391      6572696F 
+ 1391      6400
+ 1392              	.LASF41:
+ 1393 02e1 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\PWM_1.c\000"
+ 1393      6E657261 
+ 1393      7465645F 
+ 1393      536F7572 
+ 1393      63655C50 
+ 1394              	.LASF27:
+ 1395 0302 50574D5F 		.ascii	"PWM_1_ReadCounter\000"
+ 1395      315F5265 
+ 1395      6164436F 
+ 1395      756E7465 
+ 1395      7200
+ 1396              	.LASF18:
+ 1397 0314 50574D5F 		.ascii	"PWM_1_Stop\000"
+ 1397      315F5374 
+ 1397      6F7000
+ 1398              	.LASF4:
+ 1399 031f 6C6F6E67 		.ascii	"long int\000"
+ 1399      20696E74 
+ARM GAS  C:\Users\Alec\AppData\Local\Temp\ccvrjwmd.s 			page 44
 
 
- 1481      74797065 
- 1481      00
- 1482              	.LASF44:
- 1483 0287 433A5C55 		.ascii	"C:\\Users\\Alec\\Documents\\PSoC Creator\\Final\\Re"
- 1483      73657273 
- 1483      5C416C65 
- 1483      635C446F 
- 1483      63756D65 
- 1484 02b4 616C4669 		.ascii	"alFinal.cydsn\000"
- 1484      6E616C2E 
- 1484      63796473 
- 1484      6E00
- 1485              	.LASF6:
- 1486 02c2 6C6F6E67 		.ascii	"long long int\000"
- 1486      206C6F6E 
- 1486      6720696E 
- 1486      7400
- 1487              	.LASF45:
- 1488 02d0 50574D5F 		.ascii	"PWM_1_ReadControlRegister\000"
- 1488      315F5265 
- 1488      6164436F 
- 1488      6E74726F 
- 1488      6C526567 
- 1489              	.LASF27:
- 1490 02ea 696E7465 		.ascii	"interruptMode\000"
- 1490      72727570 
- 1490      744D6F64 
- 1490      6500
- 1491              	.LASF20:
- 1492 02f8 50574D5F 		.ascii	"PWM_1_WritePeriod\000"
- 1492      315F5772 
- 1492      69746550 
- 1492      6572696F 
- 1492      6400
- 1493              	.LASF43:
- 1494 030a 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\PWM_1.c\000"
- 1494      6E657261 
- 1494      7465645F 
- 1494      536F7572 
- 1494      63655C50 
- 1495              	.LASF28:
- 1496 032b 50574D5F 		.ascii	"PWM_1_ReadCounter\000"
- 1496      315F5265 
- 1496      6164436F 
- 1496      756E7465 
- 1496      7200
- 1497              	.LASF18:
- 1498 033d 50574D5F 		.ascii	"PWM_1_Stop\000"
- 1498      315F5374 
- 1498      6F7000
- 1499              	.LASF4:
- 1500 0348 6C6F6E67 		.ascii	"long int\000"
- 1500      20696E74 
- 1500      00
- 1501              	.LASF13:
- 1502 0351 63686172 		.ascii	"char\000"
- 1502      00
-ARM GAS  C:\Users\Alec\AppData\Local\Temp\cci0eAhc.s 			page 46
-
-
- 1503              	.LASF0:
- 1504 0356 7369676E 		.ascii	"signed char\000"
- 1504      65642063 
- 1504      68617200 
- 1505              	.LASF24:
- 1506 0362 636F6D70 		.ascii	"compare\000"
- 1506      61726500 
- 1507              	.LASF38:
- 1508 036a 50574D5F 		.ascii	"PWM_1_Start\000"
- 1508      315F5374 
- 1508      61727400 
- 1509              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br
+ 1399      00
+ 1400              	.LASF13:
+ 1401 0328 63686172 		.ascii	"char\000"
+ 1401      00
+ 1402              	.LASF0:
+ 1403 032d 7369676E 		.ascii	"signed char\000"
+ 1403      65642063 
+ 1403      68617200 
+ 1404              	.LASF24:
+ 1405 0339 636F6D70 		.ascii	"compare\000"
+ 1405      61726500 
+ 1406              	.LASF37:
+ 1407 0341 50574D5F 		.ascii	"PWM_1_Start\000"
+ 1407      315F5374 
+ 1407      61727400 
+ 1408              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br

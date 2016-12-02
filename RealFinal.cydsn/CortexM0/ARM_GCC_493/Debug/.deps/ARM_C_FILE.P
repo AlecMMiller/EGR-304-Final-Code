@@ -154,6 +154,18 @@ C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/CortexM0/ARM_GCC_493
 
 C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/LED_3_PM.c : 
 
+C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/CortexM0/ARM_GCC_493/Debug/Laser.o : C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Laser.c C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Laser.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Laser_aliases.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Laser.c : 
+
+C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Laser.h : 
+
+C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Laser_aliases.h : 
+
+C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/CortexM0/ARM_GCC_493/Debug/Laser_PM.o : C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Laser.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Laser_PM.c C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Laser_aliases.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Laser_PM.c : 
+
 C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/CortexM0/ARM_GCC_493/Debug/PWM_1.o : C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/PWM_1.c C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/PWM_1.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cytypes.h 
 
 C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/PWM_1.c : 
@@ -176,17 +188,17 @@ C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/CortexM0/ARM_GCC_493
 
 C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/PWM_Out_1_PM.c : 
 
-C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/CortexM0/ARM_GCC_493/Debug/PWM_Out_2.o : C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/PWM_Out_2.c C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/PWM_Out_2.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/PWM_Out_2_aliases.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cytypes.h 
+C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/CortexM0/ARM_GCC_493/Debug/Sensor.o : C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Sensor.c C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Sensor.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Sensor_aliases.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cytypes.h 
 
-C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/PWM_Out_2.c : 
+C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Sensor.c : 
 
-C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/PWM_Out_2.h : 
+C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Sensor.h : 
 
-C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/PWM_Out_2_aliases.h : 
+C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Sensor_aliases.h : 
 
-C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/CortexM0/ARM_GCC_493/Debug/PWM_Out_2_PM.o : C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/PWM_Out_2.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/PWM_Out_2_PM.c C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/PWM_Out_2_aliases.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cytypes.h 
+C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/CortexM0/ARM_GCC_493/Debug/Sensor_PM.o : C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Sensor.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Sensor_PM.c C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Sensor_aliases.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cytypes.h 
 
-C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/PWM_Out_2_PM.c : 
+C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Sensor_PM.c : 
 
 C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/CortexM0/ARM_GCC_493/Debug/Servo_En_1.o : C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Servo_En_1.c C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Servo_En_1.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/Servo_En_1_aliases.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Alec/Documents/PSoC\ Creator/Final/RealFinal.cydsn/Generated_Source/PSoC4/cytypes.h 
 
