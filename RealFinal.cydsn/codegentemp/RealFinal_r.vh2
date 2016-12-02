@@ -1,5 +1,5 @@
 -- Project:   RealFinal
--- Generated: 12/01/2016 22:13:30
+-- Generated: 12/01/2016 23:31:14
 -- PSoC Creator  3.3 CP3
 
 ENTITY RealFinal IS
@@ -159,19 +159,19 @@ ARCHITECTURE __DEFAULT__ OF RealFinal IS
     ATTRIBUTE lib_model OF LED_3(0) : LABEL IS "iocell5";
     ATTRIBUTE Location OF LED_3(0) : LABEL IS "P2[5]";
     ATTRIBUTE lib_model OF LED_2(0) : LABEL IS "iocell6";
-    ATTRIBUTE Location OF LED_2(0) : LABEL IS "P2[3]";
+    ATTRIBUTE Location OF LED_2(0) : LABEL IS "P2[1]";
     ATTRIBUTE lib_model OF LED_1(0) : LABEL IS "iocell7";
-    ATTRIBUTE Location OF LED_1(0) : LABEL IS "P2[1]";
+    ATTRIBUTE Location OF LED_1(0) : LABEL IS "P2[3]";
     ATTRIBUTE lib_model OF Key_Switch(0) : LABEL IS "iocell8";
-    ATTRIBUTE Location OF Key_Switch(0) : LABEL IS "P3[5]";
+    ATTRIBUTE Location OF Key_Switch(0) : LABEL IS "P1[1]";
     ATTRIBUTE lib_model OF Servo_En_3(0) : LABEL IS "iocell9";
     ATTRIBUTE Location OF Servo_En_3(0) : LABEL IS "P1[3]";
     ATTRIBUTE lib_model OF \UART:tx(0)\ : LABEL IS "iocell10";
-    ATTRIBUTE Location OF \UART:tx(0)\ : LABEL IS "P0[5]";
+    ATTRIBUTE Location OF \UART:tx(0)\ : LABEL IS "P1[5]";
     ATTRIBUTE lib_model OF \UART:rx(0)\ : LABEL IS "iocell11";
-    ATTRIBUTE Location OF \UART:rx(0)\ : LABEL IS "P0[4]";
+    ATTRIBUTE Location OF \UART:rx(0)\ : LABEL IS "P3[0]";
     ATTRIBUTE lib_model OF Sensor(0) : LABEL IS "iocell12";
-    ATTRIBUTE Location OF Sensor(0) : LABEL IS "P1[1]";
+    ATTRIBUTE Location OF Sensor(0) : LABEL IS "P0[4]";
     ATTRIBUTE lib_model OF \PWM_1:PWMUDB:status_2\ : LABEL IS "macrocell1";
     ATTRIBUTE Location OF \PWM_1:PWMUDB:status_2\ : LABEL IS "U(1,1)";
     ATTRIBUTE lib_model OF \Countdown:TimerUDB:status_tc\ : LABEL IS "macrocell2";

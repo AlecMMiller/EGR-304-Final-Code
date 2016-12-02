@@ -1,13 +1,13 @@
-Loading plugins phase: Elapsed time ==> 0s.301ms
+Loading plugins phase: Elapsed time ==> 0s.277ms
 Initializing data phase: Elapsed time ==> 0s.000ms
 <CYPRESSTAG name="CyDsfit arguments...">
 cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\RealFinal.cyprj -d CY8C4247LQI-BL483 -s C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE</CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 3s.080ms
+Elaboration phase: Elapsed time ==> 3s.841ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
-HDL generation phase: Elapsed time ==> 0s.114ms
+HDL generation phase: Elapsed time ==> 0s.127ms
 <CYPRESSTAG name="Synthesis results...">
 
      | | | | | | |
@@ -41,7 +41,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Alec\
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Thu Dec 01 22:13:27 2016
+Thu Dec 01 23:31:11 2016
 
 
 ======================================================================
@@ -51,7 +51,7 @@ Options  :    -yv2 -q10 RealFinal.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Thu Dec 01 22:13:27 2016
+Thu Dec 01 23:31:11 2016
 
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_PWM_v3_30\B_PWM_v3_30.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'
@@ -95,7 +95,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Alec\
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Thu Dec 01 22:13:27 2016
+Thu Dec 01 23:31:11 2016
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -130,7 +130,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Alec\
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Thu Dec 01 22:13:28 2016
+Thu Dec 01 23:31:12 2016
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -742,10 +742,10 @@ CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\wa
 Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\bin/warp.exe
 Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\RealFinal.cyprj" -dcpsoc3 RealFinal.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 1s.466ms
+Warp synthesis phase: Elapsed time ==> 1s.592ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V3.3.0.9604, Family: PSoC3, Started at: Thursday, 01 December 2016 22:13:28
+cyp3fit: V3.3.0.9604, Family: PSoC3, Started at: Thursday, 01 December 2016 23:31:13
 Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\RealFinal.cyprj -d CY8C4247LQI-BL483 RealFinal.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
@@ -1692,18 +1692,18 @@ DAC                           :      :      :      :
   7-bit IDAC                  :    0 :    1 :    1 :  0.00 %
   8-bit IDAC                  :    0 :    1 :    1 :  0.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.041ms
-Tech mapping phase: Elapsed time ==> 0s.082ms
+Technology Mapping: Elapsed time ==> 0s.057ms
+Tech mapping phase: Elapsed time ==> 0s.089ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 <CYPRESSTAG name="Analog Placement">
-Elapsed time ==> 0.1750237s
+Elapsed time ==> 0.1707779s
 </CYPRESSTAG>
-Analog Placement phase: Elapsed time ==> 0s.423ms
+Analog Placement phase: Elapsed time ==> 0s.414ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
 <CYPRESSTAG name="Analog Routing">
-Route success=True, Iterations=1 Elapsed=0.0010261 secs
+Route success=True, Iterations=1 Elapsed=0.0014894 secs
 </CYPRESSTAG>
 Analog Routing phase: Elapsed time ==> 0s.002ms
 </CYPRESSTAG>
@@ -1744,7 +1744,7 @@ PLD Packing Summary
 <CYPRESSTAG name="Packed PLD Contents">
 Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
 </CYPRESSTAG>
-PLD Packing: Elapsed time ==> 0s.001ms
+PLD Packing: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Partitioning">
 <CYPRESSTAG name="Initial Partitioning Summary">
@@ -1754,10 +1754,10 @@ Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
 Partitioning: Elapsed time ==> 0s.018ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Simulated Annealing">
-Annealing: Elapsed time ==> 0s.002ms
+Annealing: Elapsed time ==> 0s.001ms
 <CYPRESSTAG name="Simulated Annealing Results">
 The seed used for moves was 114161200.
-Inital cost was 69, final cost is 69 (0.00% improvement).</CYPRESSTAG>
+Inital cost was 64, final cost is 64 (0.00% improvement).</CYPRESSTAG>
 </CYPRESSTAG>
 <CYPRESSTAG name="Final Placement Summary">
 
@@ -2237,89 +2237,6 @@ Pin : Name = Laser(0)
     }
 
 [IoId=4]: 
-Pin : Name = \UART:rx(0)\
-    Attributes:
-        In Group/Port: True
-        In Sync Option: NOSYNC
-        Out Sync Option: AUTO
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: HI_Z_DIGITAL
-        VTrip: CMOS
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: False
-        Can contain Digital: True
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
-        Initial Value: 0
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => \UART:rx(0)\__PA ,
-        fb => \UART:rx_wire\ ,
-        pad => \UART:rx(0)_PAD\ );
-    Properties:
-    {
-    }
-
-[IoId=5]: 
-Pin : Name = \UART:tx(0)\
-    Attributes:
-        In Group/Port: True
-        In Sync Option: NOSYNC
-        Out Sync Option: NOSYNC
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: CMOS_OUT
-        VTrip: CMOS
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: False
-        Can contain Digital: True
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
-        Initial Value: 1
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => \UART:tx(0)\__PA ,
-        input => \UART:tx_wire\ ,
-        pad => \UART:tx(0)_PAD\ );
-    Properties:
-    {
-    }
-
-Port 1 contains the following IO cells:
-[IoId=1]: 
 Pin : Name = Sensor(0)
     Attributes:
         In Group/Port: True
@@ -2355,6 +2272,47 @@ Pin : Name = Sensor(0)
     PORT MAP (
         pa_out => Sensor(0)__PA ,
         pad => Sensor(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 1 contains the following IO cells:
+[IoId=1]: 
+Pin : Name = Key_Switch(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: RES_PULL_UP
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Key_Switch(0)__PA ,
+        pad => Key_Switch(0)_PAD );
     Properties:
     {
     }
@@ -2479,17 +2437,16 @@ Pin : Name = Servo_En_2(0)
     {
     }
 
-Port 2 contains the following IO cells:
-[IoId=1]: 
-Pin : Name = LED_1(0)
+[IoId=5]: 
+Pin : Name = \UART:tx(0)\
     Attributes:
         In Group/Port: True
-        In Sync Option: AUTO
+        In Sync Option: NOSYNC
         Out Sync Option: NOSYNC
         Interrupt generated: False
         Interrupt mode: NONE
         Drive mode: CMOS_OUT
-        VTrip: EITHER
+        VTrip: CMOS
         Slew: FAST
         Input Sync needed: False
         Output Sync needed: False
@@ -2511,16 +2468,18 @@ Pin : Name = LED_1(0)
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
         Required Capabilitites: DIGITAL
-        Initial Value: 0
+        Initial Value: 1
         IO Voltage: 0
     PORT MAP (
-        pa_out => LED_1(0)__PA ,
-        pad => LED_1(0)_PAD );
+        pa_out => \UART:tx(0)\__PA ,
+        input => \UART:tx_wire\ ,
+        pad => \UART:tx(0)_PAD\ );
     Properties:
     {
     }
 
-[IoId=3]: 
+Port 2 contains the following IO cells:
+[IoId=1]: 
 Pin : Name = LED_2(0)
     Attributes:
         In Group/Port: True
@@ -2556,6 +2515,46 @@ Pin : Name = LED_2(0)
     PORT MAP (
         pa_out => LED_2(0)__PA ,
         pad => LED_2(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=3]: 
+Pin : Name = LED_1(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => LED_1(0)__PA ,
+        pad => LED_1(0)_PAD );
     Properties:
     {
     }
@@ -2601,15 +2600,15 @@ Pin : Name = LED_3(0)
     }
 
 Port 3 contains the following IO cells:
-[IoId=5]: 
-Pin : Name = Key_Switch(0)
+[IoId=0]: 
+Pin : Name = \UART:rx(0)\
     Attributes:
         In Group/Port: True
         In Sync Option: NOSYNC
         Out Sync Option: AUTO
         Interrupt generated: False
         Interrupt mode: NONE
-        Drive mode: RES_PULL_UP
+        Drive mode: HI_Z_DIGITAL
         VTrip: CMOS
         Slew: FAST
         Input Sync needed: False
@@ -2632,11 +2631,12 @@ Pin : Name = Key_Switch(0)
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
         Required Capabilitites: DIGITAL
-        Initial Value: 1
+        Initial Value: 0
         IO Voltage: 0
     PORT MAP (
-        pa_out => Key_Switch(0)__PA ,
-        pad => Key_Switch(0)_PAD );
+        pa_out => \UART:rx(0)\__PA ,
+        fb => \UART:rx_wire\ ,
+        pad => \UART:rx(0)_PAD\ );
     Properties:
     {
     }
@@ -2733,50 +2733,50 @@ Port | Pin | Fixed |      Type |       Drive Mode |          Name | Connections
 -----+-----+-------+-----------+------------------+---------------+-------------------
    0 |   0 |     * |      NONE |         CMOS_OUT |  PWM_Out_1(0) | In(Net_1031)
      |   2 |     * |      NONE |         CMOS_OUT |      Laser(0) | 
-     |   4 |     * |      NONE |     HI_Z_DIGITAL |  \UART:rx(0)\ | FB(\UART:rx_wire\)
-     |   5 |     * |      NONE |         CMOS_OUT |  \UART:tx(0)\ | In(\UART:tx_wire\)
+     |   4 |     * |      NONE |     HI_Z_DIGITAL |     Sensor(0) | 
 -----+-----+-------+-----------+------------------+---------------+-------------------
-   1 |   1 |     * |      NONE |     HI_Z_DIGITAL |     Sensor(0) | 
+   1 |   1 |     * |      NONE |      RES_PULL_UP | Key_Switch(0) | 
      |   2 |     * |      NONE |         CMOS_OUT | Servo_En_1(0) | 
      |   3 |     * |      NONE |         CMOS_OUT | Servo_En_3(0) | 
      |   4 |     * |      NONE |         CMOS_OUT | Servo_En_2(0) | 
+     |   5 |     * |      NONE |         CMOS_OUT |  \UART:tx(0)\ | In(\UART:tx_wire\)
 -----+-----+-------+-----------+------------------+---------------+-------------------
-   2 |   1 |     * |      NONE |         CMOS_OUT |      LED_1(0) | 
-     |   3 |     * |      NONE |         CMOS_OUT |      LED_2(0) | 
+   2 |   1 |     * |      NONE |         CMOS_OUT |      LED_2(0) | 
+     |   3 |     * |      NONE |         CMOS_OUT |      LED_1(0) | 
      |   5 |     * |      NONE |         CMOS_OUT |      LED_3(0) | 
 -----+-----+-------+-----------+------------------+---------------+-------------------
-   3 |   5 |     * |      NONE |      RES_PULL_UP | Key_Switch(0) | 
+   3 |   0 |     * |      NONE |     HI_Z_DIGITAL |  \UART:rx(0)\ | FB(\UART:rx_wire\)
 --------------------------------------------------------------------------------------
 </CYPRESSTAG>
 </CYPRESSTAG>
 </CYPRESSTAG>
 Digital component placer commit/Report: Elapsed time ==> 0s.002ms
-Digital Placement phase: Elapsed time ==> 0s.742ms
+Digital Placement phase: Elapsed time ==> 0s.755ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 Routing successful.
-Digital Routing phase: Elapsed time ==> 0s.915ms
+Digital Routing phase: Elapsed time ==> 1s.370ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream and API generation">
-Bitstream and API generation phase: Elapsed time ==> 0s.343ms
+Bitstream and API generation phase: Elapsed time ==> 0s.344ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream verification">
-Bitstream verification phase: Elapsed time ==> 0s.035ms
+Bitstream verification phase: Elapsed time ==> 0s.034ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
 Warning: sta.M0019: RealFinal_timing.html: Warning-1366: Setup time violation found in a path from clock ( CyHFCLK ) to clock ( CyHFCLK ). (File=C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\RealFinal_timing.html)
 Timing report is in RealFinal_timing.html.
-Static timing analysis phase: Elapsed time ==> 0s.346ms
+Static timing analysis phase: Elapsed time ==> 0s.352ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
 Data reporting phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.212ms
+Design database save phase: Elapsed time ==> 0s.248ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 3s.196ms
+cydsfit: Elapsed time ==> 3s.706ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 3s.262ms
-API generation phase: Elapsed time ==> 2s.441ms
-Dependency generation phase: Elapsed time ==> 0s.038ms
-Cleanup phase: Elapsed time ==> 0s.000ms
+Fitter phase: Elapsed time ==> 3s.766ms
+API generation phase: Elapsed time ==> 2s.629ms
+Dependency generation phase: Elapsed time ==> 0s.209ms
+Cleanup phase: Elapsed time ==> 0s.002ms

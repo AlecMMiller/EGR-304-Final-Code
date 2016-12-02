@@ -3,7 +3,7 @@
 #include <math.h>
 #include "main.h"
 
-#define  CHALLENGE_TIME 100
+#define  CHALLENGE_TIME 10
 
 enum states{
     ACTIVE,
@@ -15,7 +15,6 @@ unsigned int count = CHALLENGE_TIME;
 uint8_t battery_state = 3;
 uint8_t system_state = ACTIVE;
 uint8_t last_key_state = 0;
-int dumb_placeholder;
 char* sentString = "this test";
 char* inString = "";
 
@@ -76,14 +75,14 @@ void go_to_state(uint8_t state){
     
     switch(state) {
         case ACTIVE:
-            UART_UartPutString("System active\n");
+            last_key_state = Key_Switch_Read();
+            sentString = "System online\r";
             set_battery_light(0b111);
             battery_state = 3;
             system_state = ACTIVE;
             break;
     
         case OFF:
-            UART_UartPutString("System inactive\n");
             sentString = "System down\r";
             break;
         
@@ -144,6 +143,8 @@ Manipulator create_manipulator(void (en_ptr)(uint8),
     
     return createdManipulator;
 }
+
+Manipulator Servo1, Servo2, Servo3;
 
 void SetDesiredAngle(uint8 angle){
     if (angle > CurrentManipulator.ANGLE_MAX){
@@ -266,7 +267,7 @@ int main()
                                 6750, 1400,
                                 90);
     
-    CurrentManipulator = Servo1;
+    set_current_manipulator(Servo1);
     
     for(;;)
     {
@@ -329,17 +330,11 @@ int main()
             case ACTIVE:
                 UpdatePositions();
                 set_servo(CurrentManipulator.Servo, CurrentManipulator.angle_current);
-                //Servo_En_2_Write(0);
-                //Servo_En_1_Write(1);
-                //CyDelay(10);
-                //dumb_placeholder++;
-                //set_servo(servoBottom,dumb_placeholder);
-                //set_servo(servoTop,dumb_placeholder);
                 break;
             case OFF:
-                //if K
-                //set_servo(servoBottom,0);
-                //set_servo(servoTop,0);
+                if(Key_Switch_Read() != last_key_state){
+                    go_to_state(ACTIVE);   
+                }
                 break;
         }
     }
