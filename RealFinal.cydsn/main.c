@@ -1,4 +1,6 @@
 #include <project.h>
+#include <stdio.h>
+#include <math.h>
 #include "main.h"
 
 #define  CHALLENGE_TIME 10
@@ -152,6 +154,42 @@ Manipulator create_manipulator(void (en_ptr)(uint8),
     return createdManipulator;
 }
 
+void UpdatePositions(){
+    if ((inString[0] == '1' || inString[0] == '2' || inString[0] == '3') && inString[1] == ' '){
+            uint8 length = strlen(inString) - 1;
+            uint8 i = 0;
+            uint8 isValid = 1;
+            char debug[80];
+            double placeVal = 0;
+            int holdingVar = 0;
+            for(i = length; i > 2; i--){
+                if(!isdigit(inString[i])){
+                    isValid = 0;
+                    i = 3;
+                } else {
+                    holdingVar += (inString[i] - '0') * (int) pow(10, placeVal);
+                    placeVal++;
+                }
+            }
+            
+            if(inString[2] == '-') {
+                holdingVar *= -1;
+            } else if (isdigit(inString[2])){
+                holdingVar += (inString[2] - '0') * (int) pow(10, placeVal); 
+            }
+            
+            if(isValid){
+                sentString = "Is number\r";
+                sprintf(debug, "Length: %d\n", holdingVar);
+                UART_UartPutString(debug);
+            }
+            //sprintf(sentString, "test");
+        } else {
+            UART_UartPutString(inString);    
+        }
+        inString = "";
+}
+
 int main()
 {
     #ifdef LOW_POWER_MODE    
@@ -265,19 +303,12 @@ int main()
         /*******************************************************************
         *  Process all pending BLE events in the stack
         *******************************************************************/
-        if (!strcmp(inString,"hi")){
-            //UART_UartPutString("\nsentstring:\r");
-            //UART_UartPutString(inString);
-            //UART_UartPutString("|");
-            //sentString = inString;
-            sentString = "Fuck you\r";
-            inString = "";
-        }
         HandleBleProcessing();
         CyBle_ProcessEvents();
         
         switch(system_state){
             case ACTIVE:
+                UpdatePositions();
                 Servo_En_2_Write(0);
                 Servo_En_1_Write(1);
                 CyDelay(10);

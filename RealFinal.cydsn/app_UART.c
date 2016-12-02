@@ -133,25 +133,17 @@ void HandleUartRxTraffic(CYBLE_GATTS_WRITE_REQ_PARAM_T * uartRxDataWrReq)
         uint32 length = (uint32) uartRxDataWrReq->handleValPair.value.len;
         uint32 i;
         
-        UART_UartPutString("\rble in:\r");
-        UART_UartPutString((char*) uartRxDataWrReq->handleValPair.value.val);
-        UART_UartPutString("|");
-        
         //UART_UartPutString((char*) uartRxDataWrReq->handleValPair.value.val);
         for(i = 0; i < length; i++){
             if(ch!= '\r'){
                 ch = (char) uartRxDataWrReq->handleValPair.value.val[i];
-                uartRxDataWrReq->handleValPair.value.val[i] = 0;
                 
                 if ( ch!= '\r' && ch != 0u){
                     rxbuffer[rxindex] = ch;
                     rxindex++;
                 }
             } else {
-                UART_UartPutString("\n\r\t\t !!! \n\r");
                 inString = rxbuffer;
-                UART_UartPutString("rxbuffer:\r");
-                UART_UartPutString(inString);
                 rxindex = 0;
                 int j;
                 for(j=0;j<100;j++){
