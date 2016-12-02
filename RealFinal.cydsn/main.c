@@ -3,7 +3,7 @@
 #include <math.h>
 #include "main.h"
 
-#define  CHALLENGE_TIME 10
+#define  CHALLENGE_TIME 255
 
 enum states{
     ACTIVE,
@@ -79,10 +79,11 @@ void go_to_state(uint8_t state){
             sentString = "System online\r";
             set_battery_light(0b111);
             battery_state = 3;
-            system_state = ACTIVE;
+            Laser_Write(1);
             break;
     
         case OFF:
+            Laser_Write(0);
             sentString = "System down\r";
             break;
         
@@ -129,7 +130,8 @@ Servo create_servo(void (pwm_ptr)(uint16_t), uint16_t min, uint16_t max){ // Ini
 Manipulator create_manipulator(void (en_ptr)(uint8),
                                 uint16_t angle_min, uint16_t angle_max,
                                 uint16_t per_full, uint16_t per_none,
-                                uint16_t angle_reset)
+                                uint16_t angle_reset,
+                                void (serv_ptr)(uint16_t))
 {                                    
     
     Manipulator createdManipulator;
@@ -139,7 +141,7 @@ Manipulator create_manipulator(void (en_ptr)(uint8),
     createdManipulator.ANGLE_MAX = angle_max;
     createdManipulator.ANGLE_RESET = angle_reset;
     createdManipulator.angle_current = angle_reset;
-    createdManipulator.Servo = create_servo(PWM_1_WriteCompare,per_none,per_full);
+    createdManipulator.Servo = create_servo(serv_ptr,per_none,per_full);
     
     return createdManipulator;
 }
@@ -158,10 +160,23 @@ void SetDesiredAngle(uint8 angle){
 
 void UpdatePositions(){
     if ((inString[0] == '1' || inString[0] == '2' || inString[0] == '3') && inString[1] == ' '){
+            sentString = "Valid cmd\r";
             uint8 length = strlen(inString) - 1;
             uint8 i = 0;
             uint8 isValid = 1;
-            char debug[80];
+            
+            switch(inString[0]){
+                case '1':
+                    set_current_manipulator(Servo1);
+                    break;
+                case '2':
+                    set_current_manipulator(Servo2);
+                    break;
+                case '3':
+                    set_current_manipulator(Servo3);
+                    break;
+            }
+            
             double placeVal = 0;
             int holdingVar = 0;
             for(i = length; i > 2; i--){
@@ -182,14 +197,10 @@ void UpdatePositions(){
             
             if(isValid){
                 SetDesiredAngle(holdingVar);
-//                sentString = "Is number\r";
-//                sprintf(debug, "Length: %d\n", holdingVar);
-//                UART_UartPutString(debug);
             }
-            //SetDesiredAngle(CurrentManipulator.angle_current + holdingVar);
-            //sprintf(sentString, "test");
-        } else {
-            UART_UartPutString(inString);    
+
+        } else if (strcmp(inString,"")){
+            sentString = "Invalid cmd\r";    
         }
         inString = "";
 }
@@ -250,24 +261,30 @@ int main()
     timer_interrupt_StartEx(TIMER_ISR);
     CyGlobalIntEnable; /* Enable global interrupts. */
     PWM_1_Enable();
-    set_battery_light(0b111);
+    set_battery_light(0b000);
+    last_key_state = Key_Switch_Read();
     
-    Manipulator Servo1 = create_manipulator(Servo_En_1_Write,
+    Servo1 = create_manipulator(Servo_En_1_Write,
                                 0, 180,
                                 6750, 1400,
-                                90);
+                                90,
+                                PWM_1_WriteCompare1);
     
-    Manipulator Servo2 = create_manipulator(Servo_En_2_Write,
+    Servo2 = create_manipulator(Servo_En_1_Write,
                                 0, 180,
                                 6750, 1400,
-                                90);
+                                90,
+                                PWM_1_WriteCompare2);
     
-    Manipulator Servo3 = create_manipulator(Servo_En_3_Write,
+    Servo3 = create_manipulator(Servo_En_3_Write,
                                 0, 180,
                                 6750, 1400,
-                                90);
+                                90,
+                                PWM_1_WriteCompare1);
     
     set_current_manipulator(Servo1);
+    
+    go_to_state(OFF);
     
     for(;;)
     {

@@ -62,6 +62,8 @@
 #include "BLE_custom.h"
 #include "Sensor.h"
 #include "Sensor_aliases.h"
+#include "PWM_Out_2.h"
+#include "PWM_Out_2_aliases.h"
 #include "UART_SCBCLK.h"
 #include "UART_tx.h"
 #include "UART_tx_aliases.h"

@@ -45,6 +45,8 @@
 <dep name=".\Generated_Source\PSoC4\PWM_1.h" />
 <dep name=".\Generated_Source\PSoC4\PWM_Out_1.h" />
 <dep name=".\Generated_Source\PSoC4\PWM_Out_1_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\PWM_Out_2.h" />
+<dep name=".\Generated_Source\PSoC4\PWM_Out_2_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\Sensor.h" />
 <dep name=".\Generated_Source\PSoC4\Sensor_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\Servo_En_1.h" />
@@ -117,6 +119,8 @@
 <file name=".\Generated_Source\PSoC4\PWM_1.h" />
 <file name=".\Generated_Source\PSoC4\PWM_Out_1.h" />
 <file name=".\Generated_Source\PSoC4\PWM_Out_1_aliases.h" />
+<file name=".\Generated_Source\PSoC4\PWM_Out_2.h" />
+<file name=".\Generated_Source\PSoC4\PWM_Out_2_aliases.h" />
 <file name=".\Generated_Source\PSoC4\Sensor.h" />
 <file name=".\Generated_Source\PSoC4\Sensor_aliases.h" />
 <file name=".\Generated_Source\PSoC4\Servo_En_1.h" />
@@ -189,6 +193,8 @@
 <dep name=".\Generated_Source\PSoC4\PWM_1.h" />
 <dep name=".\Generated_Source\PSoC4\PWM_Out_1.h" />
 <dep name=".\Generated_Source\PSoC4\PWM_Out_1_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\PWM_Out_2.h" />
+<dep name=".\Generated_Source\PSoC4\PWM_Out_2_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\Sensor.h" />
 <dep name=".\Generated_Source\PSoC4\Sensor_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\Servo_En_1.h" />
@@ -264,6 +270,8 @@
 <dep name=".\Generated_Source\PSoC4\PWM_1.h" />
 <dep name=".\Generated_Source\PSoC4\PWM_Out_1.h" />
 <dep name=".\Generated_Source\PSoC4\PWM_Out_1_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\PWM_Out_2.h" />
+<dep name=".\Generated_Source\PSoC4\PWM_Out_2_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\Sensor.h" />
 <dep name=".\Generated_Source\PSoC4\Sensor_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\Servo_En_1.h" />
@@ -665,6 +673,26 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\PWM_Out_1_PM.c" />
+<file name=".\CortexM0\ARM_GCC_493\Debug\PWM_Out_2.o">
+<dep name=".\Generated_Source\PSoC4\PWM_Out_2.c" />
+<dep name=".\Generated_Source\PSoC4\PWM_Out_2.h" />
+<dep name=".\Generated_Source\PSoC4\PWM_Out_2_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\PWM_Out_2.c" />
+<file name=".\CortexM0\ARM_GCC_493\Debug\PWM_Out_2_PM.o">
+<dep name=".\Generated_Source\PSoC4\PWM_Out_2.h" />
+<dep name=".\Generated_Source\PSoC4\PWM_Out_2_PM.c" />
+<dep name=".\Generated_Source\PSoC4\PWM_Out_2_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\PWM_Out_2_PM.c" />
 <file name=".\CortexM0\ARM_GCC_493\Debug\Sensor.o">
 <dep name=".\Generated_Source\PSoC4\Sensor.c" />
 <dep name=".\Generated_Source\PSoC4\Sensor.h" />
@@ -989,28 +1017,6 @@
 <file name=".\Generated_Source\PSoC4\CyBootAsmGnu.s" />
 <file name=".\Generated_Source\PSoC4\cydevicegnu_trm.inc" />
 <file name=".\Generated_Source\PSoC4\cyfittergnu.inc" />
-<file name=".\Generated_Source\PSoC4\PWM_Out_2.h" />
-<file name=".\Generated_Source\PSoC4\PWM_Out_2_aliases.h" />
-<file name=".\CortexM0\ARM_GCC_493\Debug\PWM_Out_2.o">
-<dep name=".\Generated_Source\PSoC4\PWM_Out_2.c" />
-<dep name=".\Generated_Source\PSoC4\PWM_Out_2.h" />
-<dep name=".\Generated_Source\PSoC4\PWM_Out_2_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cypins.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\PWM_Out_2.c" />
-<file name=".\CortexM0\ARM_GCC_493\Debug\PWM_Out_2_PM.o">
-<dep name=".\Generated_Source\PSoC4\PWM_Out_2.h" />
-<dep name=".\Generated_Source\PSoC4\PWM_Out_2_PM.c" />
-<dep name=".\Generated_Source\PSoC4\PWM_Out_2_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cypins.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\PWM_Out_2_PM.c" />
 </CyGuid_1173175f-1b9b-4ad4-a065-754a48a27021>
 </dependency_info>
 </CyGuid_f44455c5-3770-4452-b988-0a7a7ff46256>
@@ -1030,6 +1036,8 @@
 <dep name=".\CortexM0\ARM_GCC_493\Debug\Clock_1.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\PWM_Out_1.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\PWM_Out_1_PM.o" />
+<dep name=".\CortexM0\ARM_GCC_493\Debug\PWM_Out_2.o" />
+<dep name=".\CortexM0\ARM_GCC_493\Debug\PWM_Out_2_PM.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\Cm0Start.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\CyBootAsmGnu.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\CyFlash.o" />
@@ -2063,6 +2071,46 @@
 <v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\PSoC4\API\pins.h</v>
 <v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\PSoC4\API\aliases.h</v>
 <v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\PSoC4\API\pins_PM.c</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\cy_pins_v2_20.cysym</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\cy_pins_v2_20.cystate</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\cy_pins_v2_20.cyprimitive</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\custom.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cyenums.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cypinsdata.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cypinpicture.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cypinutils.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cygeneralcontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cygeneralcontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cyinputcontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cyinputcontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cymappingcontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cymappingcontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cyoutputcontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cyoutputcontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cypinaliasdialog.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cypinaliasdialog.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cypinscontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cypinscontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cyporcontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cyporcontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\Resource1.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cyclockingcontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cyclockingcontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cygeneralcontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cyinputcontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cymappingcontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cyoutputcontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cypinaliasdialog.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cypinscontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cyporcontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\Resource1.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\Custom\cyclockingcontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\PSoC4\API\pins.c</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\PSoC4\API\pins.h</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\PSoC4\API\aliases.h</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\PSoC4\API\pins_PM.c</v>
 <v>.\RealFinal.cydwr</v>
 <v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v5_40\PSoC4\API\cm0gcc.ld</v>
 <v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v5_40\PSoC4\API\Cm0RealView.scat</v>
@@ -2240,14 +2288,14 @@
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif</v>
 </warp_dep>
-<deps_time v="131251338799551938" />
+<deps_time v="131251413971061463" />
 <top_block v="TopDesign" />
 <last_generation v="0" />
 </CyGuid_925cc1e1-309e-4e08-b0a1-09a83c35b157>
 </dataGuid>
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
-<deps_time v="131251341210916593" />
+<deps_time v="131251415609791524" />
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>
 </userData>

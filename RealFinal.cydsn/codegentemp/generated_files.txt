@@ -97,6 +97,10 @@
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Sensor.h" value="NONE;Sensor" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Sensor_aliases.h" value="NONE;Sensor" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\Sensor_PM.c" value="ARM_C_FILE;Sensor" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\PWM_Out_2.c" value="ARM_C_FILE;PWM_Out_2" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\PWM_Out_2.h" value="NONE;PWM_Out_2" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\PWM_Out_2_aliases.h" value="NONE;PWM_Out_2" />
+  <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\PWM_Out_2_PM.c" value="ARM_C_FILE;PWM_Out_2" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_SCBCLK.c" value="ARM_C_FILE;UART_SCBCLK" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_SCBCLK.h" value="NONE;UART_SCBCLK" />
   <file name="C:\Users\Alec\Documents\PSoC Creator\Final\RealFinal.cydsn\codegentemp\UART_tx.c" value="ARM_C_FILE;UART_tx" />

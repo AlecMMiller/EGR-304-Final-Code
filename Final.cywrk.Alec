@@ -121,6 +121,11 @@
 <v>Final\RealFinal\Generated_Source\PSoC4\PWM_Out_1\PWM_Out_1.h</v>
 <v>Final\RealFinal\Generated_Source\PSoC4\PWM_Out_1\PWM_Out_1_aliases.h</v>
 <v>Final\RealFinal\Generated_Source\PSoC4\PWM_Out_1\PWM_Out_1_PM.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\PWM_Out_2</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\PWM_Out_2\PWM_Out_2.c</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\PWM_Out_2\PWM_Out_2.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\PWM_Out_2\PWM_Out_2_aliases.h</v>
+<v>Final\RealFinal\Generated_Source\PSoC4\PWM_Out_2\PWM_Out_2_PM.c</v>
 <v>Final\RealFinal\Generated_Source\PSoC4\Sensor</v>
 <v>Final\RealFinal\Generated_Source\PSoC4\Sensor\Sensor.c</v>
 <v>Final\RealFinal\Generated_Source\PSoC4\Sensor\Sensor.h</v>
@@ -286,6 +291,8 @@
 <v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\PWM_1_PM.lst</v>
 <v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\PWM_Out_1.lst</v>
 <v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\PWM_Out_1_PM.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\PWM_Out_2.lst</v>
+<v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\PWM_Out_2_PM.lst</v>
 <v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\Sensor.lst</v>
 <v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\Sensor_PM.lst</v>
 <v>Final\RealFinal\CortexM0\ARM_GCC_493\Debug\Listing Files\Servo_En_1.lst</v>
